@@ -1,5 +1,5 @@
 /*
-	Copyright 2011-2012 Xavier Baró
+	Copyright 2011-2012 Ágata Lapedriza, David Masip, Xavier Baró
 
 	This file is part of LibSUNAI.
 
@@ -17,4 +17,36 @@
     along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
 */
 #include "LibSUNAI.h"
+/*#include <windows.h>
+/*
+#ifdef _WIN32
+#ifdef _MANAGED
+#pragma managed(push, off)
+#endif
+
+BOOL APIENTRY DllMain( HMODULE hModule,
+                       DWORD  ul_reason_for_call,
+                       LPVOID lpReserved
+                                         )
+{
+        switch (ul_reason_for_call)
+        {
+        case DLL_PROCESS_ATTACH:
+        case DLL_THREAD_ATTACH:
+        case DLL_THREAD_DETACH:
+        case DLL_PROCESS_DETACH:
+                break;
+        }
+    return TRUE;
+}
+
+#ifdef _MANAGED
+#pragma managed(pop)
+#endif
+
+#endif
+*/
+const char* LibSUNAI::getVersion(void) {
+	return "0.1";
+}
 
