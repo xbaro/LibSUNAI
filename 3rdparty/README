@@ -1,0 +1,25 @@
+This folder contains libraries and headers of a few open source libraries.
+The libraries and headers are only to build Win32 and Win64 versions of OpenCV.
+On UNIX systems all the libraries are automatically detected by configure script.
+
+------------------------------------------------------------------------------------
+OpenCV 2.31  - OpenCV (Open Source Computer Vision) is a library of programming 
+               functions for real time computer vision.
+
+               OpenCV is released under a BSD license, it is free for both academic 
+ 	       and commercial use.
+              
+	       See OpenCV home page http://opencv.willowgarage.com/wiki/
+               for details and links to the source code
+------------------------------------------------------------------------------------
+libcurl 7.24 - The multiprotocol file transfer library.
+
+	       Curl and libcurl are licensed under a MIT/X derivate license.
+	       Copyright (c) 1996 - 2011, Daniel Stenberg, <daniel@haxx.se>.
+	 
+               This library is used by the ArtDatabase module in order to download
+               the images from internet.
+              
+	       See libcurl home page http://curl.haxx.se/download.html
+	       for details and links to the source code
+------------------------------------------------------------------------------------
