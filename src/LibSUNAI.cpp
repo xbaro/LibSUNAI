@@ -18,12 +18,6 @@
 */
 #include "LibSUNAI.h"
 
-const char* LibSUNAI::getVersion(void) {
-	return "0.1";
-}
-
-/*#include <windows.h>
-/*
 #ifdef _WIN32
 #ifdef _MANAGED
 #pragma managed(push, off)
@@ -50,6 +44,10 @@ BOOL APIENTRY DllMain( HMODULE hModule,
 #endif
 
 #endif
-*/
+
+const char* LibSUNAI::getVersion(void) {
+	return "0.1";
+}
+
 
 

@@ -29,7 +29,14 @@ namespace LibSUNAI {
 	/// </summary>
 	class LIBSUNAI_API CArtDatabaseException : public CLibSUNAIException {
 	public:
+		/// <summary>
+		/// Default constructor
+		/// </summary>
 		CArtDatabaseException(const std::string& what) : CLibSUNAIException("CArtDatabaseException:"+what){}
+
+		/// <summary>
+		/// Default destructor
+		/// </summary>
 		~CArtDatabaseException(void) throw() {}	
 	};
 

@@ -17,9 +17,6 @@
     along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
 */
 #include "ArtDatabase/LabelDictionary.h"
-#include "ArtDatabase/ArtDatabaseException.h"
-#include <iostream>
-#include <fstream>
 
 LibSUNAI::CLabelDictionary::CLabelDictionary(void) : m_DictionaryDesc("Unknown")
 {

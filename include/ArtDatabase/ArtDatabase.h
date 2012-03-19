@@ -22,59 +22,17 @@
 #include "LibSUNAI.h"
 #include "ArtDatabase/ArtDatabaseException.h"
 #include "ArtDatabase/LabelDictionary.h"
+
+#include <iostream>
+#include <fstream>
+#include <stdio.h>
 #include <vector>
+#include <sys/stat.h>
 
 using namespace cv;
 using namespace std;
 
 namespace LibSUNAI {
-
-
-	/// <summary>
-	///  Database version
-	/// </summary>
-	const char* ART_DATABASE_VERSION="1.0";
-		
-	/// <summary>
-	/// Returns the API version
-	/// </summary>
-	LIBSUNAI_API const char* getArtDatabaseVersion(void);
-
-	/// <summary>
-	///  Number of labels on this version of the database
-	/// </summary>
-	int ART_DATABASE_NUMLABELS=6;
-
-	/// <summary>
-	/// Overload the output operator << in order to show vectors
-	/// </summary>	
-	/// <param name="stream">The output stream.</param>	
-	/// <param name="ob">Object to be displayed.</param>	
-	/// <returns>Modified output stream.</returns>
-	ostream& operator<<(ostream& stream,vector<int> ob) {
-		stream << "[";
-		for(vector<int>::iterator it=ob.begin();it!=ob.end();++it) {
-			if(it!=ob.begin()) {
-				stream << "; ";
-			}
-			stream << *it;	
-		}
-		stream << "]";
-
-		return stream;			
-	}
-	ostream& operator<<(ostream& stream,vector<string> ob) {
-		stream << "[";
-		for(vector<string>::iterator it=ob.begin();it!=ob.end();it++) {		
-			if(it!=ob.begin()) {
-				stream << "; ";
-			}
-			stream << "\"" << *it << "\"";	
-		}
-		stream << "]";
-
-		return stream;
-	}
 
 	/// <summary>
 	///  This class stores all the images database
@@ -155,7 +113,7 @@ namespace LibSUNAI {
 
 	public:
 		/// <summary>
-		/// Creates a new object DadesMuseus in order to access de museums image databases
+		/// Creates a new object CArtDatabase in order to access de museums image databases
 		/// </summary>
 		/// <param name="dbPath">Folder where de museums image database is stored.</param>	
 		CArtDatabase(string dbPath);	
@@ -263,11 +221,34 @@ namespace LibSUNAI {
 		/// <exception cref="CArtDatabaseException">Thrown when path does not exist.</exception>
 		void setLocalStoragePath(string path);
 
+		/// <summary>
+		/// Returns the database version
+		/// </summary>
+		const char* getArtDatabaseVersion(void);
 		
+		/// <summary>
+		/// Overload the output operator << in order to show vectors
+		/// </summary>	
+		/// <param name="stream">The output stream.</param>	
+		/// <param name="ob">Object to be displayed.</param>	
+		/// <returns>Modified output stream.</returns>
+		LIBSUNAI_API friend ostream& operator<<(ostream& stream,vector<int> ob);
+		LIBSUNAI_API friend ostream& operator<<(ostream& stream,vector<string> ob);
 		//friend ostream& operator<<(ostream& stream,CArtDatabase ob);
 		//friend istream& operator>>(istream& stream,CArtDatabase ob);
 
+
 	private:
+		/// <summary>
+		///  Database version
+		/// </summary>
+		char* m_ArtDatabaseVer;
+
+		/// <summary>
+		///  Number of labels on this version of the database
+		/// </summary>
+		int m_ArtDatabaseLabels;
+
 		/// <summary>
 		/// This flag indicates wether the images are sotred in a local folder or not.
 		/// </summary>

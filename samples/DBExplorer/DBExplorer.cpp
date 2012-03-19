@@ -25,15 +25,17 @@ using namespace LibSUNAI;
 
 int main(int argc, char* argv[])
 {	
-	cout << "======================================================" << endl;
-	cout << "LibSUNAI version    :" << LibSUNAI::getVersion() << endl;
-	cout << "ArtDatabase version :" << LibSUNAI::getArtDatabaseVersion() << endl;
-	cout << "======================================================" << endl;
 	try {
 		// Create the DadesMuseus object providing the path
 		CArtDatabase dm("../data/artdb/");
 		dm.setLocalStoragePath("../data/artdb/local");
 		dm.setLocalStorage(true);
+
+		// Show versions information
+		cout << "======================================================" << endl;
+		cout << "LibSUNAI version    :" << LibSUNAI::getVersion() << endl;
+		cout << "ArtDatabase version :" << dm.getArtDatabaseVersion() << endl;
+		cout << "======================================================" << endl;
 
 		// Obtain and show an image
 		Mat image;

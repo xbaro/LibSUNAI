@@ -19,6 +19,10 @@
 #ifndef __LABEL_DICTIONARY__H
 #define __LABEL_DICTIONARY__H
 
+#include "LibSUNAI.h"
+#include "ArtDatabase/ArtDatabaseException.h"
+#include <iostream>
+#include <fstream>
 #include <string>
 #include <map>
 
@@ -28,7 +32,7 @@ namespace LibSUNAI {
 	/// <summary>
 	///  This class implements a dictionar for class labels encoding.
 	/// </summary>
-	class CLabelDictionary
+	class LIBSUNAI_API CLabelDictionary
 	{
 	public:
 		/// <summary>

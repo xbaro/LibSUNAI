@@ -1,14 +1,27 @@
-#include "LibSUNAI.h"
-#include <iostream>
-#include <fstream>
-#include <stdio.h>
-#include <vector>
-#include <sys/stat.h>
+/*
+	Copyright 2011-2012 Xavier Baró
+
+	This file is part of LibSUNAI.
+
+    LibSUNAI is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    LibSUNAI is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
+*/
 #include "ArtDatabase/ArtDatabase.h"
-#include "ArtDatabase/ArtDatabaseException.h"
+#define DB_VERSION "1.0"
+#define ART_DATABASE_NUMLABELS 6
 
 using namespace std;
-/*
+
 ostream& LibSUNAI::operator<<(ostream& stream,vector<string> ob)
 {
 	stream << "[";
@@ -36,13 +49,9 @@ ostream& LibSUNAI::operator<<(ostream& stream,vector<int> ob)
 
 	return stream;
 }
-*/
-const char* LibSUNAI::getArtDatabaseVersion(void) {
-	return "0.1";
-}
-		//return ART_DATABASE_VERSION;
 
-LibSUNAI::CArtDatabase::CArtDatabase(string dbPath)  : m_Dictionaries(NULL), m_UseLocalStorage(false), m_LocalStoragePath("")
+
+LibSUNAI::CArtDatabase::CArtDatabase(string dbPath) : m_ArtDatabaseVer(DB_VERSION), m_ArtDatabaseLabels(ART_DATABASE_NUMLABELS),m_Dictionaries(NULL), m_UseLocalStorage(false), m_LocalStoragePath("")
 {
 	// Set the database path
 	m_dbPath=dbPath;
@@ -59,6 +68,10 @@ LibSUNAI::CArtDatabase::CArtDatabase(string dbPath)  : m_Dictionaries(NULL), m_U
 
 LibSUNAI::CArtDatabase::~CArtDatabase(void)
 {
+}
+
+const char* LibSUNAI::CArtDatabase::getArtDatabaseVersion(void) {
+	return m_ArtDatabaseVer;
 }
 
 size_t LibSUNAI::CArtDatabase::WriteMemoryCallback(void *ptr, size_t size, size_t nmemb, void *data) {
@@ -113,13 +126,13 @@ void LibSUNAI::CArtDatabase::loadDictionaries(void) {
 	
 	// Remove old dictionaries
 	if(m_Dictionaries) {
-		for(int i=0;i<LibSUNAI::ART_DATABASE_NUMLABELS;i++) {
+		for(int i=0;i<m_ArtDatabaseLabels;i++) {
 			delete m_Dictionaries[i];
 		}
 	}
 
 	// Allocate the new dictionary objects	
-	m_Dictionaries=new CLabelDictionary*[LibSUNAI::ART_DATABASE_NUMLABELS];
+	m_Dictionaries=new CLabelDictionary*[m_ArtDatabaseLabels];
 	
 	// Authors dictionary
 	m_Dictionaries[LabelID::Author]=new CLabelDictionary("Author names");
@@ -413,17 +426,16 @@ string LibSUNAI::CArtDatabase::getLabelName(LabelID labelID) {
 }
 
 LibSUNAI::CArtDatabase::LabelID LibSUNAI::CArtDatabase::getLabelID(const unsigned short labelPos) {
-	if(labelPos<0 || labelPos>LibSUNAI::ART_DATABASE_NUMLABELS) {
+	if(labelPos<0 || labelPos>m_ArtDatabaseLabels) {
 		throw CArtDatabaseException("getLabelID: position out of range.");
 	}
 	return (LabelID)labelPos;
 }
 
 void LibSUNAI::CArtDatabase::getProblemDescription(string version,int &numLabels,vector<string> &labelName) {	
-	version=LibSUNAI::ART_DATABASE_VERSION;
-	numLabels=LibSUNAI::ART_DATABASE_NUMLABELS;
+	version=getArtDatabaseVersion();	
 	labelName.clear();	
-	for(unsigned short i=0;i<numLabels;i++) {		
+	for(unsigned short i=0;i<m_ArtDatabaseLabels;i++) {		
 		labelName.push_back(getLabelName(getLabelID(i)));
 	}
 }

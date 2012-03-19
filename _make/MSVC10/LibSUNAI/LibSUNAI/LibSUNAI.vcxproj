@@ -130,11 +130,18 @@ copy $(SolutionDir)..\..\..\3rdparty\opencv\$(PlatformShortName)\bin\opencv_high
     <ClInclude Include="..\..\..\..\include\compatibility.h" />
     <ClInclude Include="..\..\..\..\include\LibSUNAI.h" />
     <ClInclude Include="..\..\..\..\include\LibSUNAIException.h" />
+    <ClInclude Include="..\..\..\..\include\ObjectDetection\DetectedObject.h" />
+    <ClInclude Include="..\..\..\..\include\ObjectDetection\FaceObjectDetector.h" />
+    <ClInclude Include="..\..\..\..\include\ObjectDetection\ObjectDetector.h" />
+    <ClInclude Include="..\..\..\..\include\ObjectDetection\ObjectDetectorException.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\src\ArtDatabase\ArtDatabase.cpp" />
     <ClCompile Include="..\..\..\..\src\ArtDatabase\LabelDictionary.cpp" />
     <ClCompile Include="..\..\..\..\src\LibSUNAI.cpp" />
+    <ClCompile Include="..\..\..\..\src\ObjectDetection\DetectedObject.cpp" />
+    <ClCompile Include="..\..\..\..\src\ObjectDetection\FaceObjectDetector.cpp" />
+    <ClCompile Include="..\..\..\..\src\ObjectDetection\ObjectDetector.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -20,7 +20,7 @@
 #define __COMPATIBILITY_H
 
 #ifdef _WIN32
-	#include <SDKDDKVer.h>
+	//#include <SDKDDKVer.h>
 	#define WIN32_LEAN_AND_MEAN 
 	#include <windows.h>
 
@@ -46,6 +46,7 @@
 
 	// OpenCV includes
 	#include <opencv2/opencv.hpp>
+	#include <opencv2/highgui/highgui.hpp>
 	
 #else
 	//! Linux definitions
