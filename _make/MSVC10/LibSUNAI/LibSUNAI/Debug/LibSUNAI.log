@@ -1,0 +1,18 @@
+﻿Build started 15/03/2012 14:18:23.
+     1>Project "D:\Projects2012\LibSUNAI\_make\MSVC10\LibSUNAI\LibSUNAI\LibSUNAI.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\LibSUNAI.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\Projects2012\LibSUNAI\include /ZI /nologo /W3 /WX- /Od /Oy- /D LIBSUNAI_EXPORTS /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Za /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\..\src\ArtDatabase\ArtDatabase.cpp ..\..\..\..\src\ArtDatabase\LabelDictionary.cpp ..\..\..\..\src\LibSUNAI.cpp
+         LibSUNAI.cpp
+     1>d:\projects2012\libsunai\include\libsunai.h(23): fatal error C1083: Cannot open include file: 'opencv2/highgui/highgui.hpp': Invalid argument
+         LabelDictionary.cpp
+     1>d:\projects2012\libsunai\include\artdatabase\labeldictionary.h(91): fatal error C1071: unexpected end of file found in comment
+         ArtDatabase.cpp
+     1>d:\projects2012\libsunai\src\artdatabase\artdatabase.cpp(1): fatal error C1083: Cannot open include file: 'DadesMuseus.h': Invalid argument
+         Generating Code...
+     1>Done Building Project "D:\Projects2012\LibSUNAI\_make\MSVC10\LibSUNAI\LibSUNAI\LibSUNAI.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.22

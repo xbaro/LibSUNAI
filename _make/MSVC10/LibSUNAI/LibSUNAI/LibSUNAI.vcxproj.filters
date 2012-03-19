@@ -24,9 +24,24 @@
     <ClInclude Include="..\..\..\..\include\compatibility.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\..\include\ArtDatabase\ArtDatabase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\ArtDatabase\ArtDatabaseException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\ArtDatabase\LabelDictionary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\src\LibSUNAI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\ArtDatabase\LabelDictionary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\ArtDatabase\ArtDatabase.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

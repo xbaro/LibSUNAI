@@ -16,37 +16,23 @@
     You should have received a copy of the GNU General Public License
     along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
 */
-#include "LibSUNAI.h"
-/*#include <windows.h>
-/*
-#ifdef _WIN32
-#ifdef _MANAGED
-#pragma managed(push, off)
-#endif
 
-BOOL APIENTRY DllMain( HMODULE hModule,
-                       DWORD  ul_reason_for_call,
-                       LPVOID lpReserved
-                                         )
-{
-        switch (ul_reason_for_call)
-        {
-        case DLL_PROCESS_ATTACH:
-        case DLL_THREAD_ATTACH:
-        case DLL_THREAD_DETACH:
-        case DLL_PROCESS_DETACH:
-                break;
-        }
-    return TRUE;
+#ifndef __ART_DATABASE_EXCEPTION__H
+#define __ART_DATABASE_EXCEPTION__H
+
+#include "LibSUNAIException.h"
+
+namespace LibSUNAI {
+
+	/// <summary>
+	///  This class implements the custom exceptions for the Art Database Management
+	/// </summary>
+	class LIBSUNAI_API CArtDatabaseException : public CLibSUNAIException {
+	public:
+		CArtDatabaseException(const std::string& what) : CLibSUNAIException("CArtDatabaseException:"+what){}
+		~CArtDatabaseException(void) throw() {}	
+	};
+
 }
 
-#ifdef _MANAGED
-#pragma managed(pop)
-#endif
-
-#endif
-*/
-const char* LibSUNAI::getVersion(void) {
-	return "0.1";
-}
-
+#endif //__ART_DATABASE_EXCEPTION__H
