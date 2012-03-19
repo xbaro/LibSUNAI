@@ -19,18 +19,62 @@
 #ifndef __ART_DATABASE__H
 #define __ART_DATABASE__H
 
-#include <vector>
 #include "LibSUNAI.h"
-#include "ArtDatabase/ArtDatabase.h"
 #include "ArtDatabase/ArtDatabaseException.h"
+#include "ArtDatabase/LabelDictionary.h"
+#include <vector>
 
 using namespace cv;
 using namespace std;
 
 namespace LibSUNAI {
 
-	LIBSUNAI_API const char* ART_DATABASE_VERSION="1.0";
-	LIBSUNAI_API const int ART_DATABASE_NUMLABELS=6;
+
+	/// <summary>
+	///  Database version
+	/// </summary>
+	const char* ART_DATABASE_VERSION="1.0";
+		
+	/// <summary>
+	/// Returns the API version
+	/// </summary>
+	LIBSUNAI_API const char* getArtDatabaseVersion(void);
+
+	/// <summary>
+	///  Number of labels on this version of the database
+	/// </summary>
+	int ART_DATABASE_NUMLABELS=6;
+
+	/// <summary>
+	/// Overload the output operator << in order to show vectors
+	/// </summary>	
+	/// <param name="stream">The output stream.</param>	
+	/// <param name="ob">Object to be displayed.</param>	
+	/// <returns>Modified output stream.</returns>
+	ostream& operator<<(ostream& stream,vector<int> ob) {
+		stream << "[";
+		for(vector<int>::iterator it=ob.begin();it!=ob.end();++it) {
+			if(it!=ob.begin()) {
+				stream << "; ";
+			}
+			stream << *it;	
+		}
+		stream << "]";
+
+		return stream;			
+	}
+	ostream& operator<<(ostream& stream,vector<string> ob) {
+		stream << "[";
+		for(vector<string>::iterator it=ob.begin();it!=ob.end();it++) {		
+			if(it!=ob.begin()) {
+				stream << "; ";
+			}
+			stream << "\"" << *it << "\"";	
+		}
+		stream << "]";
+
+		return stream;
+	}
 
 	/// <summary>
 	///  This class stores all the images database
@@ -45,7 +89,8 @@ namespace LibSUNAI {
 		/// <summary>
 		///  Defines the list of labels
 		/// </summary>
-		typedef enum LabelID:unsigned short {
+		//typedef enum LabelID:unsigned short {
+		typedef enum LabelID {
 			/// <summary>
 			///  Name of the author
 			/// </summary>
@@ -218,14 +263,7 @@ namespace LibSUNAI {
 		/// <exception cref="CArtDatabaseException">Thrown when path does not exist.</exception>
 		void setLocalStoragePath(string path);
 
-		/// <summary>
-		/// Overload the output operator << in order to show vectors
-		/// </summary>	
-		/// <param name="stream">The output stream.</param>	
-		/// <param name="ob">Object to be displayed.</param>	
-		/// <returns>Modified output stream.</returns>
-		friend ostream& operator<<(ostream& stream,vector<int> ob);
-		friend ostream& operator<<(ostream& stream,vector<string> ob);
+		
 		//friend ostream& operator<<(ostream& stream,CArtDatabase ob);
 		//friend istream& operator>>(istream& stream,CArtDatabase ob);
 

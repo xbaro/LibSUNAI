@@ -33,15 +33,18 @@
     <ClInclude Include="..\..\..\..\include\ArtDatabase\LabelDictionary.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\..\include\LibSUNAIException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\src\LibSUNAI.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\src\ArtDatabase\LabelDictionary.cpp">
+    <ClCompile Include="..\..\..\..\src\ArtDatabase\ArtDatabase.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\src\ArtDatabase\ArtDatabase.cpp">
+    <ClCompile Include="..\..\..\..\src\ArtDatabase\LabelDictionary.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

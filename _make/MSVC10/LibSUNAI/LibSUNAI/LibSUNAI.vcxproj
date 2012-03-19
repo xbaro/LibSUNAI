@@ -41,13 +41,18 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <OutDir>..\..\..\..\bin\$(Configuration)\</OutDir>
-    <IncludePath>..\..\..\..\include;$(IncludePath); C:\opencv\build\include</IncludePath>
+    <OutDir>..\..\..\..\bin\$(PlatformShortName)\$(Configuration)\</OutDir>
+    <IncludePath>$(SolutionDir)..\..\..\include;$(SolutionDir)..\..\..\3rdparty\opencv\include;$(SolutionDir)..\..\..\3rdparty\curl\include;$(IncludePath)</IncludePath>
+    <CustomBuildAfterTargets>CopyFilesToOutputDirectory</CustomBuildAfterTargets>
+    <LibraryPath>$(SolutionDir)..\..\..\3rdparty\opencv\$(PlatformShortName)\lib;$(SolutionDir)..\..\..\3rdparty\curl\lib\$(Configuration);$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib</LibraryPath>
+    <ReferencePath>$(VCInstallDir)atlmfc\lib;$(VCInstallDir)lib</ReferencePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <OutDir>..\..\..\..\bin\$(Configuration)\</OutDir>
-    <IncludePath>..\..\..\..\include;$(IncludePath); C:\opencv\build\include</IncludePath>
+    <OutDir>..\..\..\..\bin\$(PlatformShortName)\$(Configuration)\</OutDir>
+    <IncludePath>$(SolutionDir)..\..\..\include;$(SolutionDir)..\..\..\3rdparty\opencv\include;$(SolutionDir)..\..\..\3rdparty\curl\include;$(IncludePath)</IncludePath>
+    <CustomBuildAfterTargets>CopyFilesToOutputDirectory</CustomBuildAfterTargets>
+    <LibraryPath>$(SolutionDir)..\..\..\3rdparty\opencv\$(PlatformShortName)\lib;$(SolutionDir)..\..\..\3rdparty\curl\lib\$(Configuration);$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -55,32 +60,60 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>LIBSUNAI_EXPORTS;WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <AdditionalIncludeDirectories>D:\Projects2012\LibSUNAI\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DisableLanguageExtensions>false</DisableLanguageExtensions>
-      <CompileAsManaged>
-      </CompileAsManaged>
+      <CompileAsManaged>false</CompileAsManaged>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>cv</AdditionalDependencies>
-      <OutputFile>$(OutDir)$(TargetName)d$(TargetExt)</OutputFile>
+      <AdditionalDependencies>curllib.lib;opencv_core231d.lib;opencv_highgui231d.lib;opencv_ml231d.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
     </Link>
+    <CustomBuildStep>
+      <Command>copy $(OutDir)$(ProjectName)$(TargetExt) $(SolutionDir)..\..\..\bin\$(ProjectName)$(TargetExt)
+copy $(OutDir)$(ProjectName).lib $(SolutionDir)..\..\..\lib\MSVC10\$(PlatformShortName)\$(Configuration)\$(ProjectName).lib
+copy $(OutDir)$(ProjectName).exp $(SolutionDir)..\..\..\lib\MSVC10\$(PlatformShortName)\$(Configuration)\$(ProjectName).exp
+
+copy $(SolutionDir)..\..\..\3rdparty\curl\lib\Release\curllib.dll $(SolutionDir)..\..\..\bin\curllib.dll
+copy $(SolutionDir)..\..\..\3rdparty\curl\lib\$(Configuration)\extraLibs\*.dll $(SolutionDir)..\..\..\bin\
+
+copy $(SolutionDir)..\..\..\3rdparty\opencv\$(PlatformShortName)\bin\opencv_core231d.dll $(SolutionDir)..\..\..\bin\opencv_core231d.dll
+copy $(SolutionDir)..\..\..\3rdparty\opencv\$(PlatformShortName)\bin\opencv_ml231d.dll $(SolutionDir)..\..\..\bin\opencv_ml231d.dll
+copy $(SolutionDir)..\..\..\3rdparty\opencv\$(PlatformShortName)\bin\opencv_highgui231d.dll $(SolutionDir)..\..\..\bin\opencv_highgui231d.dll</Command>
+      <Outputs>$(SolutionDir)..\..\..\bin\$(ProjectName)$(TargetExt);$(SolutionDir)..\..\..\lib\MSVC10\$(PlatformShortName)\$(Configuration)\$(ProjectName).lib;$(SolutionDir)..\..\..\lib\MSVC10\$(PlatformShortName)\$(Configuration)\$(ProjectName).exp</Outputs>
+      <Inputs>$(OutDir)$(ProjectName)$(TargetExt);$(OutDir)$(ProjectName).lib;$(OutDir)$(ProjectName).exp</Inputs>
+      <Message>Copy files to final paths</Message>
+    </CustomBuildStep>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>LIBSUNAI_EXPORTS;WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <AdditionalIncludeDirectories>D:\Projects2012\LibSUNAI\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\..\3rdparty\opencv\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DisableLanguageExtensions>false</DisableLanguageExtensions>
-      <CompileAsManaged>
-      </CompileAsManaged>
+      <CompileAsManaged>false</CompileAsManaged>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>
-      </AdditionalDependencies>
+      <AdditionalDependencies>curllib.lib;opencv_core231.lib;opencv_highgui231.lib;;opencv_ml231.lib</AdditionalDependencies>
     </Link>
+    <CustomBuildStep>
+      <Command>copy $(OutDir)$(ProjectName)$(TargetExt) $(SolutionDir)..\..\..\bin\$(ProjectName)$(TargetExt)
+copy $(OutDir)$(ProjectName).lib $(SolutionDir)..\..\..\lib\MSVC10\$(PlatformShortName)\$(Configuration)\$(ProjectName).lib
+copy $(OutDir)$(ProjectName).exp $(SolutionDir)..\..\..\lib\MSVC10\$(PlatformShortName)\$(Configuration)\$(ProjectName).exp
+
+copy $(SolutionDir)..\..\..\3rdparty\curl\lib\$(Configuration)\curllib.dll $(SolutionDir)..\..\..\bin\curllib.dll
+copy $(SolutionDir)..\..\..\3rdparty\curl\lib\$(Configuration)\extraLibs\*.dll $(SolutionDir)..\..\..\bin\
+
+copy $(SolutionDir)..\..\..\3rdparty\opencv\$(PlatformShortName)\bin\opencv_core231.dll $(SolutionDir)..\..\..\bin\opencv_core231.dll
+copy $(SolutionDir)..\..\..\3rdparty\opencv\$(PlatformShortName)\bin\opencv_ml231.dll $(SolutionDir)..\..\..\bin\opencv_ml231.dll
+copy $(SolutionDir)..\..\..\3rdparty\opencv\$(PlatformShortName)\bin\opencv_highgui231.dll $(SolutionDir)..\..\..\bin\opencv_highgui231.dll</Command>
+      <Outputs>$(SolutionDir)..\..\..\bin\$(ProjectName)$(TargetExt);$(SolutionDir)..\..\..\lib\MSVC10\$(PlatformShortName)\$(Configuration)\$(ProjectName).lib;$(SolutionDir)..\..\..\lib\MSVC10\$(PlatformShortName)\$(Configuration)\$(ProjectName).exp</Outputs>
+      <Inputs>$(OutDir)$(ProjectName)$(TargetExt);$(OutDir)$(ProjectName).lib;$(OutDir)$(ProjectName).exp</Inputs>
+      <Message>Copy files to final paths</Message>
+    </CustomBuildStep>
   </ItemDefinitionGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -91,14 +124,12 @@
     <None Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
-=======
     <ClInclude Include="..\..\..\..\include\ArtDatabase\ArtDatabase.h" />
     <ClInclude Include="..\..\..\..\include\ArtDatabase\ArtDatabaseException.h" />
     <ClInclude Include="..\..\..\..\include\ArtDatabase\LabelDictionary.h" />
->>>>>>> origin/master
     <ClInclude Include="..\..\..\..\include\compatibility.h" />
     <ClInclude Include="..\..\..\..\include\LibSUNAI.h" />
+    <ClInclude Include="..\..\..\..\include\LibSUNAIException.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\src\ArtDatabase\ArtDatabase.cpp" />

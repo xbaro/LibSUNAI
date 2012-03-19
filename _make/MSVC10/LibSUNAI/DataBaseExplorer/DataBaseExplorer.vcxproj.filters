@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="DBExplorer.cpp">
+    <ClCompile Include="..\..\..\..\samples\DBExplorer\DBExplorer.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
   </ItemGroup>

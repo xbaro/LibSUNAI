@@ -1,5 +1,5 @@
 /*
-	Copyright 2011-2012 Xavier Baró
+	Copyright 2011-2012 Ágata Lapedriza, David Masip, Xavier Baró
 
 	This file is part of LibSUNAI.
 
@@ -20,13 +20,20 @@
 #define __LIBSUNAI__H
 
 #include "compatibility.h"
+#include <string>
 
 namespace LibSUNAI {
 
-	class LIBSUNAI_API Class1
+	/// <summary>
+	/// Returns the API version
+	/// </summary>
+	LIBSUNAI_API const char* getVersion(void);
+
+	/*class LIBSUNAI_API Class1
 	{
 		// TODO: Add your methods for this class here.
 	};
+	*/
 }
 
 #endif // __LIBSUNAI__H

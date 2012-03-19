@@ -17,6 +17,11 @@
     along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
 */
 #include "LibSUNAI.h"
+
+const char* LibSUNAI::getVersion(void) {
+	return "0.1";
+}
+
 /*#include <windows.h>
 /*
 #ifdef _WIN32
@@ -46,7 +51,5 @@ BOOL APIENTRY DllMain( HMODULE hModule,
 
 #endif
 */
-const char* LibSUNAI::getVersion(void) {
-	return "0.1";
-}
+
 

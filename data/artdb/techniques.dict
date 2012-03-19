@@ -1,0 +1,36 @@
+# Dictionary file. Each row contains the id of the topic and their description, in format: %05d\t%s\\n
+00001	-
+00002	Bronze
+00003	Bronze, height 25,5 cm
+00004	Ceramic mural composition
+00005	Ceramics
+00006	Copperplate, 25 x 20 cm
+00007	Drawing
+00008	Engraving
+00009	Fresco
+00010	Lead
+00011	Maiolica
+00012	Marble
+00013	Marble, height 115 cm
+00014	Oil on canvas
+00015	Oil on canvas, 101 x 78 cm
+00016	Oil on canvas, 104 x 84 cm
+00017	Oil on canvas, 105 x 84 cm
+00018	Oil on canvas, 116 x 159 cm
+00019	Oil on canvas, 127 x 115 cm
+00020	Oil on canvas, 163 x 113 cm
+00021	Oil on canvas, 169 x 127 cm
+00022	Oil on canvas, 188 x 237 cm
+00023	Oil on canvas, 196 x 220 cm
+00024	Oil on canvas, 248 x 168 cm
+00025	Oil on canvas, 291 x 165 cm
+00026	Oil on canvas, 58 x 87 cm
+00027	Oil on canvas, 60 x 40 cm
+00028	Oil on canvas, 62 x 78 cm
+00029	Oil on canvas, 65 x 53 cm
+00030	Oil on canvas, 74 x 54 cm
+00031	Oil on copper, 56 x 47 cm
+00032	Oil on oak panel, 44 x 36 cm
+00033	Oil on oak panel, 55 x 75,6 cm
+00034	Terracotta
+00035	Wood, 127 x 78 cm

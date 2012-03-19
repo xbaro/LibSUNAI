@@ -1,17 +1,15 @@
-#include "ArtDatabase/ArtDatabase.h"
-#include "ArtDatabase/ArtDatabaseException.h"
+#include "LibSUNAI.h"
 #include <iostream>
 #include <fstream>
-//#include <windows.h>
-//#include <winhttp.h>
 #include <stdio.h>
-#include <curl/curl.h>
 #include <vector>
 #include <sys/stat.h>
+#include "ArtDatabase/ArtDatabase.h"
+#include "ArtDatabase/ArtDatabaseException.h"
 
 using namespace std;
-
-ostream& operator<<(ostream& stream,vector<string> ob)
+/*
+ostream& LibSUNAI::operator<<(ostream& stream,vector<string> ob)
 {
 	stream << "[";
 	for(vector<string>::iterator it=ob.begin();it!=ob.end();it++) {		
@@ -25,7 +23,7 @@ ostream& operator<<(ostream& stream,vector<string> ob)
 	return stream;
 }
 
-ostream& operator<<(ostream& stream,vector<int> ob)
+ostream& LibSUNAI::operator<<(ostream& stream,vector<int> ob)
 {
 	stream << "[";
 	for(vector<int>::iterator it=ob.begin();it!=ob.end();++it) {
@@ -38,8 +36,13 @@ ostream& operator<<(ostream& stream,vector<int> ob)
 
 	return stream;
 }
+*/
+const char* LibSUNAI::getArtDatabaseVersion(void) {
+	return "0.1";
+}
+		//return ART_DATABASE_VERSION;
 
-CArtDatabase::CArtDatabase(string dbPath)  : m_Dictionaries(NULL), m_UseLocalStorage(false), m_LocalStoragePath("")
+LibSUNAI::CArtDatabase::CArtDatabase(string dbPath)  : m_Dictionaries(NULL), m_UseLocalStorage(false), m_LocalStoragePath("")
 {
 	// Set the database path
 	m_dbPath=dbPath;
@@ -54,11 +57,11 @@ CArtDatabase::CArtDatabase(string dbPath)  : m_Dictionaries(NULL), m_UseLocalSto
 	loadImageURLs();
 }
 
-CArtDatabase::~CArtDatabase(void)
+LibSUNAI::CArtDatabase::~CArtDatabase(void)
 {
 }
 
-size_t CArtDatabase::WriteMemoryCallback(void *ptr, size_t size, size_t nmemb, void *data) {
+size_t LibSUNAI::CArtDatabase::WriteMemoryCallback(void *ptr, size_t size, size_t nmemb, void *data) {
     size_t realsize = size * nmemb;
     std::vector<char> *vec = (vector<char>*)data;
     for(size_t i = 0;i < realsize;i++)		
@@ -66,7 +69,7 @@ size_t CArtDatabase::WriteMemoryCallback(void *ptr, size_t size, size_t nmemb, v
     return realsize;
 }
 
-bool CArtDatabase::downloadImage(string url,Mat &image) {
+bool LibSUNAI::CArtDatabase::downloadImage(string url,Mat &image) {
 	CURL *curl=NULL;
 	CURLcode res;
 	bool retVal=false;	
@@ -106,17 +109,17 @@ bool CArtDatabase::downloadImage(string url,Mat &image) {
   return retVal;
 }
 
-void CArtDatabase::loadDictionaries(void) {
+void LibSUNAI::CArtDatabase::loadDictionaries(void) {
 	
 	// Remove old dictionaries
 	if(m_Dictionaries) {
-		for(int i=0;i<DADES_MUSEUS_NUMLABELS;i++) {
+		for(int i=0;i<LibSUNAI::ART_DATABASE_NUMLABELS;i++) {
 			delete m_Dictionaries[i];
 		}
 	}
 
 	// Allocate the new dictionary objects	
-	m_Dictionaries=new CLabelDictionary*[DADES_MUSEUS_NUMLABELS];
+	m_Dictionaries=new CLabelDictionary*[LibSUNAI::ART_DATABASE_NUMLABELS];
 	
 	// Authors dictionary
 	m_Dictionaries[LabelID::Author]=new CLabelDictionary("Author names");
@@ -143,7 +146,7 @@ void CArtDatabase::loadDictionaries(void) {
 	m_Dictionaries[LabelID::TimeFrame]->loadFile("timeFrames.dict",m_dbPath);
 }
 
-void CArtDatabase::loadImageLabels(void) {
+void LibSUNAI::CArtDatabase::loadImageLabels(void) {
 	ifstream *inputFile=NULL;
 	char line[1024];
 	string fullFileName;
@@ -192,7 +195,7 @@ void CArtDatabase::loadImageLabels(void) {
 	}    		
 }
 
-void CArtDatabase::loadImageURLs(void) {
+void LibSUNAI::CArtDatabase::loadImageURLs(void) {
 	ifstream *inputFile=NULL;
 	char line[1024];
 	string fullFileName;
@@ -240,7 +243,7 @@ void CArtDatabase::loadImageURLs(void) {
 	}    		
 }
 
-bool CArtDatabase::getImage(int imagePos,Mat &image) {
+bool LibSUNAI::CArtDatabase::getImage(int imagePos,Mat &image) {
 	bool imageLoaded=false;
 	string fullFileName;
 
@@ -293,11 +296,11 @@ bool CArtDatabase::getImage(int imagePos,Mat &image) {
 	return imageLoaded;
 }
 
-int CArtDatabase::getNumImages(void) {
+int LibSUNAI::CArtDatabase::getNumImages(void) {
 	return m_ImageURL.size();	
 }
 
-Mat CArtDatabase::getLabelsMatrix(Mat *var_idx,Mat *sample_idx) {
+Mat LibSUNAI::CArtDatabase::getLabelsMatrix(Mat *var_idx,Mat *sample_idx) {
 	int numImages=0;
 	int dimension=0;	
 
@@ -307,7 +310,7 @@ Mat CArtDatabase::getLabelsMatrix(Mat *var_idx,Mat *sample_idx) {
 			throw CArtDatabaseException("getLabelsMatrix:var_idx must be a row or column vector");
 		dimension=max(var_idx->size().width,var_idx->size().height);
 	} else {
-		dimension=DADES_MUSEUS_NUMLABELS;
+		dimension=ART_DATABASE_NUMLABELS;
 	}
 
 	// Get the output dimension
@@ -347,7 +350,7 @@ Mat CArtDatabase::getLabelsMatrix(Mat *var_idx,Mat *sample_idx) {
 	return labels;
 }
 
-void CArtDatabase::getImageLabels(int imagePos,vector<int> &labels) {
+void LibSUNAI::CArtDatabase::getImageLabels(int imagePos,vector<int> &labels) {
 	// Check the image position
 	if(imagePos<1) {
 		throw CArtDatabaseException("getImageLabels:Image position is out of range");
@@ -360,7 +363,7 @@ void CArtDatabase::getImageLabels(int imagePos,vector<int> &labels) {
 	labels=m_ImageLabels[imagePos];	
 }
 
-void CArtDatabase::getImageLabels(int imagePos,Mat &labels) {	
+void LibSUNAI::CArtDatabase::getImageLabels(int imagePos,Mat &labels) {	
 	
 	// Obtain the labels vector
 	vector<int> vec;
@@ -378,7 +381,7 @@ void CArtDatabase::getImageLabels(int imagePos,Mat &labels) {
 	}
 }
 
-string CArtDatabase::getLabelName(LabelID labelID) {
+string LibSUNAI::CArtDatabase::getLabelName(LabelID labelID) {
 
 	string desc;
 
@@ -409,27 +412,27 @@ string CArtDatabase::getLabelName(LabelID labelID) {
 	return desc;
 }
 
-CArtDatabase::LabelID CArtDatabase::getLabelID(const unsigned short labelPos) {
-	if(labelPos<0 || labelPos>DADES_MUSEUS_NUMLABELS) {
+LibSUNAI::CArtDatabase::LabelID LibSUNAI::CArtDatabase::getLabelID(const unsigned short labelPos) {
+	if(labelPos<0 || labelPos>LibSUNAI::ART_DATABASE_NUMLABELS) {
 		throw CArtDatabaseException("getLabelID: position out of range.");
 	}
 	return (LabelID)labelPos;
 }
 
-void CArtDatabase::getProblemDescription(string version,int &numLabels,vector<string> &labelName) {	
-	version=DADES_MUSEUS_VERSION;
-	numLabels=DADES_MUSEUS_NUMLABELS;
+void LibSUNAI::CArtDatabase::getProblemDescription(string version,int &numLabels,vector<string> &labelName) {	
+	version=LibSUNAI::ART_DATABASE_VERSION;
+	numLabels=LibSUNAI::ART_DATABASE_NUMLABELS;
 	labelName.clear();	
 	for(unsigned short i=0;i<numLabels;i++) {		
 		labelName.push_back(getLabelName(getLabelID(i)));
 	}
 }
 
-string CArtDatabase::getLabelTranslation(unsigned int labelVal,LabelID labelID) {
+string LibSUNAI::CArtDatabase::getLabelTranslation(unsigned int labelVal,LabelID labelID) {
 	return m_Dictionaries[labelID]->getLabelDesc(labelVal);
 }
 
-void CArtDatabase::getLabelsTranslation(vector<int> labels,vector<string> &translation,vector<LabelID> labIdx) {
+void LibSUNAI::CArtDatabase::getLabelsTranslation(vector<int> labels,vector<string> &translation,vector<LabelID> labIdx) {
 	// Check parameter dimensions
 	if(labels.size()!=labIdx.size()) {
 		throw CArtDatabaseException("getLabelsTranslation: dimensions missmatch.");
@@ -441,7 +444,7 @@ void CArtDatabase::getLabelsTranslation(vector<int> labels,vector<string> &trans
 	}
 }
 
-void CArtDatabase::getLabelsTranslation(Mat labels,vector<string> &translation,vector<LabelID> labIdx) {
+void LibSUNAI::CArtDatabase::getLabelsTranslation(Mat labels,vector<string> &translation,vector<LabelID> labIdx) {
 	// Check parameter dimensions
 	int matSize=labels.size().height*labels.size().width;
 	if(matSize!=labIdx.size()) {
@@ -454,35 +457,35 @@ void CArtDatabase::getLabelsTranslation(Mat labels,vector<string> &translation,v
 	}
 }
 
-void CArtDatabase::getLabelsTranslation(vector<int> labels,vector<string> &translation,LabelID labIdx) {	
+void LibSUNAI::CArtDatabase::getLabelsTranslation(vector<int> labels,vector<string> &translation,LabelID labIdx) {	
 	// Translate the vector
 	for(unsigned int i=0;i<labels.size();i++) {			
 		translation.push_back(getLabelTranslation(labels[i],labIdx));
 	}
 }
 
-void CArtDatabase::getLabelsTranslation(Mat labels,vector<string> &translation,LabelID labIdx) {
+void LibSUNAI::CArtDatabase::getLabelsTranslation(Mat labels,vector<string> &translation,LabelID labIdx) {
 	// Check parameter dimensions
 	if(labels.size().width>1 && labels.size().height>1) {
 		throw CArtDatabaseException("getLabelsTranslation: dimensions missmatch.");
 	}
 
 	// Translate the vector
-	int maxSize=max(labels.size().height,labels.size().width);
+	unsigned int maxSize=max(labels.size().height,labels.size().width);
 	for(unsigned int i=0;i<maxSize;i++) {		
 		translation.push_back(getLabelTranslation(labels.at<int>(i),labIdx));
 	}
 }
 
-void CArtDatabase::getLabelsTranslation(vector<int> labels,vector<string> &translation) {
+void LibSUNAI::CArtDatabase::getLabelsTranslation(vector<int> labels,vector<string> &translation) {
 	// Check parameter dimensions
-	if(labels.size()!=DADES_MUSEUS_NUMLABELS) {
+	if(labels.size()!=ART_DATABASE_NUMLABELS) {
 		throw CArtDatabaseException("getLabelsTranslation: dimensions missmatch.");
 	}
 
 	// Create the vector with all labels
 	vector<LabelID> labIdx;
-	for(unsigned short i=0;i<DADES_MUSEUS_NUMLABELS;i++) {
+	for(unsigned short i=0;i<ART_DATABASE_NUMLABELS;i++) {
 		labIdx.push_back(getLabelID(i));
 	}
 
@@ -490,16 +493,16 @@ void CArtDatabase::getLabelsTranslation(vector<int> labels,vector<string> &trans
 	getLabelsTranslation(labels,translation,labIdx);
 }
 
-void CArtDatabase::getLabelsTranslation(Mat labels,vector<string> &translation) {
+void LibSUNAI::CArtDatabase::getLabelsTranslation(Mat labels,vector<string> &translation) {
 	// Check parameter dimensions
 	int maxSize=max(labels.size().height,labels.size().width);
-	if(maxSize!=DADES_MUSEUS_NUMLABELS) {
+	if(maxSize!=ART_DATABASE_NUMLABELS) {
 		throw CArtDatabaseException("getLabelsTranslation: dimensions missmatch.");
 	}
 
 	// Create the vector with all labels
 	vector<LabelID> labIdx;
-	for(unsigned short i=0;i<DADES_MUSEUS_NUMLABELS;i++) {
+	for(unsigned short i=0;i<ART_DATABASE_NUMLABELS;i++) {
 		labIdx.push_back(getLabelID(i));
 	}
 
@@ -507,7 +510,7 @@ void CArtDatabase::getLabelsTranslation(Mat labels,vector<string> &translation) 
 	getLabelsTranslation(labels,translation,labIdx);
 }
 
-bool CArtDatabase::pathExist(string path){ 
+bool LibSUNAI::CArtDatabase::pathExist(string path){ 
 	struct stat buf;
 	int result;
 
@@ -527,11 +530,11 @@ bool CArtDatabase::pathExist(string path){
 	return true;
 }
 
-void CArtDatabase::setLocalStorage(bool value) {
+void LibSUNAI::CArtDatabase::setLocalStorage(bool value) {
 	m_UseLocalStorage=value;
 }
 
-void CArtDatabase::setLocalStoragePath(string path) {
+void LibSUNAI::CArtDatabase::setLocalStoragePath(string path) {
 	
 	if(!pathExist(path)) {
 		throw CArtDatabaseException("setLocalStoragePath: given path does not exist.");

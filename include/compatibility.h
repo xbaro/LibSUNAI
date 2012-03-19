@@ -20,25 +20,38 @@
 #define __COMPATIBILITY_H
 
 #ifdef _WIN32
-#include <SDKDDKVer.h>
-#define WIN32_LEAN_AND_MEAN 
-#include <windows.h>
-	//! Windows definitions
+	#include <SDKDDKVer.h>
+	#define WIN32_LEAN_AND_MEAN 
+	#include <windows.h>
+
+	// Windows definitions
 	#ifdef LIBSUNAI_EXPORTS
 		#define LIBSUNAI_API __declspec(dllexport)
+		#define LIBSUNAI_TEMPLATE
 	#else
 		#define LIBSUNAI_API __declspec(dllimport)
+		#define LIBSUNAI_TEMPLATE extern
 	#endif
 	
 	#define isinf(x) !_finite(x)
 	#define isnan(x) _isnan(x)
 	
 	#include <math.h>
-	#define RAND_VALUE() (static_cast<double>(rand())/static_cast<double>(RAND_MAX))	
+	#define RAND_VALUE() (static_cast<double>(rand())/static_cast<double>(RAND_MAX))
+
+	// CURL includes
+	//#include <windows.h>
+	//#include <winhttp.h>
+	#include <curl/curl.h>
+
+	// OpenCV includes
+	#include <opencv2/opencv.hpp>
+	
 #else
 	//! Linux definitions
 	#include <stdlib.h>
 	#define LIBSUNAI_API 
+	#define LIBSUNAI_TEMPLATE
 	#define RAND_VALUE() ((double)random()/(double)RAND_MAX)
 #endif
 

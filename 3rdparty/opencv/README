@@ -1,0 +1,13 @@
+The libraries and headers are only to build Win32 and Win64 versions of OpenCV.
+On UNIX systems all the libraries are automatically detected by configure script.
+
+------------------------------------------------------------------------------------
+OpenCV 2.31  - OpenCV (Open Source Computer Vision) is a library of programming 
+               functions for real time computer vision.
+
+               OpenCV is released under a BSD license, it is free for both academic 
+ 	       and commercial use.
+              
+	       See OpenCV home page http://opencv.willowgarage.com/wiki/
+               for details and links to the source code
+------------------------------------------------------------------------------------

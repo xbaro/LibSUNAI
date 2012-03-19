@@ -1,0 +1,8 @@
+# Dictionary file. Each row contains the id of the topic and their description, in format: %05d\t%s\\n
+00001	1451-1500
+00002	1501-1550
+00003	1601-1650
+00004	1651-1700
+00005	1701-1750
+00006	1751-1800
+00007	1801-1850

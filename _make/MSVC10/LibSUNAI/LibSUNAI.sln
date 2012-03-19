@@ -1,12 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LibSUNAI", "LibSUNAI\LibSUNAI.vcxproj", "{C2BCB7DE-4BFD-4938-962F-81B59CE740B2}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataBaseExplorer", "DataBaseExplorer\DataBaseExplorer.vcxproj", "{6CDD8454-0353-4A26-9AE6-DF2584C2D294}"
 	ProjectSection(ProjectDependencies) = postProject
 		{C2BCB7DE-4BFD-4938-962F-81B59CE740B2} = {C2BCB7DE-4BFD-4938-962F-81B59CE740B2}
 	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LibSUNAI", "LibSUNAI\LibSUNAI.vcxproj", "{C2BCB7DE-4BFD-4938-962F-81B59CE740B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,14 +14,14 @@ Global
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C2BCB7DE-4BFD-4938-962F-81B59CE740B2}.Debug|Win32.ActiveCfg = Debug|Win32
-		{C2BCB7DE-4BFD-4938-962F-81B59CE740B2}.Debug|Win32.Build.0 = Debug|Win32
-		{C2BCB7DE-4BFD-4938-962F-81B59CE740B2}.Release|Win32.ActiveCfg = Release|Win32
-		{C2BCB7DE-4BFD-4938-962F-81B59CE740B2}.Release|Win32.Build.0 = Release|Win32
 		{6CDD8454-0353-4A26-9AE6-DF2584C2D294}.Debug|Win32.ActiveCfg = Debug|Win32
 		{6CDD8454-0353-4A26-9AE6-DF2584C2D294}.Debug|Win32.Build.0 = Debug|Win32
 		{6CDD8454-0353-4A26-9AE6-DF2584C2D294}.Release|Win32.ActiveCfg = Release|Win32
 		{6CDD8454-0353-4A26-9AE6-DF2584C2D294}.Release|Win32.Build.0 = Release|Win32
+		{C2BCB7DE-4BFD-4938-962F-81B59CE740B2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C2BCB7DE-4BFD-4938-962F-81B59CE740B2}.Debug|Win32.Build.0 = Debug|Win32
+		{C2BCB7DE-4BFD-4938-962F-81B59CE740B2}.Release|Win32.ActiveCfg = Release|Win32
+		{C2BCB7DE-4BFD-4938-962F-81B59CE740B2}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
