@@ -23,36 +23,36 @@
 using namespace std;
 using namespace LibSUNAI;
 
-int main(int argc, char* argv[])
-{	
+#define WINDOW_NAME "DBExplorer (Press ESC to exit)"
+
+typedef struct {
+	CArtDatabase* db;
+	Mat currentImage;
+	int idx;
+} tUserData;
+
+// Show an image and all its information
+void showImage(tUserData* data) {
+	
+	// Point to the data	
+	CArtDatabase* db=(CArtDatabase*)data->db;
+
 	try {
-		// Create the DadesMuseus object providing the path
-		CArtDatabase dm("../data/artdb/");
-		dm.setLocalStoragePath("../data/artdb/local");
-		dm.setLocalStorage(true);
-
-		// Show versions information
-		cout << "======================================================" << endl;
-		cout << "LibSUNAI version    :" << LibSUNAI::getVersion() << endl;
-		cout << "ArtDatabase version :" << dm.getArtDatabaseVersion() << endl;
-		cout << "======================================================" << endl;
-
-		// Obtain and show an image
-		Mat image;
-		if(dm.getImage(1,image)) {
-			namedWindow("IMAGE");
-			imshow("IMAGE",image);
-			waitKey(0);
-			destroyWindow("IMAGE");
+		// Obtain and show an image	
+		if(db->getImage(data->idx,data->currentImage)) {		
+			imshow(WINDOW_NAME,data->currentImage);		
 		} else {
-			cout << "Cannot reat the image" << endl;
+			cerr << "Cannot reat the image" << endl;
 		}
-				
+
+		// Show the 
+
+	/*			
 		// Get the labels and descriptions in OpenCV Mat 
 		Mat labelsMat;
 		vector<string> labelsDescMat;
-		dm.getImageLabels(1,labelsMat);
-		dm.getLabelsTranslation(labelsMat,labelsDescMat);
+		db.getImageLabels(1,labelsMat);
+		db.getLabelsTranslation(labelsMat,labelsDescMat);
 
 		cout << "---------------------------------------------" << endl;
 		cout << "Print the labels obtained as an OpenCV Matrix" << endl;
@@ -65,8 +65,8 @@ int main(int argc, char* argv[])
 		// Repeat using standard vector type
 		vector<int> labelsVec;
 		vector<string> labelsDescVec;
-		dm.getImageLabels(1,labelsVec);
-		dm.getLabelsTranslation(labelsVec,labelsDescVec);
+		db.getImageLabels(1,labelsVec);
+		db.getLabelsTranslation(labelsVec,labelsDescVec);
 				
 		cout << "---------------------------------------------" << endl;
 		cout << "Print the labels obtained as a Vector" << endl;
@@ -78,7 +78,7 @@ int main(int argc, char* argv[])
 
 		// Retrieve the matrix of all labels of the fourth first images (1,2,3, and 4)
 		Mat sample_idx=(Mat_<int>(1,4) << 1, 2, 3, 4); 
-		Mat labelsMatrix=dm.getLabelsMatrix(NULL,&sample_idx);
+		Mat labelsMatrix=db.getLabelsMatrix(NULL,&sample_idx);
 		cout << "---------------------------------------------" << endl;
 		cout << "Print the labels for the fourth first images" << endl;
 		cout << "---------------------------------------------" << endl;
@@ -87,12 +87,79 @@ int main(int argc, char* argv[])
 
 		// Select a subset of labels (0, 3, and 5 -> Author, Type, and TimeFrame 
 		Mat var_idx=(Mat_<int>(1,3) << 0, 3, 5); 
-		labelsMatrix=dm.getLabelsMatrix(&var_idx,&sample_idx);
+		labelsMatrix=db.getLabelsMatrix(&var_idx,&sample_idx);
 		cout << "---------------------------------------------" << endl;
 		cout << "Print the labels for the fourth first images" << endl;
 		cout << "---------------------------------------------" << endl;
 		cout << labelsMatrix << endl;
 		cout << "---------------------------------------------" << endl;
+		*/
+	} catch(CArtDatabaseException const& dmEx) {
+		cout << "An exception occurred:" << endl << dmEx << endl;
+	} catch(CLibSUNAIException const& pmEx) {
+		cout << "An exception occurred:" << endl << pmEx << endl;
+	}
+}
+
+// Define the callbacks
+void trackBarCB(int value,void* data) {
+	tUserData* userData = (tUserData*)data;
+	userData->idx=value;
+	showImage(userData);
+}
+void buttonCB_Prev(int state,void* data) {
+	tUserData* userData = (tUserData*)data;
+	if(userData->idx>0) {
+		userData->idx--;
+	}
+	showImage(userData);
+}
+void buttonCB_Next(int state,void* data) {
+	tUserData* userData = (tUserData*)data;
+	if(userData->idx<(userData->db->getNumImages()-1)) {
+		userData->idx++;
+	}
+	showImage(userData);
+}
+
+// Main programm structure
+int main(int argc, char* argv[])
+{	
+	try {
+		// Create the ArtDatabase object providing the path
+		CArtDatabase* db=new CArtDatabase("../data/artdb/");
+		db->setLocalStoragePath("../data/artdb/local");
+		db->setLocalStorage(true);
+
+		// Show versions information
+		cout << "======================================================" << endl;
+		cout << "LibSUNAI version    :" << LibSUNAI::getVersion() << endl;
+		cout << "ArtDatabase version :" << db->getArtDatabaseVersion() << endl;
+		cout << "======================================================" << endl;
+
+		// Create the data structure
+		tUserData userData;
+		userData.db=db;		
+
+		// Create the interface
+		cvNamedWindow(WINDOW_NAME,CV_WINDOW_KEEPRATIO|CV_GUI_EXPANDED);
+		cv::createTrackbar("Image ", WINDOW_NAME, NULL, db->getNumImages(),trackBarCB,(void*)&userData);		
+		//cv::createButton("<--",buttonCB_Prev, (void*)&userData,0,false);
+		//cv::CreateButton("-->",buttonCB_Next, (void*)&userData,0,false);		
+		//displayStatusBar(WINDOW_NAME, "Hello World", 5000); 
+		//cv::displayOverlay(WINDOW_NAME, "Test text",3000);
+
+		if(userData.db->getImage(9,userData.currentImage)) {		
+			imshow(WINDOW_NAME,userData.currentImage);		
+		} else {
+			cout << "Cannot reat the image" << endl;
+		}
+
+		while(cvWaitKey(33) != 27);
+
+		cvDestroyAllWindows();
+
+		delete db;
 		
 	} catch(CArtDatabaseException const& dmEx) {
 		cout << "An exception occurred:" << endl << dmEx << endl;
@@ -102,6 +169,7 @@ int main(int argc, char* argv[])
 
 	cout << "\nPres key to continue..." << endl;
 	getchar();
+
 	return 0;
 }
 
