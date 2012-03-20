@@ -46,7 +46,7 @@ namespace LibSUNAI {
 		/// </summary>
 		/// <param name="image">Mat object containing the image.</param>	
 		/// <returns>A true value if the image has objects or false if no object is found.</returns>	
-		virtual bool findObjects(Mat image) = NULL;
+		virtual bool findObjects(Mat image) = 0;
 
 		/// <summary>
 		///  Perform the object detection over a given database.

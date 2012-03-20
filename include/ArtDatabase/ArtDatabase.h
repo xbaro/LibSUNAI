@@ -29,10 +29,41 @@
 #include <vector>
 #include <sys/stat.h>
 
-using namespace cv;
 using namespace std;
+using namespace cv;
 
 namespace LibSUNAI {
+  
+	/// <summary>
+	///  Defines the list of labels
+	/// </summary>
+	enum LabelID:unsigned short {
+//	enum LabelID {
+		/// <summary>
+		///  Name of the author
+		/// </summary>
+		Author,
+		/// <summary>
+		///  Technique used to create the item (Bronze, Marble, Fresco, Oil in copper,...)
+		/// </summary>
+		Technique,
+		/// <summary>
+		///  Form of the art. (ceramics, painting, sculpture, ...)
+		/// </summary>
+		Form,
+		/// <summary>
+		///  Type of art. (Religions, landscape, ...)
+		/// </summary>
+		Type,
+		/// <summary>
+		///  School of the artist.
+		/// </summary>
+		School,
+		/// <summary>
+		///  Períod of the art object. There is no intersection between períods, and they are labeled respecting the order.
+		/// </summary>
+		TimeFrame
+	};
 
 	/// <summary>
 	///  This class stores all the images database
@@ -44,6 +75,7 @@ namespace LibSUNAI {
 		/// </summary>
 		typedef vector<int> intVector;
 
+		/*
 		/// <summary>
 		///  Defines the list of labels
 		/// </summary>
@@ -73,7 +105,7 @@ namespace LibSUNAI {
 			///  Períod of the art object. There is no intersection between períods, and they are labeled respecting the order.
 			/// </summary>
 			TimeFrame
-		};
+		};*/
 
 	private:	
 		/// <summary>

@@ -54,6 +54,13 @@
 	#define LIBSUNAI_API 
 	#define LIBSUNAI_TEMPLATE
 	#define RAND_VALUE() ((double)random()/(double)RAND_MAX)
+	
+	// CURL includes
+	#include <curl/curl.h>
+
+	// OpenCV includes
+	#include <opencv2/opencv.hpp>
+	#include <opencv2/highgui/highgui.hpp>
 #endif
 
 //! Additional definitions

@@ -1,5 +1,5 @@
 /*
-	Copyright 2011-2012 Ágata Lapedriza, David Masip, Xavier Baró
+	Copyright 2011-2012 ï¿½gata Lapedriza, David Masip, Xavier Barï¿½
 
 	This file is part of LibSUNAI.
 
@@ -32,75 +32,75 @@ LibSUNAI::CLabelDictionary::~CLabelDictionary(void)
 
 void LibSUNAI::CLabelDictionary::loadFile(string fileName,string rootPath)
 {
-	ifstream *inputFile=NULL;
-	char line[1024];
-	string fullFileName;
+    ifstream *inputFile=NULL;
+    char line[1024];
+    string fullFileName;
 
-	// Build the full filename of the dictionary file
-	if(rootPath.empty()) {
-		fullFileName=fileName;		
-	} else {		
-		if(rootPath.at(rootPath.length()-1)=='/' || rootPath.at(rootPath.length()-1)=='\\') {
-			fullFileName=rootPath+fileName;
-		} else {
-			fullFileName=rootPath+"/"+fileName;			
-		}
-	}
+    // Build the full filename of the dictionary file
+    if(rootPath.empty()) {
+        fullFileName=fileName;
+    } else {
+        if(rootPath.at(rootPath.length()-1)=='/' || rootPath.at(rootPath.length()-1)=='\\') {
+            fullFileName=rootPath+fileName;
+        } else {
+            fullFileName=rootPath+"/"+fileName;
+        }
+    }
 
-	// Open the file
-	inputFile=new ifstream(fullFileName);
+    // Open the file
+    inputFile=new ifstream(fullFileName.c_str(), std::ifstream::in);
 
-	// Parse the file
-	if(inputFile->is_open())
-	{
-		int label;
-		char desc[1024];
-		while (inputFile->good() )
-		{
-			// Skip comment lines
-			inputFile->getline(line,1023);
-			if(line[0]=='#')
-				continue;
-			
-			// Parse the input data
-			sscanf_s(line,"%d %[^\r\n]",&label, desc,1023);
-			
-			// Adds the data to the dictionary, indexed by name and label
-			string strDesc(desc);
-			m_IdData[label]=strDesc;
-			m_DescData[strDesc]=label;
-		}
-		inputFile->close();	
-    } else {	
-		string msg("Cannot open labels file \"");
-		msg+=fullFileName;
-		msg+="\".";
-		throw CArtDatabaseException(msg);
-	}    		
+    // Parse the file
+    if(inputFile->is_open())
+    {
+        int label;
+        char desc[1024];
+        while (inputFile->good() )
+        {
+            // Skip comment lines
+            inputFile->getline(line,1023);
+            if(line[0]=='#')
+                continue;
+
+            // Parse the input data
+            sscanf(line,"%d %[^\r\n]",&label, desc);
+
+            // Adds the data to the dictionary, indexed by name and label
+            string strDesc(desc);
+            m_IdData[label]=strDesc;
+            m_DescData[strDesc]=label;
+        }
+        inputFile->close();
+    } else {
+        string msg("Cannot open labels file \"");
+        msg+=fullFileName;
+        msg+="\".";
+        throw CArtDatabaseException(msg);
+    }
 }
 
 string LibSUNAI::CLabelDictionary::getLabelDesc(int labelId)
-{	
-	// Check for consistency
-	if(m_IdData.count(labelId)!=1) {
-		string msg("Dictionary error:");
-		msg+=" label " + labelId;
-		msg+=" not found in dictionary<" + m_DictionaryDesc + ">";
-		throw CArtDatabaseException(msg);
-	}
-		
-	return m_IdData[labelId];	
+{
+    // Check for consistency
+    if(m_IdData.count(labelId)!=1) {
+        string msg("Dictionary error:");
+        msg+=" label " + labelId;
+        msg+=" not found in dictionary<" + m_DictionaryDesc + ">";
+        throw CArtDatabaseException(msg);
+    }
+
+    return m_IdData[labelId];
 }
 
 int LibSUNAI::CLabelDictionary::getLabelId(string labelDesc)
 {
-	// Check for consistency
-	if(m_DescData.count(labelDesc)!=1) {
-		string msg("Dictionary error:");
-		msg+=" description " + labelDesc;
-		msg+=" not found in dictionary<" + m_DictionaryDesc + ">";
-		throw CArtDatabaseException(msg);
-	}
-		
-	return m_DescData[labelDesc];	
+    // Check for consistency
+    if(m_DescData.count(labelDesc)!=1) {
+        string msg("Dictionary error:");
+        msg+=" description " + labelDesc;
+        msg+=" not found in dictionary<" + m_DictionaryDesc + ">";
+        throw CArtDatabaseException(msg);
+    }
+
+    return m_DescData[labelDesc];
 }

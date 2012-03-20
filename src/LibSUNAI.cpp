@@ -1,5 +1,5 @@
 /*
-	Copyright 2011-2012 Ágata Lapedriza, David Masip, Xavier Baró
+	Copyright 2011-2012 ï¿½gata Lapedriza, David Masip, Xavier Barï¿½
 
 	This file is part of LibSUNAI.
 
@@ -26,16 +26,16 @@
 BOOL APIENTRY DllMain( HMODULE hModule,
                        DWORD  ul_reason_for_call,
                        LPVOID lpReserved
-                                         )
+                     )
 {
-        switch (ul_reason_for_call)
-        {
-        case DLL_PROCESS_ATTACH:
-        case DLL_THREAD_ATTACH:
-        case DLL_THREAD_DETACH:
-        case DLL_PROCESS_DETACH:
-                break;
-        }
+    switch (ul_reason_for_call)
+    {
+    case DLL_PROCESS_ATTACH:
+    case DLL_THREAD_ATTACH:
+    case DLL_THREAD_DETACH:
+    case DLL_PROCESS_DETACH:
+        break;
+    }
     return TRUE;
 }
 
@@ -46,7 +46,7 @@ BOOL APIENTRY DllMain( HMODULE hModule,
 #endif
 
 const char* LibSUNAI::getVersion(void) {
-	return "0.1";
+    return "0.1";
 }
 
 

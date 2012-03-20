@@ -22,6 +22,7 @@
 #include <exception>
 #include <stdexcept>
 #include <string>
+#include <iostream>
 #include "LibSUNAI.h"
 
 using namespace std;

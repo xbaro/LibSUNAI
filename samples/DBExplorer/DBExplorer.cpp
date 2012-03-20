@@ -17,7 +17,7 @@
     along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
 */
 #include <LibSUNAI.h>
-#include <ArtDatabase\ArtDatabase.h>
+#include <ArtDatabase/ArtDatabase.h>
 #include <iostream>
 
 using namespace std;
