@@ -46,7 +46,8 @@ void showImage(tUserData* data) {
 		}
 
 		// Show the 
-
+#ifdef HAVE_QT
+#else
 	/*			
 		// Get the labels and descriptions in OpenCV Mat 
 		Mat labelsMat;
@@ -94,6 +95,7 @@ void showImage(tUserData* data) {
 		cout << labelsMatrix << endl;
 		cout << "---------------------------------------------" << endl;
 		*/
+#endif
 	} catch(CArtDatabaseException const& dmEx) {
 		cout << "An exception occurred:" << endl << dmEx << endl;
 	} catch(CLibSUNAIException const& pmEx) {
@@ -144,11 +146,12 @@ int main(int argc, char* argv[])
 		// Create the interface
 		cvNamedWindow(WINDOW_NAME,CV_WINDOW_KEEPRATIO|CV_GUI_EXPANDED);
 		cv::createTrackbar("Image ", WINDOW_NAME, NULL, db->getNumImages(),trackBarCB,(void*)&userData);		
-		//cv::createButton("<--",buttonCB_Prev, (void*)&userData,0,false);
-		//cv::CreateButton("-->",buttonCB_Next, (void*)&userData,0,false);		
-		//displayStatusBar(WINDOW_NAME, "Hello World", 5000); 
-		//cv::displayOverlay(WINDOW_NAME, "Test text",3000);
-
+#ifdef HAVE_QT
+		cv::createButton("<--",buttonCB_Prev, (void*)&userData,0,false);
+		cv::CreateButton("-->",buttonCB_Next, (void*)&userData,0,false);		
+		displayStatusBar(WINDOW_NAME, "Hello World", 5000); 
+		cv::displayOverlay(WINDOW_NAME, "Test text",3000);
+#endif
 		if(userData.db->getImage(9,userData.currentImage)) {		
 			imshow(WINDOW_NAME,userData.currentImage);		
 		} else {
