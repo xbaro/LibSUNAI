@@ -1,0 +1,74 @@
+------------------
+INDEX
+------------------
+1.- INTRODUCTION
+2.- INSTALLING
+3.- HOW TO USE THE LIBRARY
+4.- CONTRIBUTE
+
+
+---------------------
+1.- INTRODUCTION
+---------------------
+
+LibSUNAI is an open-source library of classes to solve some Computer Vision problems in the context of the Scene UNderstanding 
+and Artificial Intelligence research group. The main objective is to share the code with students and researchers. You can use this
+code under the GNU General Public License (GPL) version 3.
+
+
+---------------------
+2.- INSTALLING
+---------------------
+
+The library does not need to be installed in any special way. Download the last version in ZIP or TAR formats from the main repository
+webpage (http://xbaro.github.com/LibSUNAI/) and unzip it whatever you want. You also can clone the project using the following command:
+
+git clone git://github.com/xbaro/LibSUNAI
+
+The library depends on some other libraries, which are referenced in the folder "3rdparty". You need to install the dependencies before to
+compile the library. The required dependencies are:
+
+	OpenCV 2.3 (http://opencv.willowgarage.com/wiki/)
+	CURL (http://curl.haxx.se/download.html)
+
+2.1.- WINDOWS
+
+For Windows systems, you can find a project to use the library and some provided sample projects with Microsoft Visual Studio 10. The solution
+file can be found at "_make\MSVC10\LibSUNAI". 
+The folder "3rdparty" contains the includes, lib files and DLLs to compile on x86 platforms. These files are linked to the MSVC10 solution, so you can 
+just download and compile the project and samples without installing any additional library. The free Microft Visual C++ 2010 Express suite
+can be used.
+
+The executables and DLLs resulting of the compilation are copyed to the "bin" folder, while the lib files are copyed to the "lib" folder.
+ 
+ 2.2.- LINUX
+ 
+ The library has been tested on Ubuntu 11.10 and 12.04LTS. A project for KDevelop4 based on CMake is available at "_make/KDevelop4/". To be able
+ to compile the library and their samples, you need to install the required dependencies. The building script will look for the installation folders and add
+ their to the library and samples.
+ 
+ The executables and dyn resulting of the compilation are copyed to the "bin" folder, while the lib files are copyed to the "lib" folder.
+ 
+ 2.3.- MAC
+ 
+ The library has been tested on MAC. It can be build from the CMakeFiles.txt from the 
+ 
+
+------------------------------
+3.- HOW TO USE THE LIBRARY
+------------------------------
+
+
+
+
+---------------------
+4.- CONTRIBUTE
+---------------------
+
+
+
+
+---------------------
+5.- CONTACT
+---------------------
+

@@ -51,7 +51,8 @@
     <LinkIncremental>false</LinkIncremental>
     <OutDir>..\..\..\..\bin\$(PlatformShortName)\$(Configuration)\</OutDir>
     <IncludePath>$(SolutionDir)..\..\..\include;$(SolutionDir)..\..\..\3rdparty\opencv\include;$(SolutionDir)..\..\..\3rdparty\curl\include;$(IncludePath)</IncludePath>
-    <CustomBuildAfterTargets>CopyFilesToOutputDirectory</CustomBuildAfterTargets>
+    <CustomBuildAfterTargets>
+    </CustomBuildAfterTargets>
     <LibraryPath>$(SolutionDir)..\..\..\3rdparty\opencv\$(PlatformShortName)\lib;$(SolutionDir)..\..\..\3rdparty\curl\lib\$(Configuration);$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -66,7 +67,7 @@
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>curllib.lib;opencv_core231d.lib;opencv_highgui231d.lib;opencv_ml231d.lib</AdditionalDependencies>
+      <AdditionalDependencies>curllib.lib;opencv_core231d.lib;opencv_highgui231d.lib;opencv_objdetect231d.lib;opencv_imgproc231d.lib;opencv_ml231d.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>
       </AdditionalLibraryDirectories>
     </Link>
@@ -97,22 +98,17 @@ copy $(SolutionDir)..\..\..\3rdparty\opencv\$(PlatformShortName)\bin\opencv_high
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>curllib.lib;opencv_core231.lib;opencv_highgui231.lib;;opencv_ml231.lib</AdditionalDependencies>
+      <AdditionalDependencies>curllib.lib;opencv_core231.lib;opencv_highgui231.lib;opencv_ml231.lib;opencv_objdetect231.lib;opencv_imgproc231.lib</AdditionalDependencies>
     </Link>
     <CustomBuildStep>
-      <Command>copy $(OutDir)$(ProjectName)$(TargetExt) $(SolutionDir)..\..\..\bin\$(ProjectName)$(TargetExt)
-copy $(OutDir)$(ProjectName).lib $(SolutionDir)..\..\..\lib\MSVC10\$(PlatformShortName)\$(Configuration)\$(ProjectName).lib
-copy $(OutDir)$(ProjectName).exp $(SolutionDir)..\..\..\lib\MSVC10\$(PlatformShortName)\$(Configuration)\$(ProjectName).exp
-
-copy $(SolutionDir)..\..\..\3rdparty\curl\lib\$(Configuration)\curllib.dll $(SolutionDir)..\..\..\bin\curllib.dll
-copy $(SolutionDir)..\..\..\3rdparty\curl\lib\$(Configuration)\extraLibs\*.dll $(SolutionDir)..\..\..\bin\
-
-copy $(SolutionDir)..\..\..\3rdparty\opencv\$(PlatformShortName)\bin\opencv_core231.dll $(SolutionDir)..\..\..\bin\opencv_core231.dll
-copy $(SolutionDir)..\..\..\3rdparty\opencv\$(PlatformShortName)\bin\opencv_ml231.dll $(SolutionDir)..\..\..\bin\opencv_ml231.dll
-copy $(SolutionDir)..\..\..\3rdparty\opencv\$(PlatformShortName)\bin\opencv_highgui231.dll $(SolutionDir)..\..\..\bin\opencv_highgui231.dll</Command>
-      <Outputs>$(SolutionDir)..\..\..\bin\$(ProjectName)$(TargetExt);$(SolutionDir)..\..\..\lib\MSVC10\$(PlatformShortName)\$(Configuration)\$(ProjectName).lib;$(SolutionDir)..\..\..\lib\MSVC10\$(PlatformShortName)\$(Configuration)\$(ProjectName).exp</Outputs>
-      <Inputs>$(OutDir)$(ProjectName)$(TargetExt);$(OutDir)$(ProjectName).lib;$(OutDir)$(ProjectName).exp</Inputs>
-      <Message>Copy files to final paths</Message>
+      <Command>
+      </Command>
+      <Outputs>
+      </Outputs>
+      <Inputs>
+      </Inputs>
+      <Message>
+      </Message>
     </CustomBuildStep>
   </ItemDefinitionGroup>
   <ItemGroup>

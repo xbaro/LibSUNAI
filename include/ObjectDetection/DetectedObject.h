@@ -123,7 +123,7 @@ namespace LibSUNAI {
 		/// <summary>
 		///  Default destructor.
 		/// </summary>
-		~CDetectedObject(void);
+		virtual ~CDetectedObject(void);
 
 		/// <summary>
 		///  Gets the type of stored region
@@ -185,8 +185,13 @@ namespace LibSUNAI {
 		/// <param name="object">Correspondence information between the query image and the database.</param>	
 		void setObject(const ObjCorrespondence object);	
 
-	private:
+		/// <summary>
+		/// Paint the object to the given image
+		/// </summary>
+		/// <param name="image">Image where object will be painted.</param>	
+		virtual void drawObject(Mat &image);
 
+	protected:
 		/// <summary>
 		///  Type of the stored region
 		/// </summary>

@@ -30,6 +30,17 @@ namespace LibSUNAI {
 	///  This class defines the interface for object detection methods
 	/// </summary>
 	class LIBSUNAI_API CObjectDetector {
+	private:
+		/// <summary>
+		/// List of detected objects
+		/// </summary>
+		std::vector<CDetectedObject*> m_detectedObjects;
+
+		/// <summary>
+		/// Root path to detector data
+		/// </summary>
+		string m_dataPath;
+
 	public:
 		/// <summary>
 		/// Default constructor
@@ -40,7 +51,7 @@ namespace LibSUNAI {
 		///  Default descructor
 		/// </summary>
 		~CObjectDetector(void);
-
+		
 		/// <summary>
 		///  Perform the object detection over a given image.
 		/// </summary>
@@ -74,7 +85,42 @@ namespace LibSUNAI {
 		/// <summary>
 		///  Clear objects storage
 		/// </summary>			
-		void clear(void);
+		void clearObjects(void);
+
+		/// <summary>
+		///  Draw detected objects to the image
+		/// </summary>			
+		void drawObjects(Mat& image);
+
+		/// <summary>
+		///  Set the detector root path
+		/// </summary>			
+		void setDataPath(string path);
+
+	protected:
+		
+		/// <summary>
+		///  Add all the elements from a vector of detected objects. Allow multiple types of object vectors.
+		/// </summary>
+		/// <param name="objVector">Vector of element deffining the objects.</param>
+		void addObjects(std::vector<Rect> objVector);
+
+		/// <summary>
+		///  Add a new object to the list of detected objects. Allow multiple types of objects
+		/// </summary>
+		/// <param name="object">Element deffining the object.</param>			
+		void addObject(CDetectedObject* object);
+		void addObject(Rect object);		
+
+		/// <summary>
+		///  Perform the object detection over a given image using the Viola & Jones method.
+		///  http://opencv.itseez.com/doc/tutorials/objdetect/cascade_classifier/cascade_classifier.html
+		/// </summary>
+		/// <param name="image">Mat object containing the image.</param>	
+		/// <param name="cascade">String with the name of the cascade to be used.</param>	
+		/// <param name="objects">Vector containing the objects detected. Each object is represented as a Rect object.</param>	
+		/// <returns>A true value if the image has objects or false if no object are found.</returns>	
+		bool findObjects_ViolaJones(Mat image,String cascade,std::vector<Rect> &objects);
 	};
 }
 

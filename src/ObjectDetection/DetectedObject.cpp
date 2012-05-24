@@ -226,3 +226,34 @@ void LibSUNAI::CDetectedObject::getObject(ObjCorrespondence &object) {
 		break;
 	}
 }
+
+void LibSUNAI::CDetectedObject::drawObject(Mat &image) {
+	Rect region;
+
+	// Check the object value
+	if(m_object==NULL) {
+		throw CObjectDetectorException("drawObject: NULL Object.");		
+	}
+
+	// Convert object type to required type
+	switch(m_type) {
+	case Undefined:
+		throw CObjectDetectorException("drawObject: Object type is undefined.");		
+	case RectRegion:
+	case EllipRegion:
+		// Get a rectangular region of the object
+		getObject(region);
+
+		// Draw the object
+		rectangle(image,region,Scalar( 255, 0, 0 ),4); 
+		break;
+	case Image:
+		// TODO: Copy the object image to the output image
+		throw CObjectDetectorException("drawObject:  NOT YET IMPLEMENTED");		
+		break;
+	case ObjectCorrespondence:
+		// TODO: Show corresonding points
+		throw CObjectDetectorException("drawObject:  NOT YET IMPLEMENTED");		
+		break;
+	}
+}
