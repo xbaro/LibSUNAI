@@ -43,6 +43,7 @@
 	//#include <windows.h>
 	//#include <winhttp.h>
 	#include <curl/curl.h>
+	//#include <curl/curlbuild.h>
 
 	// OpenCV includes
 	#include <opencv2/opencv.hpp>
