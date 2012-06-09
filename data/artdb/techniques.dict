@@ -1,36 +1,2416 @@
 # Dictionary file. Each row contains the id of the topic and their description, in format: %05d\t%s\\n
-00001	-
-00002	Bronze
-00003	Bronze, height 25,5 cm
-00004	Ceramic mural composition
-00005	Ceramics
-00006	Copperplate, 25 x 20 cm
-00007	Drawing
-00008	Engraving
-00009	Fresco
-00010	Lead
-00011	Maiolica
-00012	Marble
-00013	Marble, height 115 cm
-00014	Oil on canvas
-00015	Oil on canvas, 101 x 78 cm
-00016	Oil on canvas, 104 x 84 cm
-00017	Oil on canvas, 105 x 84 cm
-00018	Oil on canvas, 116 x 159 cm
-00019	Oil on canvas, 127 x 115 cm
-00020	Oil on canvas, 163 x 113 cm
-00021	Oil on canvas, 169 x 127 cm
-00022	Oil on canvas, 188 x 237 cm
-00023	Oil on canvas, 196 x 220 cm
-00024	Oil on canvas, 248 x 168 cm
-00025	Oil on canvas, 291 x 165 cm
-00026	Oil on canvas, 58 x 87 cm
-00027	Oil on canvas, 60 x 40 cm
-00028	Oil on canvas, 62 x 78 cm
-00029	Oil on canvas, 65 x 53 cm
-00030	Oil on canvas, 74 x 54 cm
-00031	Oil on copper, 56 x 47 cm
-00032	Oil on oak panel, 44 x 36 cm
-00033	Oil on oak panel, 55 x 75,6 cm
-00034	Terracotta
-00035	Wood, 127 x 78 cm
+00001	Beech panel, 52 x 37 cm
+00002	Beechwood
+00003	Black chalk, touches of wash on off-white paper, 391 x 280 mm
+00004	Bronze
+00005	Bronze, height: 30 cm
+00006	Bronze, over life-size
+00007	Canvas, 88,9 x 98,7 cm
+00008	Chalk pastel on vellum, 62,5 x 52 cm
+00009	Detached fresco on flat tile, 50 x 31 cm
+00010	Detached fresco, 47 x 38 cm
+00011	Distemper on canvas mounted on wood, 40 x 30 cm
+00012	Distemper on wood, 31 x 23 cm
+00013	Drawing
+00014	Drawing with additions
+00015	Egg tempera on wood, 58 x 40 cm
+00016	Enamel
+00017	Enamel on copper, 22 x 28 cm
+00018	Enamel on copper, mounted on gilt wood
+00019	Enamel on copper, mounted on gilt wood, 72 x 54 cm
+00020	Enameled copper, diameter 8 cm
+00021	Engraving
+00022	Feathers
+00023	Fresco
+00024	Fresco transferred to canvas, 90 x 113 cm
+00025	Fresco transferred to wood, 120 x 150 cm
+00026	Fresco transferred to wood, 245 x 155 cm
+00027	Fresco transferred to wood, 247 x 153 cm
+00028	Fresco transferred to wood, 250 x 154 cm
+00029	Fresco, 340 x 968 cm
+00030	Fresco, 40 x 31 cm
+00031	Fresco, 75 x 52 cm
+00032	Fresco, transferred to wood, 250 x 154 cm
+00033	Fresco, width 190 cm
+00034	Fresco, width 432 cm
+00035	Gilded bronze, height: 395 cm (without base)
+00036	Gouache on vellum, 280 x 227 mm
+00037	Hand-coloured woodcut, 403 x 295 mm
+00038	Ivory, 16 x 12 cm
+00039	Ivory, 9 x 11 cm
+00040	Ivory, 9,5 x 7 cm
+00041	Lime panel, 43 x 31,5 cm
+00042	Limewood, 38,5 x 30,8 cm
+00043	Limewood, 41,5 x 28 cm (each)
+00044	Linden panel, 46 x 33 cm
+00045	Linden panel, 48 x 46 cm
+00046	Marble
+00047	Marble, height 75 cm
+00048	Marble, height 82 cm
+00049	Marble, height 95 cm
+00050	Miniature on ivory, 20 x 16 cm
+00051	Miniature on vellum mounted on cardboard, diameter 56 mm
+00052	Miniature on vellum, 9 x 7 cm
+00053	Mixed media on parchment, 25,7 x 17,8 cm
+00054	Mixed technique on parchment mounted on spruce, 49 x 31 cm
+00055	OIl on oak panel, 45 x 35 cm
+00056	Oak
+00057	Oak wood, 38,7 x 25,4 cm
+00058	Oak, 18 x 15 cm
+00059	Oak, 180,3 x 312,4 cm
+00060	Oak, 29 x 23 cm
+00061	Oak, 38,4 x 28 cm
+00062	Oak, 39 x 30 cm
+00063	Oak, 76 x 61 cm
+00064	Oak, 82,6 x 66,4 cm
+00065	Oak, 87 x 70,5 cm
+00066	Oak, 92,5 x 75,4 cm
+00067	Oak, diameter 9 cm
+00068	OiI on canvas, 260 x 178 cm
+00069	Oik on canvas
+00070	Oil and egg tempera on poplar, 50 x 39 cm
+00071	Oil and tempera on beechwood, 51 x 35 cm
+00072	Oil and tempera on canvas, 57 x 44 cm
+00073	Oil and tempera on limewood, 43 x 34 cm
+00074	Oil and tempera on limewood, 44 x 34 cm
+00075	Oil and tempera on lindenwood, 29 x 27 cm
+00076	Oil and tempera on oak
+00077	Oil and tempera on oak, 43 x 34 cm
+00078	Oil and tempera on oak, 48 x 35 cm
+00079	Oil and tempera on panel
+00080	Oil and tempera on panel, 215 x 115 cm (each, including frame)
+00081	Oil and tempera on panel, 32 x 26 cm
+00082	Oil and tempera on panel, 42 x 36 cm
+00083	Oil and tempera on panel, 44 x 34 cm
+00084	Oil and tempera on panel, 48 x 35 cm
+00085	Oil and tempera on panel, 52 x 37 cm
+00086	Oil and tempera on panel, 59 x 47 cm
+00087	Oil and tempera on pinewood, 64 x 49 cm (each)
+00088	Oil and tempera on poplar panel, 53 x 37 cm
+00089	Oil and tempera on poplar, 50 x 36 cm
+00090	Oil and tempera on red beechwood
+00091	Oil and tempera on red beechwood, 28 x 35 cm
+00092	Oil and tempera on red beechwood, 34 x 25 cm
+00093	Oil and tempera on red beechwood, 38 x 24 cm (each)
+00094	Oil and tempera on red beechwood, 38 x 25 cm (each)
+00095	Oil and tempera on red beechwood, 38 x 27 cm
+00096	Oil and tempera on red beechwood, 40 x 23 cm
+00097	Oil and tempera on red beechwood, 50 x 35 cm
+00098	Oil and tempera on red beechwood, 51 x 36 cm
+00099	Oil and tempera on red beechwood, 59 x 41 cm
+00100	Oil and tempera on wood
+00101	Oil and tempera on wood laid on walnut, 37 x 29 cm
+00102	Oil and tempera on wood, 40 x 27 cm
+00103	Oil and tempera on wood, 42 x 31 cm (each)
+00104	Oil and tempera on wood, 46 x 33 cm
+00105	Oil and tempera on wood, 53 x 36 cm
+00106	Oil and tempera on wood, 54 x 39 cm
+00107	Oil and tempera on wood, 64 x 49 cm
+00108	Oil and tempera on wood, transferred to canvas and mounted on a modern support, 82 x 61 cm
+00109	Oil canvas, 181 x 122 cm
+00110	Oil on 109 x 90 cm
+00111	Oil on 45 x 35,5 cm
+00112	Oil on basswood, 43 x 31 cm
+00113	Oil on board, 59 x 75 cm
+00114	Oil on cannvas, 84,5 x 67,5 cm
+00115	Oil on canvaas, 126 x 167
+00116	Oil on canvaas, 70 x 58,5 cm
+00117	Oil on canvas
+00118	Oil on canvas (on wood), 44 x 39 cm
+00119	Oil on canvas (transferred to new canvas), 68 x 51 cm
+00120	Oil on canvas 77 x 53 cm
+00121	Oil on canvas 79 x 76,5 cm
+00122	Oil on canvas mounted on board, 26 x 20 cm
+00123	Oil on canvas mounted on panel, 107 x 85 cm
+00124	Oil on canvas mounted on panel, 41 x 34 cm
+00125	Oil on canvas on panel, 52 x 42 cm
+00126	Oil on canvas on panel, 66 x 50 cm
+00127	Oil on canvas transferred from panel, 126 x 180 cm
+00128	Oil on canvas transferred from wood, 117 x 87,5 cm
+00129	Oil on canvas transferred from wood, 184 x 82,5 cm each
+00130	Oil on canvas transferred from wood, 51 x 66 cm
+00131	Oil on canvas transferred from wood, 52 x 44 cm
+00132	Oil on canvas,
+00133	Oil on canvas, 10 ,5 x 14,5 cm
+00134	Oil on canvas, 100 x 117 cm
+00135	Oil on canvas, 100 x 134 cm
+00136	Oil on canvas, 100 x 70 cm
+00137	Oil on canvas, 100 x 78 cm
+00138	Oil on canvas, 100 x 80 cm
+00139	Oil on canvas, 100 x 81 cm
+00140	Oil on canvas, 100 x 82 cm
+00141	Oil on canvas, 100 x 83 cm
+00142	Oil on canvas, 100 x 84 cm
+00143	Oil on canvas, 100 x 87 cm
+00144	Oil on canvas, 100 x 89 cm
+00145	Oil on canvas, 100 x 92 cm
+00146	Oil on canvas, 100 x 95 cm
+00147	Oil on canvas, 101 x 127 cm
+00148	Oil on canvas, 101 x 77 cm
+00149	Oil on canvas, 101 x 80 cm
+00150	Oil on canvas, 101 x 81 cm
+00151	Oil on canvas, 101 x 83 cm
+00152	Oil on canvas, 101 x 85 cm
+00153	Oil on canvas, 101 x 86 cm
+00154	Oil on canvas, 101 x 88 cm
+00155	Oil on canvas, 101 x 92 cm
+00156	Oil on canvas, 101 x 93 cm
+00157	Oil on canvas, 102 x 130 cm
+00158	Oil on canvas, 102 x 64 cm
+00159	Oil on canvas, 102 x 79 cm
+00160	Oil on canvas, 102 x 80 cm
+00161	Oil on canvas, 102 x 81 cm
+00162	Oil on canvas, 102 x 82 cm
+00163	Oil on canvas, 102 x 86 cm
+00164	Oil on canvas, 102 x 91 cm
+00165	Oil on canvas, 102,5 x 86,9 cm
+00166	Oil on canvas, 103 x 117 cm
+00167	Oil on canvas, 103 x 76 cm
+00168	Oil on canvas, 103 x 82 cm
+00169	Oil on canvas, 103 x 83 cm
+00170	Oil on canvas, 103 x 85 cm
+00171	Oil on canvas, 103 x 87,5 cm
+00172	Oil on canvas, 103,5 x 81,9 cm
+00173	Oil on canvas, 103,5 x 83,5 cm
+00174	Oil on canvas, 104 x 117 cm
+00175	Oil on canvas, 104 x 80 cm
+00176	Oil on canvas, 104 x 81,3 cm
+00177	Oil on canvas, 104 x 82 cm
+00178	Oil on canvas, 104 x 83 cm
+00179	Oil on canvas, 104 x 84,5 cm
+00180	Oil on canvas, 104 x 86 cm
+00181	Oil on canvas, 104,5 x 83,5 cm
+00182	Oil on canvas, 105 x 125 cm
+00183	Oil on canvas, 105 x 130 cm
+00184	Oil on canvas, 105 x 131 cm
+00185	Oil on canvas, 105 x 65 cm
+00186	Oil on canvas, 105 x 81 cm
+00187	Oil on canvas, 105 x 82 cm
+00188	Oil on canvas, 105 x 84 cm
+00189	Oil on canvas, 105 x 85 cm
+00190	Oil on canvas, 105 x 86 cm
+00191	Oil on canvas, 105 x 89 cm
+00192	Oil on canvas, 105 x 90 cm
+00193	Oil on canvas, 105 x 91 cm
+00194	Oil on canvas, 105 x 92 cm
+00195	Oil on canvas, 105,5 x 81 cm
+00196	Oil on canvas, 105,5 x 83 cm
+00197	Oil on canvas, 105,5 x 84 cm
+00198	Oil on canvas, 106 x 76 cm
+00199	Oil on canvas, 106 x 83 cm
+00200	Oil on canvas, 106 x 85 cm
+00201	Oil on canvas, 106 x 90 cm
+00202	Oil on canvas, 106,5 x 81,5 cm
+00203	Oil on canvas, 107 x 75 cm
+00204	Oil on canvas, 107 x 83 cm
+00205	Oil on canvas, 107 x 86 cm
+00206	Oil on canvas, 107 x 87 cm
+00207	Oil on canvas, 107 x 89 cm
+00208	Oil on canvas, 107 x 90 cm
+00209	Oil on canvas, 107 x 93 cm
+00210	Oil on canvas, 108 x 80 cm
+00211	Oil on canvas, 108 x 83 cm
+00212	Oil on canvas, 108 x 86 cm
+00213	Oil on canvas, 108 x 89 cm
+00214	Oil on canvas, 108 x 92 cm
+00215	Oil on canvas, 108 x 97 cm
+00216	Oil on canvas, 109 x 105 cm
+00217	Oil on canvas, 109 x 80 cm
+00218	Oil on canvas, 109 x 83 cm
+00219	Oil on canvas, 109 x 84 cm
+00220	Oil on canvas, 109 x 85 cm
+00221	Oil on canvas, 109 x 86 cm
+00222	Oil on canvas, 109 x 87 cm
+00223	Oil on canvas, 109 x 88 cm
+00224	Oil on canvas, 109 x 89 cm
+00225	Oil on canvas, 109 x 92 cm
+00226	Oil on canvas, 109 x 95 cm
+00227	Oil on canvas, 109,5 x 82 cm
+00228	Oil on canvas, 109,5 x 82,5 cm
+00229	Oil on canvas, 109,5 x 85 cm
+00230	Oil on canvas, 109,8 x 82,5 cm
+00231	Oil on canvas, 110 x 114 cm
+00232	Oil on canvas, 110 x 150 cm
+00233	Oil on canvas, 110 x 77 cm
+00234	Oil on canvas, 110 x 87 cm
+00235	Oil on canvas, 110 x 88 cm
+00236	Oil on canvas, 111 x 110 cm
+00237	Oil on canvas, 111 x 138 cm
+00238	Oil on canvas, 111 x 166 cm
+00239	Oil on canvas, 111 x 85 cm
+00240	Oil on canvas, 111 x 86 cm
+00241	Oil on canvas, 111 x 93 cm
+00242	Oil on canvas, 111,5 x 89,5 cm
+00243	Oil on canvas, 112 x 102 cm
+00244	Oil on canvas, 112 x 131 cm
+00245	Oil on canvas, 112 x 145 cm
+00246	Oil on canvas, 112 x 78 cm
+00247	Oil on canvas, 112 x 84 cm
+00248	Oil on canvas, 112 x 86 cm
+00249	Oil on canvas, 112 x 89 cm
+00250	Oil on canvas, 112 x 90 cm
+00251	Oil on canvas, 112 x 95 cm
+00252	Oil on canvas, 112 x 99 cm
+00253	Oil on canvas, 113 x 126 cm
+00254	Oil on canvas, 113 x 83 cm
+00255	Oil on canvas, 113 x 84 cm
+00256	Oil on canvas, 113 x 85 cm
+00257	Oil on canvas, 113 x 87 cm
+00258	Oil on canvas, 113 x 88 cm
+00259	Oil on canvas, 113 x 93 cm
+00260	Oil on canvas, 113 x 93,4 cm
+00261	Oil on canvas, 113 x 97 cm
+00262	Oil on canvas, 114 x 101 cm (full painting)
+00263	Oil on canvas, 114 x 102 cm
+00264	Oil on canvas, 114 x 103 cm
+00265	Oil on canvas, 114 x 166 cm
+00266	Oil on canvas, 114 x 80 cm
+00267	Oil on canvas, 114 x 92 cm
+00268	Oil on canvas, 114 x 94 cm
+00269	Oil on canvas, 114 x 99 cm
+00270	Oil on canvas, 114,9 x 135 cm
+00271	Oil on canvas, 115 x 114 cm
+00272	Oil on canvas, 115 x 147 cm
+00273	Oil on canvas, 115 x 160 cm
+00274	Oil on canvas, 115 x 53 cm
+00275	Oil on canvas, 115 x 84,5 cm
+00276	Oil on canvas, 115 x 85,8 cm
+00277	Oil on canvas, 115 x 86,1 cm
+00278	Oil on canvas, 115 x 87 and 116 x 86 cm, respectively
+00279	Oil on canvas, 115 x 87 cm
+00280	Oil on canvas, 115 x 88 cm
+00281	Oil on canvas, 115 x 89 cm
+00282	Oil on canvas, 115 x 90 cm
+00283	Oil on canvas, 115 x 91 cm
+00284	Oil on canvas, 115 x 93 cm
+00285	Oil on canvas, 115 x 95 cm
+00286	Oil on canvas, 115 x 98 cm
+00287	Oil on canvas, 115,5 x 104 cm
+00288	Oil on canvas, 116 x 100 cm
+00289	Oil on canvas, 116 x 108 cm
+00290	Oil on canvas, 116 x 86 cm
+00291	Oil on canvas, 116 x 88 cm
+00292	Oil on canvas, 116 x 89 cm
+00293	Oil on canvas, 116 x 90 cm
+00294	Oil on canvas, 116 x 93 cm
+00295	Oil on canvas, 116 x 94 cm
+00296	Oil on canvas, 116 x 95 cm
+00297	Oil on canvas, 116 x 96 cm
+00298	Oil on canvas, 116 x 98 cm
+00299	Oil on canvas, 116,1 x 90,1 cm
+00300	Oil on canvas, 117 x 117 cm
+00301	Oil on canvas, 117 x 79 cm
+00302	Oil on canvas, 117 x 82 cm
+00303	Oil on canvas, 117 x 85 cm
+00304	Oil on canvas, 117 x 87 cm
+00305	Oil on canvas, 117 x 89 cm
+00306	Oil on canvas, 117 x 90 cm
+00307	Oil on canvas, 117 x 91 cm
+00308	Oil on canvas, 117 x 92 cm
+00309	Oil on canvas, 117 x 93 cm
+00310	Oil on canvas, 117 x 94 cm
+00311	Oil on canvas, 117 x 97 cm
+00312	Oil on canvas, 117 x 99 cm
+00313	Oil on canvas, 118 x 101 cm
+00314	Oil on canvas, 118 x 105 cm
+00315	Oil on canvas, 118 x 113 cm
+00316	Oil on canvas, 118 x 165 cm
+00317	Oil on canvas, 118 x 92 cm
+00318	Oil on canvas, 118 x 93 cm
+00319	Oil on canvas, 118 x 95 cm
+00320	Oil on canvas, 119 x 100 cm
+00321	Oil on canvas, 119 x 103 cm
+00322	Oil on canvas, 119 x 91 cm
+00323	Oil on canvas, 119 x 92 cm
+00324	Oil on canvas, 119 x 93 cm
+00325	Oil on canvas, 119 x 94 cm
+00326	Oil on canvas, 119 x 96 cm
+00327	Oil on canvas, 120 x 100 cm
+00328	Oil on canvas, 120 x 102 cm
+00329	Oil on canvas, 120 x 110 cm
+00330	Oil on canvas, 120 x 76 cm
+00331	Oil on canvas, 120 x 79 cm
+00332	Oil on canvas, 120 x 87 cm
+00333	Oil on canvas, 120 x 90 cm
+00334	Oil on canvas, 120 x 92 cm
+00335	Oil on canvas, 120 x 94 cm
+00336	Oil on canvas, 120 x 94,5 cm
+00337	Oil on canvas, 120 x 95 cm
+00338	Oil on canvas, 120 x 96 cm
+00339	Oil on canvas, 120,5 x 89,5 cm
+00340	Oil on canvas, 121 x 106 cm
+00341	Oil on canvas, 121 x 107 cm
+00342	Oil on canvas, 121 x 84,5 cm
+00343	Oil on canvas, 121 x 91 cm
+00344	Oil on canvas, 121 x 98 cm
+00345	Oil on canvas, 122 x 127 cm
+00346	Oil on canvas, 122 x 167 cm
+00347	Oil on canvas, 122 x 98 cm
+00348	Oil on canvas, 122 x 99 cm
+00349	Oil on canvas, 123 x 156 cm
+00350	Oil on canvas, 123 x 85 cm
+00351	Oil on canvas, 123 x 89 cm
+00352	Oil on canvas, 123 x 93 cm
+00353	Oil on canvas, 123 x 98 cm
+00354	Oil on canvas, 123 x 99 cm
+00355	Oil on canvas, 124 x 102 cm
+00356	Oil on canvas, 124 x 110 cm
+00357	Oil on canvas, 124 x 90 cm
+00358	Oil on canvas, 124 x 98 cm
+00359	Oil on canvas, 124 x 99 cm
+00360	Oil on canvas, 124,5 x 99 cm
+00361	Oil on canvas, 124,6 x 97,3 cm
+00362	Oil on canvas, 124,8 x 98,2 cm
+00363	Oil on canvas, 125 x 100 cm
+00364	Oil on canvas, 125 x 101 cm
+00365	Oil on canvas, 125 x 101 cm (transferred to new canvas)
+00366	Oil on canvas, 125 x 69 cm
+00367	Oil on canvas, 125 x 92 cm
+00368	Oil on canvas, 125 x 95 cm
+00369	Oil on canvas, 125 x 99 cm
+00370	Oil on canvas, 125,7 x 100,3 cm
+00371	Oil on canvas, 126 x 101 cm
+00372	Oil on canvas, 126 x 102 cm
+00373	Oil on canvas, 126 x 106 cm
+00374	Oil on canvas, 126 x 89 cm
+00375	Oil on canvas, 126 x 93 cm
+00376	Oil on canvas, 126 x 96 cm
+00377	Oil on canvas, 126 x 98 cm
+00378	Oil on canvas, 126 x 99,5 cm
+00379	Oil on canvas, 126,5 x 93 cm
+00380	Oil on canvas, 127 x 100 cm
+00381	Oil on canvas, 127 x 101 cm
+00382	Oil on canvas, 127 x 101,6 cm
+00383	Oil on canvas, 127 x 102 cm
+00384	Oil on canvas, 127 x 103 cm
+00385	Oil on canvas, 127 x 106 cm
+00386	Oil on canvas, 127 x 152 cm
+00387	Oil on canvas, 127 x 180 cm
+00388	Oil on canvas, 127 x 96 cm
+00389	Oil on canvas, 127 x 98 cm
+00390	Oil on canvas, 127 x 98,5 cm
+00391	Oil on canvas, 128 x 101 cm
+00392	Oil on canvas, 128 x 102 cm
+00393	Oil on canvas, 128 x 103 cm
+00394	Oil on canvas, 128 x 104 cm
+00395	Oil on canvas, 128 x 83 cm
+00396	Oil on canvas, 128 x 92 cm
+00397	Oil on canvas, 128 x 94 cm
+00398	Oil on canvas, 128 x 98 cm
+00399	Oil on canvas, 128 x 99 cm
+00400	Oil on canvas, 128,5 x 100 cm
+00401	Oil on canvas, 128,5 x 99 cm
+00402	Oil on canvas, 128,5 x 99,5 cm
+00403	Oil on canvas, 129 x 102 cm
+00404	Oil on canvas, 129 x 198 cm
+00405	Oil on canvas, 129 x 95 cm
+00406	Oil on canvas, 129 x 97 cm
+00407	Oil on canvas, 129 x 98 cm
+00408	Oil on canvas, 129 × 101 cm
+00409	Oil on canvas, 130 x 102 cm
+00410	Oil on canvas, 130 x 103 cm
+00411	Oil on canvas, 130 x 108 cm
+00412	Oil on canvas, 130 x 184 cm
+00413	Oil on canvas, 130 x 94 cm
+00414	Oil on canvas, 130 x 95 cm
+00415	Oil on canvas, 130 x 97 cm
+00416	Oil on canvas, 130 x 98 cm
+00417	Oil on canvas, 130,8 x 118,5 cm
+00418	Oil on canvas, 131 x 101 cm
+00419	Oil on canvas, 131 x 103 cm
+00420	Oil on canvas, 131 x 107 cm
+00421	Oil on canvas, 131 x 96 cm
+00422	Oil on canvas, 131 x 97 cm
+00423	Oil on canvas, 131 x 98 cm
+00424	Oil on canvas, 131 x 99 cm
+00425	Oil on canvas, 131,5 x 143,5 cm
+00426	Oil on canvas, 132 x 102 cm
+00427	Oil on canvas, 132 x 108 cm
+00428	Oil on canvas, 132 x 109 cm
+00429	Oil on canvas, 132 x 152 cm
+00430	Oil on canvas, 132 x 181 cm
+00431	Oil on canvas, 132 x 96 cm
+00432	Oil on canvas, 132 x 98 cm
+00433	Oil on canvas, 132 × 140 cm
+00434	Oil on canvas, 132,7 x 120 cm
+00435	Oil on canvas, 132,7 x 143,5 cm
+00436	Oil on canvas, 133 x 103 cm
+00437	Oil on canvas, 133 x 98 cm
+00438	Oil on canvas, 133,5 x 95 cm
+00439	Oil on canvas, 134 x 100 cm
+00440	Oil on canvas, 134 x 104 cm
+00441	Oil on canvas, 134 x 105 cm
+00442	Oil on canvas, 134 x 112 cm
+00443	Oil on canvas, 134 x 97 cm
+00444	Oil on canvas, 134 x 98 cm
+00445	Oil on canvas, 135 x 101 cm
+00446	Oil on canvas, 135 x 102 cm
+00447	Oil on canvas, 135 x 104 cm
+00448	Oil on canvas, 135 x 109 cm
+00449	Oil on canvas, 135 x 111 cm
+00450	Oil on canvas, 135 x 114 cm
+00451	Oil on canvas, 135 x 120 cm
+00452	Oil on canvas, 135 x 149 cm
+00453	Oil on canvas, 135 x 90 cm
+00454	Oil on canvas, 135 x 99 cm
+00455	Oil on canvas, 136 x 103 cm
+00456	Oil on canvas, 136 x 109 cm
+00457	Oil on canvas, 137 x 100 cm
+00458	Oil on canvas, 137 x 101 cm
+00459	Oil on canvas, 137,1 x 104 cm
+00460	Oil on canvas, 137,2 x 99,8 cm
+00461	Oil on canvas, 138 x 100 cm
+00462	Oil on canvas, 138 x 101 cm
+00463	Oil on canvas, 138 x 104 cm
+00464	Oil on canvas, 138 x 105 cm
+00465	Oil on canvas, 138 x 106 cm
+00466	Oil on canvas, 138 x 107 cm
+00467	Oil on canvas, 138 x 116 cm
+00468	Oil on canvas, 138 x 119 cm
+00469	Oil on canvas, 138 x 99 cm
+00470	Oil on canvas, 139 x 101 cm
+00471	Oil on canvas, 139 x 106 cm
+00472	Oil on canvas, 139 x 107 cm
+00473	Oil on canvas, 139 x 88 cm
+00474	Oil on canvas, 140 x 100 cm
+00475	Oil on canvas, 140 x 100cm
+00476	Oil on canvas, 140 x 107 cm
+00477	Oil on canvas, 140 x 115 cm
+00478	Oil on canvas, 140 x 118 cm
+00479	Oil on canvas, 140 x 166,5 cm
+00480	Oil on canvas, 140 x 170 cm
+00481	Oil on canvas, 140 x 171 cm
+00482	Oil on canvas, 141 x 111 cm
+00483	Oil on canvas, 141 x 119 cm
+00484	Oil on canvas, 141 x 122 cm
+00485	Oil on canvas, 141 x 208 cm
+00486	Oil on canvas, 141,5 x 113 cm
+00487	Oil on canvas, 142 x 106 cm
+00488	Oil on canvas, 142 x 107 cm
+00489	Oil on canvas, 142 x 114 cm
+00490	Oil on canvas, 142 x 127 cm
+00491	Oil on canvas, 142 x 94 cm
+00492	Oil on canvas, 142 x 97 cm
+00493	Oil on canvas, 143 x 102 cm
+00494	Oil on canvas, 143 x 103 cm
+00495	Oil on canvas, 143 x 110 cm
+00496	Oil on canvas, 143 x 113 cm
+00497	Oil on canvas, 144 x 102 cm
+00498	Oil on canvas, 144 x 105 cm
+00499	Oil on canvas, 144 x 106 cm
+00500	Oil on canvas, 144 x 109,3 cm
+00501	Oil on canvas, 144 x 110 cm
+00502	Oil on canvas, 144 x 116 cm
+00503	Oil on canvas, 144,5 x 203,5 cm
+00504	Oil on canvas, 145 x 110 cm
+00505	Oil on canvas, 145 x 112 cm
+00506	Oil on canvas, 145 x 214 cm
+00507	Oil on canvas, 145,5 x 109,5 cm
+00508	Oil on canvas, 146 x 107 cm
+00509	Oil on canvas, 146 x 114 cm
+00510	Oil on canvas, 146 x 115 cm
+00511	Oil on canvas, 147 x 112 cm
+00512	Oil on canvas, 147 x 114 cm
+00513	Oil on canvas, 148 x 114 cm
+00514	Oil on canvas, 148 x 251 cm
+00515	Oil on canvas, 149 x 200 cm
+00516	Oil on canvas, 149,5 x 119 cm
+00517	Oil on canvas, 150 x 105 cm
+00518	Oil on canvas, 150 x 112 cm
+00519	Oil on canvas, 150 x 172 cm
+00520	Oil on canvas, 150, 5 x 255,5 cm
+00521	Oil on canvas, 150,6 x 107,5 cm
+00522	Oil on canvas, 151 x 115 cm
+00523	Oil on canvas, 151 x 163,6 cm
+00524	Oil on canvas, 152 x 110 cm
+00525	Oil on canvas, 152 x 99 cm
+00526	Oil on canvas, 153 x 111 cm
+00527	Oil on canvas, 153 x 117 cm
+00528	Oil on canvas, 153 x 119 cm
+00529	Oil on canvas, 153 x 187 cm
+00530	Oil on canvas, 153 x 252 cm
+00531	Oil on canvas, 154 x 119 cm
+00532	Oil on canvas, 154 x 131 cm
+00533	Oil on canvas, 155 x 112 cm
+00534	Oil on canvas, 155 x 221 cm
+00535	Oil on canvas, 156 x 100 cm
+00536	Oil on canvas, 158 x 119 cm
+00537	Oil on canvas, 158 x 92 cm
+00538	Oil on canvas, 159 x 113 cm
+00539	Oil on canvas, 159 x 210 cm
+00540	Oil on canvas, 159 x 95 cm
+00541	Oil on canvas, 160 x 117 cm
+00542	Oil on canvas, 162 x 107,5 cm
+00543	Oil on canvas, 162 x 130 cm
+00544	Oil on canvas, 162 x 150 cm
+00545	Oil on canvas, 163 x 128 cm
+00546	Oil on canvas, 164 x 139 cm
+00547	Oil on canvas, 164 x 206 cm
+00548	Oil on canvas, 165 x 107 cm
+00549	Oil on canvas, 165 x 108 cm
+00550	Oil on canvas, 165 x 123 cm
+00551	Oil on canvas, 166 x 132 cm
+00552	Oil on canvas, 166 x 231 cm
+00553	Oil on canvas, 167 x 150 cm
+00554	Oil on canvas, 168 x 105 cm
+00555	Oil on canvas, 169 x 53 cm
+00556	Oil on canvas, 170 x 217 cm
+00557	Oil on canvas, 170 x 87,5 cm
+00558	Oil on canvas, 171 x 108 cm
+00559	Oil on canvas, 172 x 123 cm
+00560	Oil on canvas, 172,5 x 256 cm
+00561	Oil on canvas, 173 x 244 cm
+00562	Oil on canvas, 175 x 120 cm
+00563	Oil on canvas, 175 x 138 cm
+00564	Oil on canvas, 175 x 324 cm
+00565	Oil on canvas, 176 x 107 cm
+00566	Oil on canvas, 176 x 144 cm
+00567	Oil on canvas, 176 x 210 cm
+00568	Oil on canvas, 176 x 250 cm
+00569	Oil on canvas, 177 x 130,5 cm
+00570	Oil on canvas, 177 x 91 cm
+00571	Oil on canvas, 178 x 136,5 cm
+00572	Oil on canvas, 178 x 152 cm
+00573	Oil on canvas, 178 x 174 cm
+00574	Oil on canvas, 178 x 84 cm
+00575	Oil on canvas, 179 x 114 cm
+00576	Oil on canvas, 179 x 130 cm
+00577	Oil on canvas, 179 x 257,5 cm
+00578	Oil on canvas, 180 x 135 cm
+00579	Oil on canvas, 180 x 267 cm
+00580	Oil on canvas, 180 x 94 cm
+00581	Oil on canvas, 180,5 x 94 cm
+00582	Oil on canvas, 181 x 187 cm
+00583	Oil on canvas, 182 x 120 cm
+00584	Oil on canvas, 182 x 121 cm
+00585	Oil on canvas, 184 x 149 cm
+00586	Oil on canvas, 184,4 x 229,7 cm
+00587	Oil on canvas, 184,5 x 134 cm
+00588	Oil on canvas, 184,5 x 149,5 cm
+00589	Oil on canvas, 185 x 103 cm
+00590	Oil on canvas, 185 x 125 cm
+00591	Oil on canvas, 185 x 94 cm
+00592	Oil on canvas, 185,8 x 202 cm
+00593	Oil on canvas, 186 x 221 cm
+00594	Oil on canvas, 186 x 82 cm
+00595	Oil on canvas, 187 x 115 cm
+00596	Oil on canvas, 188 x 127 cm
+00597	Oil on canvas, 188 x 227 cm
+00598	Oil on canvas, 188 x 249 cm
+00599	Oil on canvas, 189 x 102 cm
+00600	Oil on canvas, 189 x 114 cm
+00601	Oil on canvas, 190 x 102 cm
+00602	Oil on canvas, 190 x 106 cm
+00603	Oil on canvas, 190 x 127 cm
+00604	Oil on canvas, 190 x 145 cm
+00605	Oil on canvas, 190 x 84 cm
+00606	Oil on canvas, 191 x 103 cm
+00607	Oil on canvas, 191 x 123 cm
+00608	Oil on canvas, 191 x 126 cm
+00609	Oil on canvas, 191 x 146 cm
+00610	Oil on canvas, 192 x 105 cm
+00611	Oil on canvas, 192 x 108 cm
+00612	Oil on canvas, 192 x 109 cm
+00613	Oil on canvas, 192 x 111 cm
+00614	Oil on canvas, 192 x 139 cm
+00615	Oil on canvas, 192 x 279 cm
+00616	Oil on canvas, 193 x 111 cm
+00617	Oil on canvas, 193 x 115 cm
+00618	Oil on canvas, 193 x 305 cm
+00619	Oil on canvas, 194 x 130 cm
+00620	Oil on canvas, 194 x 132 cm
+00621	Oil on canvas, 194 x 134 cm
+00622	Oil on canvas, 194 x 144 cm
+00623	Oil on canvas, 194 x 155 cm
+00624	Oil on canvas, 194,5 x 130 cm
+00625	Oil on canvas, 195 x 126 cm
+00626	Oil on canvas, 195 x 128 cm
+00627	Oil on canvas, 195 x 129 cm
+00628	Oil on canvas, 195 x 132 cm
+00629	Oil on canvas, 195 x 147 cm
+00630	Oil on canvas, 195 x 259 cm
+00631	Oil on canvas, 196 x 112 cm
+00632	Oil on canvas, 196 x 120 cm
+00633	Oil on canvas, 196 x 122 cm
+00634	Oil on canvas, 196 x 127 cm
+00635	Oil on canvas, 196 x 131 cm
+00636	Oil on canvas, 197 x 163 cm
+00637	Oil on canvas, 198 x 123 cm
+00638	Oil on canvas, 198 x 127 cm
+00639	Oil on canvas, 198 x 148 cm
+00640	Oil on canvas, 199 x 115 cm
+00641	Oil on canvas, 199 x 124 cm
+00642	Oil on canvas, 199 x 130 cm
+00643	Oil on canvas, 20 x 14 cm
+00644	Oil on canvas, 200 x 106 cm
+00645	Oil on canvas, 200 x 113 cm
+00646	Oil on canvas, 200 x 116 cm
+00647	Oil on canvas, 200 x 117 cm
+00648	Oil on canvas, 200 x 120 cm
+00649	Oil on canvas, 200 x 121 cm
+00650	Oil on canvas, 200 x 141 cm
+00651	Oil on canvas, 200 x 142 cm
+00652	Oil on canvas, 200 x 250 cm
+00653	Oil on canvas, 200 x 271 cm
+00654	Oil on canvas, 201 x 115 cm
+00655	Oil on canvas, 201 x 117 cm
+00656	Oil on canvas, 201 x 141 cm
+00657	Oil on canvas, 201 x 157 cm
+00658	Oil on canvas, 201 x 350 cm
+00659	Oil on canvas, 201 x 92 cm
+00660	Oil on canvas, 201 x 94 cm
+00661	Oil on canvas, 202 x 106 cm
+00662	Oil on canvas, 202 x 117 cm
+00663	Oil on canvas, 202 x 119 cm
+00664	Oil on canvas, 202 x 122 cm
+00665	Oil on canvas, 202 x 172 cm
+00666	Oil on canvas, 202 x 285 cm
+00667	Oil on canvas, 203 x 119 cm
+00668	Oil on canvas, 203 x 121 cm
+00669	Oil on canvas, 203 x 138 cm
+00670	Oil on canvas, 203 x 278 cm
+00671	Oil on canvas, 204 x 117 cm
+00672	Oil on canvas, 204 x 125 cm
+00673	Oil on canvas, 204,5 x 134,5 cm
+00674	Oil on canvas, 205 x 120 cm
+00675	Oil on canvas, 205 x 122 cm
+00676	Oil on canvas, 205 x 123 cm
+00677	Oil on canvas, 205 x 125 cm
+00678	Oil on canvas, 205 x 133 cm
+00679	Oil on canvas, 205 x 140 cm
+00680	Oil on canvas, 206 x 115 cm
+00681	Oil on canvas, 206 x 120 cm
+00682	Oil on canvas, 206 x 123,5 cm
+00683	Oil on canvas, 206 x 130 cm
+00684	Oil on canvas, 207 x 116 cm
+00685	Oil on canvas, 207 x 119 cm
+00686	Oil on canvas, 207 x 127 cm
+00687	Oil on canvas, 207 x 137 cm
+00688	Oil on canvas, 207 x 144 cm
+00689	Oil on canvas, 207 x 164 cm
+00690	Oil on canvas, 207 x 337 cm
+00691	Oil on canvas, 207,3 x 427,5 cm
+00692	Oil on canvas, 208 x 121 cm
+00693	Oil on canvas, 208 x 128 cm
+00694	Oil on canvas, 209 x 125 cm
+00695	Oil on canvas, 209 x 147 cm
+00696	Oil on canvas, 209 x 173 cm
+00697	Oil on canvas, 21 x 16 cm
+00698	Oil on canvas, 21,5 x 17,7 cm
+00699	Oil on canvas, 210 x 102 cm
+00700	Oil on canvas, 210 x 123 cm
+00701	Oil on canvas, 210 x 127 cm
+00702	Oil on canvas, 210 x 129 cm
+00703	Oil on canvas, 210 x 134 cm
+00704	Oil on canvas, 210 x 135 cm
+00705	Oil on canvas, 210 x 149 cm
+00706	Oil on canvas, 210 x 160 cm
+00707	Oil on canvas, 210 x 174 cm
+00708	Oil on canvas, 210,5 x 145,5 cm
+00709	Oil on canvas, 211 x 125 cm
+00710	Oil on canvas, 211 x 130 cm
+00711	Oil on canvas, 211 x 137 cm
+00712	Oil on canvas, 211 x 151 cm
+00713	Oil on canvas, 211 x 158 cm
+00714	Oil on canvas, 212 x 126 cm
+00715	Oil on canvas, 212 x 145 cm
+00716	Oil on canvas, 212 x 146 cm
+00717	Oil on canvas, 212 x 147 cm
+00718	Oil on canvas, 212,1 x 132
+00719	Oil on canvas, 213 x 107 cm
+00720	Oil on canvas, 213 x 114 cm
+00721	Oil on canvas, 213 x 115 cm
+00722	Oil on canvas, 214 x 113 cm
+00723	Oil on canvas, 214 x 125 cm
+00724	Oil on canvas, 214 x 134 cm
+00725	Oil on canvas, 214 x 149 cm
+00726	Oil on canvas, 214 x 270 cm
+00727	Oil on canvas, 215 x 100 cm
+00728	Oil on canvas, 215 x 115 cm
+00729	Oil on canvas, 215 x 117 cm
+00730	Oil on canvas, 216 x 142 cm
+00731	Oil on canvas, 216 x 144 cm
+00732	Oil on canvas, 217 x 130 cm
+00733	Oil on canvas, 217 x 132 cm
+00734	Oil on canvas, 217 x 135,3 cm
+00735	Oil on canvas, 217 x 140 cm
+00736	Oil on canvas, 217 x 141 cm
+00737	Oil on canvas, 217 x 155 cm
+00738	Oil on canvas, 217 x 157 cm
+00739	Oil on canvas, 218 x 137 cm
+00740	Oil on canvas, 218 x 144 cm
+00741	Oil on canvas, 218 x 159 cm
+00742	Oil on canvas, 218 x 164 cm
+00743	Oil on canvas, 218 x 421 cm
+00744	Oil on canvas, 219 x 125 cm
+00745	Oil on canvas, 219 x 134 cm
+00746	Oil on canvas, 220 x 140 cm
+00747	Oil on canvas, 220 x 351 cm
+00748	Oil on canvas, 221 x 140 cm
+00749	Oil on canvas, 221 x 145 cm
+00750	Oil on canvas, 221 x 157 cm
+00751	Oil on canvas, 222 x 109 cm
+00752	Oil on canvas, 222 x 155 cm
+00753	Oil on canvas, 223 x 166 cm
+00754	Oil on canvas, 224 x 152 cm
+00755	Oil on canvas, 225 x 162 cm
+00756	Oil on canvas, 225 x 174 cm
+00757	Oil on canvas, 225,4 x 148,6 cm
+00758	Oil on canvas, 226 x 137 cm
+00759	Oil on canvas, 226 x 152 cm
+00760	Oil on canvas, 226 x 165 cm
+00761	Oil on canvas, 226 x 168 cm
+00762	Oil on canvas, 228 x 153 cm
+00763	Oil on canvas, 228 x 213 cm
+00764	Oil on canvas, 228,6 x 150,5 cm
+00765	Oil on canvas, 229 x 156 cm
+00766	Oil on canvas, 229 x 277 cm
+00767	Oil on canvas, 230 x 132 cm
+00768	Oil on canvas, 230 x 160 cm
+00769	Oil on canvas, 230 x 168 cm
+00770	Oil on canvas, 230 x 180 cm
+00771	Oil on canvas, 231 x 131 cm
+00772	Oil on canvas, 232 x 187 cm
+00773	Oil on canvas, 233 x 137 cm
+00774	Oil on canvas, 233,7 x 134,6
+00775	Oil on canvas, 234 x 145 cm
+00776	Oil on canvas, 234 x 153 cm
+00777	Oil on canvas, 234 x 160 cm
+00778	Oil on canvas, 234,3 x 153,6 cm
+00779	Oil on canvas, 235 x 125 cm
+00780	Oil on canvas, 235 x 158 cm
+00781	Oil on canvas, 235 x 188 cm
+00782	Oil on canvas, 235 x 345 cm
+00783	Oil on canvas, 236 x 145 cm
+00784	Oil on canvas, 236 x 161 cm
+00785	Oil on canvas, 236 x 179 cm
+00786	Oil on canvas, 238 x 146 cm
+00787	Oil on canvas, 238 x 149 cm
+00788	Oil on canvas, 238 x 154 cm
+00789	Oil on canvas, 238 x 157 cm
+00790	Oil on canvas, 238,1 x 145,4 cm
+00791	Oil on canvas, 239 x 144,8 cm
+00792	Oil on canvas, 239 x 147 cm
+00793	Oil on canvas, 239 x 148 cm
+00794	Oil on canvas, 239 x 170 cm
+00795	Oil on canvas, 24 x 19 cm
+00796	Oil on canvas, 240 x 147 cm
+00797	Oil on canvas, 240 x 147,9 cm
+00798	Oil on canvas, 240 x 151 cm
+00799	Oil on canvas, 240 x 165 cm
+00800	Oil on canvas, 240 x 173 cm
+00801	Oil on canvas, 240 x 188 cm
+00802	Oil on canvas, 241 x 140 cm
+00803	Oil on canvas, 241 x 152 cm
+00804	Oil on canvas, 241 x 166 cm
+00805	Oil on canvas, 243 x 179 cm
+00806	Oil on canvas, 243 x 182 cm
+00807	Oil on canvas, 244 x 152,4 cm
+00808	Oil on canvas, 244 x 171 cm
+00809	Oil on canvas, 244 x 179 cm
+00810	Oil on canvas, 244 x 195 cm
+00811	Oil on canvas, 246 x 185 cm
+00812	Oil on canvas, 247 x 147 cm
+00813	Oil on canvas, 248 x 172 cm
+00814	Oil on canvas, 248 x 330 cm
+00815	Oil on canvas, 249 x 149 cm
+00816	Oil on canvas, 249 x 162 cm
+00817	Oil on canvas, 249 x 176 cm
+00818	Oil on canvas, 25 x 32 cm
+00819	Oil on canvas, 25,5 x 20,5 cm
+00820	Oil on canvas, 250 x 153 cm
+00821	Oil on canvas, 250 x 165 cm
+00822	Oil on canvas, 252 x 160 cm
+00823	Oil on canvas, 253 x 191 cm
+00824	Oil on canvas, 254 x 172 cm
+00825	Oil on canvas, 255 x 145 cm
+00826	Oil on canvas, 256 x 132 cm
+00827	Oil on canvas, 256 x 195 cm
+00828	Oil on canvas, 259 y 162 cm
+00829	Oil on canvas, 26 x 19 cm
+00830	Oil on canvas, 26 x 20 cm
+00831	Oil on canvas, 26 x 20,3 cm
+00832	Oil on canvas, 260 x 175 cm
+00833	Oil on canvas, 260 x 180 cm
+00834	Oil on canvas, 262 x 166 cm
+00835	Oil on canvas, 263,5 x 200 cm
+00836	Oil on canvas, 264 cm x 348 cm
+00837	Oil on canvas, 265 x 188 cm
+00838	Oil on canvas, 266 x 207 cm
+00839	Oil on canvas, 268 x 178,5 cm
+00840	Oil on canvas, 269 x 178 cm
+00841	Oil on canvas, 269 x 254 cm
+00842	Oil on canvas, 27 x 23 cm
+00843	Oil on canvas, 27 x 24 cm
+00844	Oil on canvas, 274 x 190 cm
+00845	Oil on canvas, 277 x 147 cm
+00846	Oil on canvas, 277 x 191 cm
+00847	Oil on canvas, 277 x 194 cm
+00848	Oil on canvas, 278 x 196 cm
+00849	Oil on canvas, 279 x 190 cm
+00850	Oil on canvas, 280 x 336 cm
+00851	Oil on canvas, 283 x 188 cm
+00852	Oil on canvas, 283 x 200 cm
+00853	Oil on canvas, 289 x 222 cm
+00854	Oil on canvas, 29 x 59 cm
+00855	Oil on canvas, 292 x 206 cm
+00856	Oil on canvas, 295 x 241 cm
+00857	Oil on canvas, 297 x 309 cm
+00858	Oil on canvas, 301 x 314 cm
+00859	Oil on canvas, 304 x 218 cm
+00860	Oil on canvas, 304 x 317 cm
+00861	Oil on canvas, 305 x 320 cm
+00862	Oil on canvas, 305 x 420 cm
+00863	Oil on canvas, 307 x 186 cm
+00864	Oil on canvas, 31 × 25 cm
+00865	Oil on canvas, 314 x 240 cm
+00866	Oil on canvas, 317 x 185 cm
+00867	Oil on canvas, 318 x 220 cm
+00868	Oil on canvas, 318 x 276 cm
+00869	Oil on canvas, 32 x 19 cm
+00870	Oil on canvas, 32 x 28 cm
+00871	Oil on canvas, 320 x 240 cm
+00872	Oil on canvas, 33 x 25 cm
+00873	Oil on canvas, 33 x 30 cm
+00874	Oil on canvas, 332 x 279 cm
+00875	Oil on canvas, 335 x 258 cm
+00876	Oil on canvas, 34,3 x 40 cm
+00877	Oil on canvas, 34,5 x 28 cm
+00878	Oil on canvas, 347 x 244 cm
+00879	Oil on canvas, 35 x 26 cm
+00880	Oil on canvas, 35 x 30 cm
+00881	Oil on canvas, 36 x 26 cm
+00882	Oil on canvas, 36 x 29 cm
+00883	Oil on canvas, 36 x 30 cm
+00884	Oil on canvas, 361 x 258 cm
+00885	Oil on canvas, 363 x 437 cm
+00886	Oil on canvas, 365 x 289 cm
+00887	Oil on canvas, 37 x 27 cm
+00888	Oil on canvas, 37 x 33 cm
+00889	Oil on canvas, 37,5 x 50 cm
+00890	Oil on canvas, 38 x 29 cm
+00891	Oil on canvas, 38 x 31 cm
+00892	Oil on canvas, 38 x 33, 3 cm
+00893	Oil on canvas, 38 x 49 cm
+00894	Oil on canvas, 383 x 291 cm
+00895	Oil on canvas, 39 x 26 cm
+00896	Oil on canvas, 39 x 31 cm
+00897	Oil on canvas, 39,1 x 31,1 cm
+00898	Oil on canvas, 39,5 x 32,7 cm
+00899	Oil on canvas, 40 x 30 cm
+00900	Oil on canvas, 40 x 32 cm
+00901	Oil on canvas, 40 x 33 cm
+00902	Oil on canvas, 40 x 34 cm
+00903	Oil on canvas, 40 x 36 cm
+00904	Oil on canvas, 40,5 X 32,5 cm
+00905	Oil on canvas, 406 x 511 cm
+00906	Oil on canvas, 41 x 31 cm
+00907	Oil on canvas, 41 x 32 cm
+00908	Oil on canvas, 41 x 33 cm
+00909	Oil on canvas, 42 x 28 cm
+00910	Oil on canvas, 42 x 33 cm
+00911	Oil on canvas, 42 x 35 cm
+00912	Oil on canvas, 42 x 38 cm
+00913	Oil on canvas, 43 x 28 cm
+00914	Oil on canvas, 43 x 29 cm
+00915	Oil on canvas, 43 x 33 cm
+00916	Oil on canvas, 44 x 33 cm
+00917	Oil on canvas, 44 x 37 cm
+00918	Oil on canvas, 44 x 41,5 cm
+00919	Oil on canvas, 44 x 42 cm
+00920	Oil on canvas, 44 x 43 cm
+00921	Oil on canvas, 44 x 88 cm
+00922	Oil on canvas, 44,5 x 40 cm
+00923	Oil on canvas, 45 x 34 cm
+00924	Oil on canvas, 45 x 37 cm
+00925	Oil on canvas, 45 x 38 cm
+00926	Oil on canvas, 45 x 63 cm
+00927	Oil on canvas, 45,7 x 37,5 cm
+00928	Oil on canvas, 46 x 36 cm
+00929	Oil on canvas, 46 x 37 cm
+00930	Oil on canvas, 46 x 38 cm
+00931	Oil on canvas, 46 x 55 cm
+00932	Oil on canvas, 46 x 56 cm
+00933	Oil on canvas, 46,5 x 40 cm
+00934	Oil on canvas, 47 x 34 cm
+00935	Oil on canvas, 47 x 36 cm
+00936	Oil on canvas, 47 x 37 cm
+00937	Oil on canvas, 47 x 37,5 cm
+00938	Oil on canvas, 47 x 38 cm
+00939	Oil on canvas, 47 x 39 cm
+00940	Oil on canvas, 47 x 41 cm
+00941	Oil on canvas, 48 x 33 cm
+00942	Oil on canvas, 48 x 34 cm
+00943	Oil on canvas, 48 x 36 cm
+00944	Oil on canvas, 48 x 38 cm
+00945	Oil on canvas, 48 x 39 cm
+00946	Oil on canvas, 48 x 40 cm
+00947	Oil on canvas, 49 x 39 cm
+00948	Oil on canvas, 49 x 40 cm
+00949	Oil on canvas, 49,2 x 41,3 cm
+00950	Oil on canvas, 49,5 x 42,5 cm
+00951	Oil on canvas, 50 x 40 cm
+00952	Oil on canvas, 50 x 56 cm
+00953	Oil on canvas, 51 x 38 cm
+00954	Oil on canvas, 51 x 40 cm
+00955	Oil on canvas, 51 x 41 cm
+00956	Oil on canvas, 51 x 42 cm
+00957	Oil on canvas, 51 x 45 cm
+00958	Oil on canvas, 52 x 43 cm
+00959	Oil on canvas, 52 x 44 cm
+00960	Oil on canvas, 52 x 79 cm
+00961	Oil on canvas, 53 x 40 cm
+00962	Oil on canvas, 53 x 43 cm
+00963	Oil on canvas, 53 x 43 cn
+00964	Oil on canvas, 53 x 44 cm
+00965	Oil on canvas, 53 x 45 cm
+00966	Oil on canvas, 53 x 47 cm
+00967	Oil on canvas, 53,3 x 47 cm
+00968	Oil on canvas, 54 x 40 cm
+00969	Oil on canvas, 54 x 42 cm
+00970	Oil on canvas, 54 x 43 cm
+00971	Oil on canvas, 54 x 45 cm
+00972	Oil on canvas, 54 x 46 cm
+00973	Oil on canvas, 54 x 47 cm
+00974	Oil on canvas, 54 x 62 cm
+00975	Oil on canvas, 54 x 64 cm
+00976	Oil on canvas, 54 x 65 cm
+00977	Oil on canvas, 55 x 39 cm
+00978	Oil on canvas, 55 x 40 cm
+00979	Oil on canvas, 55 x 41 cm
+00980	Oil on canvas, 55 x 45 cm
+00981	Oil on canvas, 55 x 45,7 cm
+00982	Oil on canvas, 55 x 46 cm
+00983	Oil on canvas, 55 x 49 cm
+00984	Oil on canvas, 55,2 x 43,2 cm
+00985	Oil on canvas, 56 x 24 cm
+00986	Oil on canvas, 56 x 38 cm
+00987	Oil on canvas, 56 x 43 cm
+00988	Oil on canvas, 56 x 44 cm
+00989	Oil on canvas, 56 x 46 cm
+00990	Oil on canvas, 56 x 47 cm
+00991	Oil on canvas, 56 x 50 cm
+00992	Oil on canvas, 56,5 x 42,5 cm
+00993	Oil on canvas, 57 x 40 cm
+00994	Oil on canvas, 57 x 46 cm
+00995	Oil on canvas, 57 x 47 cm
+00996	Oil on canvas, 57 x 48 cm
+00997	Oil on canvas, 57 x 68 cm
+00998	Oil on canvas, 57,8 x 47,5 cm
+00999	Oil on canvas, 58 x 42 cm
+01000	Oil on canvas, 58 x 44 cm
+01001	Oil on canvas, 58 x 44,5 cm
+01002	Oil on canvas, 58 x 46 cm
+01003	Oil on canvas, 58 x 47 cm
+01004	Oil on canvas, 58 x 48 cm
+01005	Oil on canvas, 58 x 49 cm
+01006	Oil on canvas, 58 x 72 cm
+01007	Oil on canvas, 58 x 86 cm
+01008	Oil on canvas, 58,5 x 47 cm
+01009	Oil on canvas, 59 x 42 cm
+01010	Oil on canvas, 59 x 43 cm
+01011	Oil on canvas, 59 x 45 cm
+01012	Oil on canvas, 59 x 46 cm
+01013	Oil on canvas, 59 x 47 cm
+01014	Oil on canvas, 59 x 49 cm
+01015	Oil on canvas, 59 x 50 cm
+01016	Oil on canvas, 59 x 51 cm
+01017	Oil on canvas, 59,5 x 73,5 cm
+01018	Oil on canvas, 60 x 41 cm
+01019	Oil on canvas, 60 x 44 cm
+01020	Oil on canvas, 60 x 45 cm
+01021	Oil on canvas, 60 x 46 cm
+01022	Oil on canvas, 60 x 47 cm
+01023	Oil on canvas, 60 x 48 cm
+01024	Oil on canvas, 60 x 49,5 cm
+01025	Oil on canvas, 60 x 50 cm
+01026	Oil on canvas, 60 x 51 cm
+01027	Oil on canvas, 60 x 53 cm
+01028	Oil on canvas, 60 x 55,6 cm
+01029	Oil on canvas, 60 x 70 cm
+01030	Oil on canvas, 60 x 73 cm
+01031	Oil on canvas, 60 x 74 cm
+01032	Oil on canvas, 61 x 45 cm
+01033	Oil on canvas, 61 x 46 cm
+01034	Oil on canvas, 61 x 48 cm
+01035	Oil on canvas, 61 x 50 cm
+01036	Oil on canvas, 61 x 51 cm
+01037	Oil on canvas, 61 x 53,3 cm
+01038	Oil on canvas, 61 x 55 cm
+01039	Oil on canvas, 61,2 x 50,2 cm
+01040	Oil on canvas, 62 x 40 cm
+01041	Oil on canvas, 62 x 46 cm
+01042	Oil on canvas, 62 x 47 cm
+01043	Oil on canvas, 62 x 48 cm
+01044	Oil on canvas, 62 x 50 cm
+01045	Oil on canvas, 62 x 51 cm
+01046	Oil on canvas, 62 x 59 cm
+01047	Oil on canvas, 63 x 43 cm
+01048	Oil on canvas, 63 x 47 cm
+01049	Oil on canvas, 63 x 49 cm
+01050	Oil on canvas, 63 x 50 cm
+01051	Oil on canvas, 63 x 51 cm
+01052	Oil on canvas, 63 x 52 cm
+01053	Oil on canvas, 63 x 88 cm
+01054	Oil on canvas, 63,5 x 52,5 cm
+01055	Oil on canvas, 64 x 45 cm
+01056	Oil on canvas, 64 x 48 cm
+01057	Oil on canvas, 64 x 49 cm
+01058	Oil on canvas, 64 x 50 cm
+01059	Oil on canvas, 64 x 51 cm
+01060	Oil on canvas, 64 x 52 cm
+01061	Oil on canvas, 64 x 52,5 cm
+01062	Oil on canvas, 64 x 53 cm
+01063	Oil on canvas, 64 x 54 cm
+01064	Oil on canvas, 64 x 55 cm
+01065	Oil on canvas, 64 x 72 cm
+01066	Oil on canvas, 64 x 81 cm
+01067	Oil on canvas, 64,5 x 46,3 cm
+01068	Oil on canvas, 64,5 x 49 cm
+01069	Oil on canvas, 64,8 x 48,9 cm
+01070	Oil on canvas, 65 s 54 cm
+01071	Oil on canvas, 65 x 48 cm
+01072	Oil on canvas, 65 x 49 cm
+01073	Oil on canvas, 65 x 50 cm
+01074	Oil on canvas, 65 x 51 cm
+01075	Oil on canvas, 65 x 52 cm
+01076	Oil on canvas, 65 x 54 cm
+01077	Oil on canvas, 65 x 54,5 cm
+01078	Oil on canvas, 65 x 65 cm
+01079	Oil on canvas, 65 × 54 cm
+01080	Oil on canvas, 65,5 x 52,5 cm
+01081	Oil on canvas, 65,8 x 52,3 cm
+01082	Oil on canvas, 66 x 47 cm
+01083	Oil on canvas, 66 x 48,5 cm
+01084	Oil on canvas, 66 x 49,5 cm
+01085	Oil on canvas, 66 x 50,5 cm
+01086	Oil on canvas, 66 x 53 cm
+01087	Oil on canvas, 66 x 54 cm
+01088	Oil on canvas, 66 x 55 cm
+01089	Oil on canvas, 66 x 56 cm
+01090	Oil on canvas, 66 x 57 cm
+01091	Oil on canvas, 66 x 70 cm
+01092	Oil on canvas, 66,6 x 53,8 cm
+01093	Oil on canvas, 67 x 50 cm
+01094	Oil on canvas, 67 x 51 cm
+01095	Oil on canvas, 67 x 52 cm
+01096	Oil on canvas, 67 x 53 cm
+01097	Oil on canvas, 67 x 54 cm
+01098	Oil on canvas, 67 x 55 cm
+01099	Oil on canvas, 67 x 56 cm
+01100	Oil on canvas, 67 x 76 cm
+01101	Oil on canvas, 67 x 83 cm
+01102	Oil on canvas, 67,5 x 50,7 cm
+01103	Oil on canvas, 67,5 x 57,5 cm
+01104	Oil on canvas, 68 x 101 cm
+01105	Oil on canvas, 68 x 50 cm
+01106	Oil on canvas, 68 x 55 cm
+01107	Oil on canvas, 68 x 56 cm
+01108	Oil on canvas, 68 x 58 cm
+01109	Oil on canvas, 68 x 59 cm
+01110	Oil on canvas, 68 x 65 cm
+01111	Oil on canvas, 68,5 x 52,5 cm
+01112	Oil on canvas, 69 x 56 cm
+01113	Oil on canvas, 69 x 57 cm
+01114	Oil on canvas, 69 x 59 cm
+01115	Oil on canvas, 69 x 60,5 cm
+01116	Oil on canvas, 69 x 84 cm
+01117	Oil on canvas, 69 x 87 cm
+01118	Oil on canvas, 70 x 119 cm
+01119	Oil on canvas, 70 x 50 cm
+01120	Oil on canvas, 70 x 52 cm
+01121	Oil on canvas, 70 x 55 cm
+01122	Oil on canvas, 70 x 57 cm
+01123	Oil on canvas, 70 x 58 cm
+01124	Oil on canvas, 70 x 59 cm
+01125	Oil on canvas, 70 x 60 cm
+01126	Oil on canvas, 70 x 61 cm
+01127	Oil on canvas, 70 x 63 cm
+01128	Oil on canvas, 70 x 66 cm
+01129	Oil on canvas, 70 x 67 cm
+01130	Oil on canvas, 70 x 82 cm
+01131	Oil on canvas, 70,5 x 61,5 cm
+01132	Oil on canvas, 70,8 x 62,7 cm
+01133	Oil on canvas, 71 x 56 cm
+01134	Oil on canvas, 71 x 57 cm
+01135	Oil on canvas, 71 x 58 cm
+01136	Oil on canvas, 71 x 59 cm
+01137	Oil on canvas, 71 x 64 cm
+01138	Oil on canvas, 71 x 78 cm
+01139	Oil on canvas, 71 x 84 cm
+01140	Oil on canvas, 71,2 x 61 cm
+01141	Oil on canvas, 72 x 111 cm
+01142	Oil on canvas, 72 x 54 cm
+01143	Oil on canvas, 72 x 56 cm
+01144	Oil on canvas, 72 x 57 cm
+01145	Oil on canvas, 72 x 57,5 cm (original support)
+01146	Oil on canvas, 72 x 58 cm
+01147	Oil on canvas, 72 x 59 cm
+01148	Oil on canvas, 72 x 61 cm
+01149	Oil on canvas, 72 x 63 cm
+01150	Oil on canvas, 72 x 79 cm
+01151	Oil on canvas, 72 x 91 cm
+01152	Oil on canvas, 72 x 97 cm
+01153	Oil on canvas, 72,5 x 57 cm
+01154	Oil on canvas, 72.3 x 65.3 cm
+01155	Oil on canvas, 73 x 51 cm
+01156	Oil on canvas, 73 x 54 cm
+01157	Oil on canvas, 73 x 58 cm
+01158	Oil on canvas, 73 x 59 cm
+01159	Oil on canvas, 73 x 60 cm
+01160	Oil on canvas, 73 x 61 cm
+01161	Oil on canvas, 73 x 62 cm
+01162	Oil on canvas, 73 x 64 cm
+01163	Oil on canvas, 73 x 92 cm
+01164	Oil on canvas, 73 x 96 cm
+01165	Oil on canvas, 73,2 x 59,4 cm
+01166	Oil on canvas, 73,7 x 56 cm
+01167	Oil on canvas, 74 x 51,5 cm
+01168	Oil on canvas, 74 x 56 cm
+01169	Oil on canvas, 74 x 58 cm
+01170	Oil on canvas, 74 x 59 cm
+01171	Oil on canvas, 74 x 60 cm
+01172	Oil on canvas, 74 x 61 cm
+01173	Oil on canvas, 74 x 62 cm
+01174	Oil on canvas, 74 x 66 cm
+01175	Oil on canvas, 74 x 68 cm
+01176	Oil on canvas, 74 x 92 cm
+01177	Oil on canvas, 75 x 52 cm
+01178	Oil on canvas, 75 x 55 cm
+01179	Oil on canvas, 75 x 57 cm
+01180	Oil on canvas, 75 x 58 cm
+01181	Oil on canvas, 75 x 59 cm
+01182	Oil on canvas, 75 x 60 cm
+01183	Oil on canvas, 75 x 61 cm
+01184	Oil on canvas, 75 x 62 cm
+01185	Oil on canvas, 75 x 63 cm
+01186	Oil on canvas, 75 x 64 cm
+01187	Oil on canvas, 75 x 67 cm
+01188	Oil on canvas, 75,6 x 62,9 cm
+01189	Oil on canvas, 76 c 63,5 cm
+01190	Oil on canvas, 76 x 46 cm
+01191	Oil on canvas, 76 x 54 cm
+01192	Oil on canvas, 76 x 56 cm
+01193	Oil on canvas, 76 x 57 cm
+01194	Oil on canvas, 76 x 60 cm
+01195	Oil on canvas, 76 x 61 cm
+01196	Oil on canvas, 76 x 62 cm
+01197	Oil on canvas, 76 x 63 cm
+01198	Oil on canvas, 76 x 64 cm
+01199	Oil on canvas, 76 x 64,5 cm
+01200	Oil on canvas, 76 x 85,5 cm
+01201	Oil on canvas, 76,5 x 63,5 cm
+01202	Oil on canvas, 76,8 x 63,5 cm
+01203	Oil on canvas, 77 64 cm
+01204	Oil on canvas, 77 x 100 cm
+01205	Oil on canvas, 77 x 111 cm
+01206	Oil on canvas, 77 x 128 cm
+01207	Oil on canvas, 77 x 46 cm
+01208	Oil on canvas, 77 x 56 cm
+01209	Oil on canvas, 77 x 60 cm
+01210	Oil on canvas, 77 x 60,5 cm
+01211	Oil on canvas, 77 x 61 cm
+01212	Oil on canvas, 77 x 63 cm
+01213	Oil on canvas, 77 x 64 cm
+01214	Oil on canvas, 77 x 65 cm
+01215	Oil on canvas, 77,5 x 61 cm
+01216	Oil on canvas, 77,5 x 62,5 cm
+01217	Oil on canvas, 78 x 101 cm
+01218	Oil on canvas, 78 x 61 cm
+01219	Oil on canvas, 78 x 62 cm
+01220	Oil on canvas, 78 x 63 cm
+01221	Oil on canvas, 78 x 64 cm
+01222	Oil on canvas, 78 x 65 cm
+01223	Oil on canvas, 78 x 66 cm
+01224	Oil on canvas, 78 x 69 cm
+01225	Oil on canvas, 78 x 72 cm
+01226	Oil on canvas, 78 x 92 cm
+01227	Oil on canvas, 78,0 x 63,8 cm
+01228	Oil on canvas, 78,5 x 61 cm
+01229	Oil on canvas, 79 x 57 cm
+01230	Oil on canvas, 79 x 62 cm
+01231	Oil on canvas, 79 x 64 cm
+01232	Oil on canvas, 79 x 67 cm
+01233	Oil on canvas, 79 x 68 cm
+01234	Oil on canvas, 79 x 76 cm
+01235	Oil on canvas, 79,5 x 65 cm
+01236	Oil on canvas, 79,5 x 66,5 cm
+01237	Oil on canvas, 79,5 x 68 cm
+01238	Oil on canvas, 79,8 x 59 cm
+01239	Oil on canvas, 80 x 50 cm
+01240	Oil on canvas, 80 x 58 cm
+01241	Oil on canvas, 80 x 63 cm
+01242	Oil on canvas, 80 x 64 cm
+01243	Oil on canvas, 80 x 65 cm
+01244	Oil on canvas, 80 x 65,9 cm
+01245	Oil on canvas, 80 x 66 cm
+01246	Oil on canvas, 80 x 67 cm
+01247	Oil on canvas, 80 x 67,5 cm
+01248	Oil on canvas, 80 x 68 cm
+01249	Oil on canvas, 80 x 69 cm
+01250	Oil on canvas, 80,3 x 64,3 cm
+01251	Oil on canvas, 80,5 x 64 cm
+01252	Oil on canvas, 80,6 x 66,7 cm
+01253	Oil on canvas, 81 x 101 cm
+01254	Oil on canvas, 81 x 54 cm
+01255	Oil on canvas, 81 x 56 cm
+01256	Oil on canvas, 81 x 59 cm
+01257	Oil on canvas, 81 x 60 cm
+01258	Oil on canvas, 81 x 62 cm
+01259	Oil on canvas, 81 x 63 cm
+01260	Oil on canvas, 81 x 64 cm
+01261	Oil on canvas, 81 x 65 cm
+01262	Oil on canvas, 81 x 66 cm
+01263	Oil on canvas, 81 x 66,5 cm
+01264	Oil on canvas, 81 x 67 cm
+01265	Oil on canvas, 81 x 69 cm
+01266	Oil on canvas, 81,3 x 66 cm (each)
+01267	Oil on canvas, 81,3 x 69,9 cm
+01268	Oil on canvas, 82 x 55 cm
+01269	Oil on canvas, 82 x 60,5 cm
+01270	Oil on canvas, 82 x 64 cm
+01271	Oil on canvas, 82 x 65 cm
+01272	Oil on canvas, 82 x 66 cm
+01273	Oil on canvas, 82 x 66,5 cm
+01274	Oil on canvas, 82 x 67 cm
+01275	Oil on canvas, 82 x 70 cm
+01276	Oil on canvas, 82 x 71 cm
+01277	Oil on canvas, 82 x 78 cm
+01278	Oil on canvas, 82,2, x 70,5 cm
+01279	Oil on canvas, 82,5 x 61,7 cm
+01280	Oil on canvas, 82,5 x 65 cm
+01281	Oil on canvas, 82,5 x 70 cm
+01282	Oil on canvas, 83 x 103 cm
+01283	Oil on canvas, 83 x 110 cm
+01284	Oil on canvas, 83 x 60 cm
+01285	Oil on canvas, 83 x 62 cm
+01286	Oil on canvas, 83 x 65 cm
+01287	Oil on canvas, 83 x 66 cm
+01288	Oil on canvas, 83 x 67 cm
+01289	Oil on canvas, 83 x 68 cm
+01290	Oil on canvas, 83 x 69 cm
+01291	Oil on canvas, 83 x 73 cm
+01292	Oil on canvas, 83 x 74 cm
+01293	Oil on canvas, 84 x 108 cm
+01294	Oil on canvas, 84 x 112 cm
+01295	Oil on canvas, 84 x 57 cm
+01296	Oil on canvas, 84 x 60 cm
+01297	Oil on canvas, 84 x 65 cm
+01298	Oil on canvas, 84 x 66 cm
+01299	Oil on canvas, 84 x 67 cm
+01300	Oil on canvas, 84 x 69 cm
+01301	Oil on canvas, 84 x 71 cm
+01302	Oil on canvas, 84,5 x 51,5 cm
+01303	Oil on canvas, 84,5 x 66,5 cm
+01304	Oil on canvas, 84,7 x 67 cm
+01305	Oil on canvas, 85 x 100 cm
+01306	Oil on canvas, 85 x 105 cm
+01307	Oil on canvas, 85 x 37 cm
+01308	Oil on canvas, 85 x 66 cm
+01309	Oil on canvas, 85 x 66,3 cm
+01310	Oil on canvas, 85 x 68 cm
+01311	Oil on canvas, 85 x 69 cm
+01312	Oil on canvas, 85 x 70 cm
+01313	Oil on canvas, 85 x 75 cm
+01314	Oil on canvas, 85,8 x 66,9 cm
+01315	Oil on canvas, 86 x 62 cm
+01316	Oil on canvas, 86 x 65 cm
+01317	Oil on canvas, 86 x 66 cm
+01318	Oil on canvas, 86 x 67 cm
+01319	Oil on canvas, 86 x 69 cm
+01320	Oil on canvas, 86 x 70 cm
+01321	Oil on canvas, 86 x 70.5 cm
+01322	Oil on canvas, 86 x 71 cm
+01323	Oil on canvas, 87 x 124 cm
+01324	Oil on canvas, 87 x 61,5 cm
+01325	Oil on canvas, 87 x 67 cm
+01326	Oil on canvas, 87 x 68 cm
+01327	Oil on canvas, 87 x 69 cm
+01328	Oil on canvas, 87 x 71 cm
+01329	Oil on canvas, 87 x 72 cm
+01330	Oil on canvas, 87 x 74 cm
+01331	Oil on canvas, 87 x 91,5 cm
+01332	Oil on canvas, 87,5 x 71,5 cm
+01333	Oil on canvas, 88 x 120 cm
+01334	Oil on canvas, 88 x 67 cm
+01335	Oil on canvas, 88 x 68 cm
+01336	Oil on canvas, 88 x 69 cm
+01337	Oil on canvas, 88 x 71 cm
+01338	Oil on canvas, 88 x 72 cm
+01339	Oil on canvas, 88 x 75 cm
+01340	Oil on canvas, 88 x 76 cm
+01341	Oil on canvas, 88 x 79 cm
+01342	Oil on canvas, 88 × 67 cm
+01343	Oil on canvas, 89 x 68 cm
+01344	Oil on canvas, 89 x 69 cm
+01345	Oil on canvas, 89 x 70 cm
+01346	Oil on canvas, 89 x 71 cm
+01347	Oil on canvas, 89 x 72 cm
+01348	Oil on canvas, 89 x 76 cm
+01349	Oil on canvas, 89 x 78 cm
+01350	Oil on canvas, 89 x 86 cm
+01351	Oil on canvas, 89,5 x 72 cm
+01352	Oil on canvas, 89,6 x 71,2 cm
+01353	Oil on canvas, 90 x 69 cm
+01354	Oil on canvas, 90 x 70 cm
+01355	Oil on canvas, 90 x 72 cm
+01356	Oil on canvas, 90 x 73 cm
+01357	Oil on canvas, 90 x 74 cm
+01358	Oil on canvas, 90 x 75 cm
+01359	Oil on canvas, 90 x 83 cm
+01360	Oil on canvas, 90,2 x 73 cm
+01361	Oil on canvas, 91 x 103 cm
+01362	Oil on canvas, 91 x 123 cm
+01363	Oil on canvas, 91 x 67 cm
+01364	Oil on canvas, 91 x 68 cm
+01365	Oil on canvas, 91 x 69 cm
+01366	Oil on canvas, 91 x 71 cm
+01367	Oil on canvas, 91 x 72 cm
+01368	Oil on canvas, 91 x 73 cm
+01369	Oil on canvas, 91 x 74 cm
+01370	Oil on canvas, 91 x 77 cm
+01371	Oil on canvas, 91 x 79 cm
+01372	Oil on canvas, 91 x 81 cm
+01373	Oil on canvas, 91,5 x 71,5 cm
+01374	Oil on canvas, 92 x 60 cm
+01375	Oil on canvas, 92 x 71 cm
+01376	Oil on canvas, 92 x 72 cm
+01377	Oil on canvas, 92 x 73 cm
+01378	Oil on canvas, 92 x 74 cm
+01379	Oil on canvas, 92 x 75 cm
+01380	Oil on canvas, 92 x 77 cm
+01381	Oil on canvas, 92,5 x 75,5 cm
+01382	Oil on canvas, 93 cm x 78 cm
+01383	Oil on canvas, 93 x 68 cm
+01384	Oil on canvas, 93 x 73 cm
+01385	Oil on canvas, 93 x 74 cm
+01386	Oil on canvas, 93 x 75 cm
+01387	Oil on canvas, 93 x 76 cm
+01388	Oil on canvas, 93 x 81 cm
+01389	Oil on canvas, 93 x 84 cm
+01390	Oil on canvas, 94 x 156,5 cm
+01391	Oil on canvas, 94 x 72 cm
+01392	Oil on canvas, 94 x 75 cm
+01393	Oil on canvas, 94 x 76 cm
+01394	Oil on canvas, 94 x 78 cm
+01395	Oil on canvas, 94 x 79 cm
+01396	Oil on canvas, 94 x 82 cm
+01397	Oil on canvas, 94 x 87 cm
+01398	Oil on canvas, 94,5 x 128,5 cm
+01399	Oil on canvas, 94,5 x 78,5 cm
+01400	Oil on canvas, 95 x 128 cm
+01401	Oil on canvas, 95 x 63 cm
+01402	Oil on canvas, 95 x 70 cm
+01403	Oil on canvas, 95 x 73 cm
+01404	Oil on canvas, 95 x 76 cm
+01405	Oil on canvas, 95 x 77 cm
+01406	Oil on canvas, 95 x 80 cm
+01407	Oil on canvas, 95,5 x 77 cm
+01408	Oil on canvas, 96 x 111 cm
+01409	Oil on canvas, 96 x 116 cm
+01410	Oil on canvas, 96 x 125 cm
+01411	Oil on canvas, 96 x 70 cm
+01412	Oil on canvas, 96 x 70 cm (full painting)
+01413	Oil on canvas, 96 x 71 cm
+01414	Oil on canvas, 96 x 75 cm
+01415	Oil on canvas, 96 x 77 cm
+01416	Oil on canvas, 96 x 78 cm
+01417	Oil on canvas, 96 x 83 cm
+01418	Oil on canvas, 96 x 87 cm
+01419	Oil on canvas, 96,5 x 73,7 cm
+01420	Oil on canvas, 96,5 x 91 cm
+01421	Oil on canvas, 97 x 149 cm
+01422	Oil on canvas, 97 x 51,5 cm
+01423	Oil on canvas, 97 x 61 cm
+01424	Oil on canvas, 97 x 69 cm
+01425	Oil on canvas, 97 x 71 cm
+01426	Oil on canvas, 97 x 73 cm
+01427	Oil on canvas, 97 x 74 cm
+01428	Oil on canvas, 97 x 78 cm
+01429	Oil on canvas, 98 x 111 cm
+01430	Oil on canvas, 98 x 70 cm
+01431	Oil on canvas, 98 x 73,5 cm
+01432	Oil on canvas, 98 x 74 cm
+01433	Oil on canvas, 98 x 75 cm
+01434	Oil on canvas, 98 x 79 cm
+01435	Oil on canvas, 98 x 82 cm
+01436	Oil on canvas, 98 x 84 cm
+01437	Oil on canvas, 99 x 74 cm
+01438	Oil on canvas, 99 x 75 cm
+01439	Oil on canvas, 99 x 79 cm
+01440	Oil on canvas, 99 x 81 cm
+01441	Oil on canvas, 99 x 82 cm
+01442	Oil on canvas, 99 x 83 cm
+01443	Oil on canvas, 99,5 x 80,5 cm
+01444	Oil on canvas, on paper board, 48 x 64 cm
+01445	Oil on canvas,127 x 98 cm
+01446	Oil on canvas,79 x 59 cm
+01447	Oil on canvas. 73 x 63 cm
+01448	Oil on canvasl, transferred from panel, 48 x 36 cm
+01449	Oil on cardboard, 7,9 x 5,7 cm
+01450	Oil on copper set into a wooden panel, 15,5 x 12 cm
+01451	Oil on copper, 12 x 9 cm
+01452	Oil on copper, 16 x 12 cm
+01453	Oil on copper, 16,2 x 12,3 cm
+01454	Oil on copper, 22 x 15 cm
+01455	Oil on copper, 30 x 41 cm
+01456	Oil on copper, 37 x 27 cm
+01457	Oil on copper, 37 x 28 cm
+01458	Oil on copper, 41 x 30 cm
+01459	Oil on copper, 43 x 32 cm
+01460	Oil on copper, 43 x 39 cm
+01461	Oil on copper, 86 x 69,5 cm
+01462	Oil on copper, 9 x 6 cm
+01463	Oil on copper, diameter 16 cm
+01464	Oil on elm panel, 32,5 x 24,5 cm
+01465	Oil on lime panel
+01466	Oil on lime panel, 49,6 x 39 cm
+01467	Oil on lime panel, 62 x 46 cm
+01468	Oil on lime panel, 67,1 x 48,7 cm
+01469	Oil on lime wood panel, 57 x 37 cm
+01470	Oil on limewood panel, 37 x 25 cm
+01471	Oil on limewood panel, 56 x 38 cm
+01472	Oil on limewood, 62 x 89 cm
+01473	Oil on linden wood, 34 x 26 cm
+01474	Oil on lindenwood, 187,7 x 87,5 cm
+01475	Oil on lindenwood, 188 x 87,6 cm
+01476	Oil on lindenwood, 35 x 29 cm
+01477	Oil on lindenwood, 36,7 x 36,6 cm
+01478	Oil on lindenwood, 74 x 62 cm
+01479	Oil on linen, transferred from vellum, 57 x 45 cm
+01480	Oil on mahogany panel, 119 x 89 cm
+01481	Oil on mahogany, 75 x 60 cm
+01482	Oil on metal, diameter 10 cm
+01483	Oil on oak
+01484	Oil on oak panel
+01485	Oil on oak panel, 104 x 84 cm
+01486	Oil on oak panel, 107 x 77 cm
+01487	Oil on oak panel, 16 x 12 cm
+01488	Oil on oak panel, 24 x 16 cm
+01489	Oil on oak panel, 24 x 17 cm
+01490	Oil on oak panel, 24,5 x 20,3 cm
+01491	Oil on oak panel, 26 x 20 cm
+01492	Oil on oak panel, 28 x 23 cm
+01493	Oil on oak panel, 29 x 21 cm
+01494	Oil on oak panel, 29 x 22 cm
+01495	Oil on oak panel, 29,2 x 22,5 cm
+01496	Oil on oak panel, 30 x 20 cm
+01497	Oil on oak panel, 30 x 22 cm
+01498	Oil on oak panel, 30,5 x 21,5 cm
+01499	Oil on oak panel, 30,5 x 22,4 cm
+01500	Oil on oak panel, 31 x 23,2 cm
+01501	Oil on oak panel, 31,8 x 27,1 cm
+01502	Oil on oak panel, 31,9 x 25,8 cm
+01503	Oil on oak panel, 32 x 22,8 cm
+01504	Oil on oak panel, 34 x 24 cm
+01505	Oil on oak panel, 34 x 46 cm
+01506	Oil on oak panel, 34,2 x 22,8 cm
+01507	Oil on oak panel, 34,5 x 27 cm
+01508	Oil on oak panel, 34,7 x 25 cm
+01509	Oil on oak panel, 36 x 25,2 cm
+01510	Oil on oak panel, 36 x 26 cm
+01511	Oil on oak panel, 36 x 31 cm
+01512	Oil on oak panel, 36 x 34 cm
+01513	Oil on oak panel, 36,5 x 27 cm
+01514	Oil on oak panel, 37 x 25 cm
+01515	Oil on oak panel, 37 x 27 cm
+01516	Oil on oak panel, 37 x 28 cm
+01517	Oil on oak panel, 38 x 26,5 cm
+01518	Oil on oak panel, 38 x 29 cm
+01519	Oil on oak panel, 38,5 x 28,6 cm
+01520	Oil on oak panel, 40 x 29 cm
+01521	Oil on oak panel, 41,5 x 33 cm
+01522	Oil on oak panel, 43 x 31 cm
+01523	Oil on oak panel, 44 x 30 cm
+01524	Oil on oak panel, 44 x 32 cm
+01525	Oil on oak panel, 44 x 34 cm
+01526	Oil on oak panel, 44 x 35 cm
+01527	Oil on oak panel, 45 x 35 cm
+01528	Oil on oak panel, 45,4 x 31,5 cm
+01529	Oil on oak panel, 46 x 31 cm
+01530	Oil on oak panel, 46 x 37 cm
+01531	Oil on oak panel, 47 x 32 cm
+01532	Oil on oak panel, 47 x 35 cm
+01533	Oil on oak panel, 49 x 30 cm
+01534	Oil on oak panel, 49 x 32 cm
+01535	Oil on oak panel, 49,3 x 31,5 cm
+01536	Oil on oak panel, 50 x 39 cm
+01537	Oil on oak panel, 50,8 x 36,1 cm
+01538	Oil on oak panel, 51,2 x 39,8 cm
+01539	Oil on oak panel, 52 x 41,5 cm
+01540	Oil on oak panel, 52 x 41,5 cm (each)
+01541	Oil on oak panel, 53 x 42 cm
+01542	Oil on oak panel, 56 x 43 cm
+01543	Oil on oak panel, 57 x 46 cm
+01544	Oil on oak panel, 58 x 47 cm
+01545	Oil on oak panel, 60 x 42 cm (each)
+01546	Oil on oak panel, 61 x 46 cm
+01547	Oil on oak panel, 64 x 48 cm
+01548	Oil on oak panel, 69 x 49 cm
+01549	Oil on oak panel, 79 x 61,5 cm
+01550	Oil on oak panel, 97,5 x 52 cm
+01551	Oil on oak panel, 97,5 x 71,2 cm
+01552	Oil on oak panel, 97,7 x 71,4 cm
+01553	Oil on oak, 103 x 166 cm
+01554	Oil on oak, 106 x 83 cm
+01555	Oil on oak, 117 x 85 cm
+01556	Oil on oak, 130 x 185 cm
+01557	Oil on oak, 179 x 83 cm
+01558	Oil on oak, 207 x 209 cm
+01559	Oil on oak, 23 x 17 cm
+01560	Oil on oak, 24,7 x 19,6 cm
+01561	Oil on oak, 26 x 20 cm
+01562	Oil on oak, 26,3 x 18,7 cm
+01563	Oil on oak, 29 x 20 cm
+01564	Oil on oak, 29 x22 cm
+01565	Oil on oak, 38 x 58 cm
+01566	Oil on oak, 39 x 29,7 cm (each)
+01567	Oil on oak, 39 x 32 cm
+01568	Oil on oak, 40 x 29 cm
+01569	Oil on oak, 47,7 x 34,8 cm
+01570	Oil on oak, 50 x 36 cm
+01571	Oil on oak, 51 x 37 cm
+01572	Oil on oak, 53 x 45 cm
+01573	Oil on oak, 54 x 38,7 cm
+01574	Oil on oak, 57 x 38,5 cm
+01575	Oil on oak, 57 x 44 cm
+01576	Oil on oak, 58 x 39,7 cm
+01577	Oil on oak, 58 x 48 cm
+01578	Oil on oak, 59 x 62,5 cm
+01579	Oil on oak, 60,3 x 45,1 cm
+01580	Oil on oak, 66 x 51 cm
+01581	Oil on oak, 79 x 52 cm
+01582	Oil on oak, 82 x 60 cm
+01583	Oil on oak, 82 x 67 cm
+01584	Oil on oak, 94 x 110 cm
+01585	Oil on oak, 98 x 72 cm
+01586	Oil on oak, diameter 31 cm
+01587	Oil on oakwood
+01588	Oil on oval canvas, 141 x 103 cm
+01589	Oil on pane, 30 x 25 cm
+01590	Oil on panel
+01591	Oil on panel 75 x 56 cm
+01592	Oil on panel tranferred from parchment, 30 x 20 cm
+01593	Oil on panel transferred to canvas, 29 x 22 cm
+01594	Oil on panel transferred to canvas, 88 x 76 cm
+01595	Oil on panel transferred to canvas, 88,1 69,5 cm
+01596	Oil on panel trasferred to canvas, 42 x 34 cm
+01597	Oil on panel, 100 x 79 cm
+01598	Oil on panel, 100 x 84 cm
+01599	Oil on panel, 101 x 79 cm
+01600	Oil on panel, 101 x 82 cm
+01601	Oil on panel, 102 x 77 cm
+01602	Oil on panel, 102 x 79 cm
+01603	Oil on panel, 103 x 74 cm
+01604	Oil on panel, 103 x 79 cm
+01605	Oil on panel, 104 x 87 cm
+01606	Oil on panel, 105 x 78 cm
+01607	Oil on panel, 105 x 79 cm
+01608	Oil on panel, 105 x 82 cm
+01609	Oil on panel, 105 x 86 cm
+01610	Oil on panel, 106 x 74 cm
+01611	Oil on panel, 106 x 75 cm
+01612	Oil on panel, 107 x 62 cm
+01613	Oil on panel, 107 x 77 cm
+01614	Oil on panel, 107 x 82 cm
+01615	Oil on panel, 107 x 83 cm
+01616	Oil on panel, 108 x 247 cm
+01617	Oil on panel, 108 x 78 cm
+01618	Oil on panel, 108 x 83 cm
+01619	Oil on panel, 109 x 81 cm
+01620	Oil on panel, 109 x 84 cm
+01621	Oil on panel, 11 x 8 cm, 10 x 7 cm
+01622	Oil on panel, 110 x 84 cm
+01623	Oil on panel, 110 x 98 cm
+01624	Oil on panel, 113 x 87 cm
+01625	Oil on panel, 115 x 276 cm
+01626	Oil on panel, 115,5 x 90,5 cm
+01627	Oil on panel, 119 x 174 cm
+01628	Oil on panel, 119 x 174 cm (middle), 120 x 76 cm (each side)
+01629	Oil on panel, 119 x 89 cm
+01630	Oil on panel, 119 x 98 cm
+01631	Oil on panel, 12 x 10 cm
+01632	Oil on panel, 12 x 9 cm (oval)
+01633	Oil on panel, 122 x 90 cm
+01634	Oil on panel, 125 x 93 cm
+01635	Oil on panel, 125 x 94 cm
+01636	Oil on panel, 125 x 95 cm
+01637	Oil on panel, 126 x 96 cm
+01638	Oil on panel, 126,5 x 101 cm
+01639	Oil on panel, 128 x 100,5 cm
+01640	Oil on panel, 13 x 5 cm
+01641	Oil on panel, 130 x 206,5 cm
+01642	Oil on panel, 134 x 77 cm
+01643	Oil on panel, 14,5 x 12 cm
+01644	Oil on panel, 146 x 102 cm
+01645	Oil on panel, 15,5 x 12,5 cm
+01646	Oil on panel, 153 x 107 cm
+01647	Oil on panel, 16 x 12 cm
+01648	Oil on panel, 16 x 13 cm
+01649	Oil on panel, 165 x 135 cm
+01650	Oil on panel, 17 x 18 cm
+01651	Oil on panel, 170 x 133 cm
+01652	Oil on panel, 176 x 129 cm
+01653	Oil on panel, 19 x 14 cm
+01654	Oil on panel, 19 x 17 cm
+01655	Oil on panel, 20 x 13 cm
+01656	Oil on panel, 20,3 x 18,6 cm
+01657	Oil on panel, 20,6 x 16,8 cm
+01658	Oil on panel, 22 x 17 cm
+01659	Oil on panel, 220 x 140 cm
+01660	Oil on panel, 23 x 17 cm
+01661	Oil on panel, 23 x 18 cm
+01662	Oil on panel, 24 x 17 cm
+01663	Oil on panel, 24 x 19 cm
+01664	Oil on panel, 26 x 20 cm
+01665	Oil on panel, 26,5 x 35 cm
+01666	Oil on panel, 27 x 21 cm
+01667	Oil on panel, 27,5 x 23 cm
+01668	Oil on panel, 28 x 20 cm
+01669	Oil on panel, 28 x 21 cm
+01670	Oil on panel, 28 x 24 cm
+01671	Oil on panel, 29 x 21 cm
+01672	Oil on panel, 29 x 22 cm
+01673	Oil on panel, 29,2 x 23,2 cm
+01674	Oil on panel, 30 x 25 cm
+01675	Oil on panel, 30 x 26 cm
+01676	Oil on panel, 31 cm x 23 cm
+01677	Oil on panel, 31 x 21 cm
+01678	Oil on panel, 31 x 23 cm
+01679	Oil on panel, 31 x 25 cm
+01680	Oil on panel, 31 x 28 cm
+01681	Oil on panel, 32 x 21 cm
+01682	Oil on panel, 32 x 22 cm
+01683	Oil on panel, 32 x 25 cm
+01684	Oil on panel, 32 x 26 cm
+01685	Oil on panel, 32 x 27 cm
+01686	Oil on panel, 33 x 25 cm
+01687	Oil on panel, 33 x 26 cm
+01688	Oil on panel, 33,7 x 23 cm
+01689	Oil on panel, 34 x 23 cm
+01690	Oil on panel, 34 x 29 cm
+01691	Oil on panel, 35 x 24 cm
+01692	Oil on panel, 35 x 26 cm
+01693	Oil on panel, 35 x 29 cm
+01694	Oil on panel, 35,5 x 29,5 cm
+01695	Oil on panel, 36 x 25 cm
+01696	Oil on panel, 36 x 28 cm
+01697	Oil on panel, 36 x 29 cm
+01698	Oil on panel, 37 x 24 cm
+01699	Oil on panel, 37 x 26 cm
+01700	Oil on panel, 37 x 28 cm
+01701	Oil on panel, 38 x 26 cm
+01702	Oil on panel, 38 x 27 cm
+01703	Oil on panel, 38 x 28 cm
+01704	Oil on panel, 38 x 30 cm
+01705	Oil on panel, 38 x 51 cm
+01706	Oil on panel, 38,7 x 29 cm
+01707	Oil on panel, 38,8 x 28,5 cm
+01708	Oil on panel, 39 x 28 cm
+01709	Oil on panel, 39 x 29 cm
+01710	Oil on panel, 39 x 30 cm
+01711	Oil on panel, 39 x 31 cm
+01712	Oil on panel, 40 x 29 cm
+01713	Oil on panel, 40 x 32 cm
+01714	Oil on panel, 40,5 x 33,6 cm
+01715	Oil on panel, 41 x 31 cm
+01716	Oil on panel, 42 x 28 cm
+01717	Oil on panel, 42 x 29 cm
+01718	Oil on panel, 42 x 33 cm
+01719	Oil on panel, 42,4 x 33 cm
+01720	Oil on panel, 43 x 29 cm
+01721	Oil on panel, 43 x 31 cm
+01722	Oil on panel, 43 x 34 cm (each)
+01723	Oil on panel, 43 x 35 cm
+01724	Oil on panel, 44 x 29 cm
+01725	Oil on panel, 44 x 33 cm
+01726	Oil on panel, 44 x 34 cm
+01727	Oil on panel, 45 x 33 cm
+01728	Oil on panel, 45 x 34 cm
+01729	Oil on panel, 45 x 36 cm
+01730	Oil on panel, 45 x 38 cm
+01731	Oil on panel, 45,5 x 35,1 cm
+01732	Oil on panel, 46 x 32 cm
+01733	Oil on panel, 46 x 35 cm
+01734	Oil on panel, 46,7 x 35,6 cm
+01735	Oil on panel, 46,9 x 37,5 cm
+01736	Oil on panel, 47 x 33 cm
+01737	Oil on panel, 47 x 38 cm
+01738	Oil on panel, 47 x 41 cm
+01739	Oil on panel, 47,5 x 35 cm
+01740	Oil on panel, 48 x 31 cm
+01741	Oil on panel, 48 x 35 cm
+01742	Oil on panel, 48 x 37 cm
+01743	Oil on panel, 48 x 40 cm
+01744	Oil on panel, 49 x 38 cm
+01745	Oil on panel, 49 x 39 cm
+01746	Oil on panel, 49 x 40 cm
+01747	Oil on panel, 49,5 x 37,5 cm
+01748	Oil on panel, 49,5 x 37,8 cm
+01749	Oil on panel, 50 x 37 cm
+01750	Oil on panel, 50 x 39 cm (central), 50 x 16 cm (each side panel)
+01751	Oil on panel, 50 x 40 cm
+01752	Oil on panel, 50,1 x 31,7 cm
+01753	Oil on panel, 51 x 34 cm
+01754	Oil on panel, 51 x 36 cm
+01755	Oil on panel, 51 x 37 cm
+01756	Oil on panel, 51 x 40 cm
+01757	Oil on panel, 51 x 44 cm
+01758	Oil on panel, 51 x 46 cm
+01759	Oil on panel, 51,4 x 36,8 cm
+01760	Oil on panel, 52 x 34 cm
+01761	Oil on panel, 52 x 37 cm
+01762	Oil on panel, 52 x 41 cm
+01763	Oil on panel, 52 x 42 cm
+01764	Oil on panel, 52 x 43 cm
+01765	Oil on panel, 52 x 44 cm
+01766	Oil on panel, 53 x 45 cm
+01767	Oil on panel, 53,9 x 43,4 cm
+01768	Oil on panel, 54 x 45 cm
+01769	Oil on panel, 54 x 46 cm
+01770	Oil on panel, 54,5 x 41,5 cm
+01771	Oil on panel, 55 x 41 cm
+01772	Oil on panel, 55 x 44 cm
+01773	Oil on panel, 56 x 39 cm
+01774	Oil on panel, 56 x 47 cm
+01775	Oil on panel, 57 x 41 cm
+01776	Oil on panel, 57 x 42 cm
+01777	Oil on panel, 57 x 43 cm
+01778	Oil on panel, 57 x 48 cm
+01779	Oil on panel, 57 x 57 cm
+01780	Oil on panel, 57 x 80 cm
+01781	Oil on panel, 58 x 39 cm
+01782	Oil on panel, 58 x 43 cm
+01783	Oil on panel, 59 x 45 cm
+01784	Oil on panel, 59 x 47 cm
+01785	Oil on panel, 59 x 51 cm
+01786	Oil on panel, 60 x 46 cm
+01787	Oil on panel, 60 x 48 cm
+01788	Oil on panel, 60 x 50 cm
+01789	Oil on panel, 61,3 x 47,3 cm
+01790	Oil on panel, 62 x 39 cm
+01791	Oil on panel, 62 x 42 cm
+01792	Oil on panel, 62 x 45 cm
+01793	Oil on panel, 62 x 47 cm
+01794	Oil on panel, 62 x 48 cm
+01795	Oil on panel, 62 x 50 cm
+01796	Oil on panel, 62 x 51 cm
+01797	Oil on panel, 62 x 54 cm
+01798	Oil on panel, 63 x 45 cm
+01799	Oil on panel, 63 x 48 cm
+01800	Oil on panel, 63 x 50 cm
+01801	Oil on panel, 64 x 48 cm
+01802	Oil on panel, 64 x 50 cm
+01803	Oil on panel, 64 x 52 cm
+01804	Oil on panel, 64 x 55 cm (each)
+01805	Oil on panel, 65 x 49 cm
+01806	Oil on panel, 65 x 50 cm
+01807	Oil on panel, 65 x 54 cm
+01808	Oil on panel, 65 x 55 cm
+01809	Oil on panel, 65,5 x 89,5 cm
+01810	Oil on panel, 66 x 44 cm
+01811	Oil on panel, 66 x 52 cm
+01812	Oil on panel, 66 x 54 cm
+01813	Oil on panel, 67 x 53 cm
+01814	Oil on panel, 67 x 56 cm
+01815	Oil on panel, 68 x 49 cm
+01816	Oil on panel, 69 x 52 cm
+01817	Oil on panel, 69 x 56 cm
+01818	Oil on panel, 69 x 59 cm
+01819	Oil on panel, 70 x 57 cm
+01820	Oil on panel, 70 x 58 cm
+01821	Oil on panel, 71 x 55 cm
+01822	Oil on panel, 71 x 68 cm
+01823	Oil on panel, 72 x 55 cm
+01824	Oil on panel, 72 x 56 cm
+01825	Oil on panel, 72 x 57 cm
+01826	Oil on panel, 73 x 166 cm
+01827	Oil on panel, 73 x 56 cm
+01828	Oil on panel, 73 x 58 cm
+01829	Oil on panel, 73 x 63 cm
+01830	Oil on panel, 74 x 53 cm
+01831	Oil on panel, 74 x 61 cm
+01832	Oil on panel, 75 x 50 cm
+01833	Oil on panel, 75 x 55 cm
+01834	Oil on panel, 76 x 61 cm
+01835	Oil on panel, 76 x 63 cm
+01836	Oil on panel, 77 x 53 cm
+01837	Oil on panel, 77 x 65 cm
+01838	Oil on panel, 77 x 66 cm
+01839	Oil on panel, 78 x 51 cm
+01840	Oil on panel, 78 x 62 cm
+01841	Oil on panel, 79 x 119 cm
+01842	Oil on panel, 79 x 53 cm
+01843	Oil on panel, 79 x 61 cm
+01844	Oil on panel, 79 x 62 cm
+01845	Oil on panel, 80 x 107 cm
+01846	Oil on panel, 80 x 49 cm
+01847	Oil on panel, 80 x 65 cm
+01848	Oil on panel, 81 x 54 cm
+01849	Oil on panel, 81 x 64 cm
+01850	Oil on panel, 83 x 61 cm
+01851	Oil on panel, 84 x 109 cm
+01852	Oil on panel, 85 x 61 cm
+01853	Oil on panel, 85 x 66 cm
+01854	Oil on panel, 86 x 65 cm
+01855	Oil on panel, 86 x 66 cm
+01856	Oil on panel, 87 x 65 cm
+01857	Oil on panel, 87 x 78 cm
+01858	Oil on panel, 88 x 64 cm
+01859	Oil on panel, 88 x 71 cm
+01860	Oil on panel, 88 x 72 cm
+01861	Oil on panel, 88,5 x 74,5 cm
+01862	Oil on panel, 89 x 69 cm
+01863	Oil on panel, 90 x 71 cm
+01864	Oil on panel, 90 x 76 cm
+01865	Oil on panel, 91 x 185 cm
+01866	Oil on panel, 91 x 71 cm
+01867	Oil on panel, 92 x 72 cm
+01868	Oil on panel, 93 x 74 cm
+01869	Oil on panel, 94 x 72 cm
+01870	Oil on panel, 94 x 72,5 cm
+01871	Oil on panel, 94 x 73 cm
+01872	Oil on panel, 94 x 76 cm
+01873	Oil on panel, 94,2 x 71,1 cm
+01874	Oil on panel, 95 x 65,7 cm
+01875	Oil on panel, 96 x 76 cm
+01876	Oil on panel, 97 x 66 cm
+01877	Oil on panel, 97 x 83 cm
+01878	Oil on panel, 98 x 83 cm
+01879	Oil on panel, 98,1 x 73,7 cm
+01880	Oil on panel, 99 x 73 cm
+01881	Oil on panel, diameter 18 cm
+01882	Oil on panel, diameter 20 cm
+01883	Oil on panel, diameter 9 cm
+01884	Oil on panel, transferred to canvas, 59 x 47 cm
+01885	Oil on panel. 74,5 x 56 cm
+01886	Oil on panel. 82 x 64 cm
+01887	Oil on panel., 37 x 30 cm
+01888	Oil on panel.118 x 89 cm
+01889	Oil on paper
+01890	Oil on paper glued to panel, diameter 39 cm
+01891	Oil on paper mounted on wood, 14 x 11 cm
+01892	Oil on paper mounted on wood, 77 x 64 cm
+01893	Oil on paper mounted to paperboard and lined, 58 x 47 cm
+01894	Oil on paper pasted on canvas, 51 x 35 cm
+01895	Oil on paper, 45 x 33 cm
+01896	Oil on paper, laid down on canvas, 52 x 38 cm
+01897	Oil on parchment laid down on canvas, 47 x 68 cm
+01898	Oil on parchment mounted on mahogany, 76 x 61 cm
+01899	Oil on parchment on panel, 51 x 42 cm
+01900	Oil on parchment, 8,3 x 6,4 cm
+01901	Oil on pine panel, 47 x 38 cm
+01902	Oil on pinewood, 28,5 x 27,4 cm
+01903	Oil on poplar
+01904	Oil on poplar panel, 115 x 94 cm
+01905	Oil on poplar panel, 28,5 x 21,5 cm
+01906	Oil on poplar panel, 61 x 46 cm
+01907	Oil on poplar, 26 x 19 cm
+01908	Oil on poplar, 32 x 26 cm
+01909	Oil on poplar, 78 x 61 cm
+01910	Oil on poplar, 82 x 60 cm
+01911	Oil on softwood panel, 71 x 62 cm
+01912	Oil on tin, 15 x 12 cm
+01913	Oil on vellum, 33 x 21 cm
+01914	Oil on walnut panel
+01915	Oil on walnut panel, 21 x 15 cm
+01916	Oil on walnut, 17 x 14 cm
+01917	Oil on walnut, 68 x 54 cm
+01918	Oil on wood
+01919	Oil on wood transferred to canvas, 120 x 95 cm
+01920	Oil on wood transferred to canvas, 99 x 79 cm
+01921	Oil on wood, 100 x 79 cm
+01922	Oil on wood, 102 x 85 cm
+01923	Oil on wood, 103 x 81 cm
+01924	Oil on wood, 104 x 68 cm
+01925	Oil on wood, 104 x 84 cm
+01926	Oil on wood, 105 x 76 cm
+01927	Oil on wood, 105 x 84 cm
+01928	Oil on wood, 106 x 74 cm
+01929	Oil on wood, 108 x 80,7 cm
+01930	Oil on wood, 108,7 x 81 cm
+01931	Oil on wood, 109 x 85 cm
+01932	Oil on wood, 114 x 86 cm
+01933	Oil on wood, 114 x 88 cm
+01934	Oil on wood, 114 x 89 cm
+01935	Oil on wood, 115 x 85 cm
+01936	Oil on wood, 115 x 96 cm
+01937	Oil on wood, 116 x 56 cm
+01938	Oil on wood, 117 x 86 cm
+01939	Oil on wood, 118 x 140 cm
+01940	Oil on wood, 122 x 90 cm
+01941	Oil on wood, 123 x 90,5 cm
+01942	Oil on wood, 123 x 93,4 cm
+01943	Oil on wood, 126 x 92 cm
+01944	Oil on wood, 129 x 97 cm
+01945	Oil on wood, 154 x 119 cm
+01946	Oil on wood, 157 x 93 cm
+01947	Oil on wood, 17 x 14 cm
+01948	Oil on wood, 176 x 83 cm
+01949	Oil on wood, 20 x 15 cm (each)
+01950	Oil on wood, 20 x 16 cm
+01951	Oil on wood, 203.8 x 158.1 cm
+01952	Oil on wood, 21 x 16 cm (each)
+01953	Oil on wood, 21 x 17 cm
+01954	Oil on wood, 21 x 18 cm
+01955	Oil on wood, 22 x 17 cm
+01956	Oil on wood, 22 x 17,5 cm
+01957	Oil on wood, 22 x 18 cm
+01958	Oil on wood, 23 x 17 cm
+01959	Oil on wood, 23 x 19 cm
+01960	Oil on wood, 24 x 17 cm
+01961	Oil on wood, 24 x 18 cm
+01962	Oil on wood, 24,5 x 19 cm
+01963	Oil on wood, 25 x 21 cm
+01964	Oil on wood, 25 x 21,5 cm
+01965	Oil on wood, 25,5 x 19 cm
+01966	Oil on wood, 25.6 x 17.7 cm
+01967	Oil on wood, 26 x 20 cm
+01968	Oil on wood, 26 x 26 cm
+01969	Oil on wood, 26 x 27 cm
+01970	Oil on wood, 27 x 21 cm
+01971	Oil on wood, 27 x 22 cm
+01972	Oil on wood, 28 x 19 cm
+01973	Oil on wood, 28 x 21 cm
+01974	Oil on wood, 28 x 23 cm
+01975	Oil on wood, 28 x 26 cm
+01976	Oil on wood, 29 x 23 cm
+01977	Oil on wood, 29 x 24 cm
+01978	Oil on wood, 29,2 x 21,6 cm
+01979	Oil on wood, 30,5 x 23 cm
+01980	Oil on wood, 31 x 20 cm
+01981	Oil on wood, 31 x 21 cm
+01982	Oil on wood, 31 x 22 cm
+01983	Oil on wood, 31 x 23 cm
+01984	Oil on wood, 31 x 24 cm
+01985	Oil on wood, 31 x 25 cm
+01986	Oil on wood, 31 x 26 cm
+01987	Oil on wood, 31,8 x 25,5 cm
+01988	Oil on wood, 32 x 26 cm
+01989	Oil on wood, 32,5 x 26 cm
+01990	Oil on wood, 32,6 x 25,8 cm
+01991	Oil on wood, 33 x 25 cm
+01992	Oil on wood, 33 x 28 cm
+01993	Oil on wood, 34 x 25 cm
+01994	Oil on wood, 34 x 29 cm
+01995	Oil on wood, 34,1 x 27,3 cm
+01996	Oil on wood, 34,5 x 19 cm
+01997	Oil on wood, 35 x 25 cm
+01998	Oil on wood, 35 x 26 cm
+01999	Oil on wood, 35 x 29 cm
+02000	Oil on wood, 35,5 x 29,5 cm
+02001	Oil on wood, 36 x 24 cm
+02002	Oil on wood, 36 x 26 cm
+02003	Oil on wood, 36 x 28 cm
+02004	Oil on wood, 36 x 31 cm
+02005	Oil on wood, 36 x 32,7
+02006	Oil on wood, 37 x 23 cm (each)
+02007	Oil on wood, 37 x 29 cm
+02008	Oil on wood, 37 x 32 cm
+02009	Oil on wood, 37,5 x 32,5 cm
+02010	Oil on wood, 37,9 x 65,3 cm
+02011	Oil on wood, 38 x 24 cm
+02012	Oil on wood, 38 x 31 cm
+02013	Oil on wood, 38,8 x 36,7 cm
+02014	Oil on wood, 39 x 25 cm
+02015	Oil on wood, 39,7 x 34,3 cm
+02016	Oil on wood, 40 x 31 cm
+02017	Oil on wood, 41 x 36 cm
+02018	Oil on wood, 42 x 29 cm
+02019	Oil on wood, 42 x 30 cm
+02020	Oil on wood, 42 x 34 cm
+02021	Oil on wood, 42 x 36 cm
+02022	Oil on wood, 42,2 x 32,4 cm
+02023	Oil on wood, 42,5 x 32,7 cm
+02024	Oil on wood, 43 x 32 cm
+02025	Oil on wood, 43 x 33 cm
+02026	Oil on wood, 43,5 x 43,5 cm
+02027	Oil on wood, 44 x 34 cm
+02028	Oil on wood, 44 x 34 cm (each)
+02029	Oil on wood, 45 x 31 cm
+02030	Oil on wood, 45 x 32 cm
+02031	Oil on wood, 45 x 33 cm
+02032	Oil on wood, 45 x 33,5 cm
+02033	Oil on wood, 46 x 37 cm
+02034	Oil on wood, 46,5 x 35 cm
+02035	Oil on wood, 47 x 31 cm
+02036	Oil on wood, 47 x 34 cm
+02037	Oil on wood, 47 x 34,9 cm
+02038	Oil on wood, 47 x 35 cm
+02039	Oil on wood, 47 x 36,8 cm
+02040	Oil on wood, 47 x 38 cm
+02041	Oil on wood, 47,1 x 34 cm
+02042	Oil on wood, 47,5 x 35 cm
+02043	Oil on wood, 47,5 x 38 cm
+02044	Oil on wood, 47,6 x 36,2 cm
+02045	Oil on wood, 48 x 35 cm
+02046	Oil on wood, 48 x 36 cm
+02047	Oil on wood, 48 x 37 cm
+02048	Oil on wood, 48 x 38 cm
+02049	Oil on wood, 49 x 36 cm
+02050	Oil on wood, 49 x 39 cm
+02051	Oil on wood, 49 x 41 cm
+02052	Oil on wood, 51 x 37 cm
+02053	Oil on wood, 51 x 39 cm
+02054	Oil on wood, 51 x 40 cm
+02055	Oil on wood, 51 x 43 cm
+02056	Oil on wood, 52 x 40 cm
+02057	Oil on wood, 52 x 42 cm
+02058	Oil on wood, 52,5 x 42,8 cm
+02059	Oil on wood, 53 x 37 cm
+02060	Oil on wood, 53 x 41 cm
+02061	Oil on wood, 54 x 38 cm
+02062	Oil on wood, 54 x 39 cm
+02063	Oil on wood, 54 x 41 cm
+02064	Oil on wood, 54 x 42 cm
+02065	Oil on wood, 54 x 69 cm
+02066	Oil on wood, 54,3 x 41,6 cm
+02067	Oil on wood, 55 x 40 cm
+02068	Oil on wood, 55,5 x 44 cm
+02069	Oil on wood, 57 x 42 cm (each)
+02070	Oil on wood, 57 x 46 cm
+02071	Oil on wood, 58 x 41 cm
+02072	Oil on wood, 58 x 46,5 cm
+02073	Oil on wood, 58 x 50 cm
+02074	Oil on wood, 58 x 52 cm
+02075	Oil on wood, 58,5 x 44 cm
+02076	Oil on wood, 59 x 42 cm
+02077	Oil on wood, 59 x 44 cm
+02078	Oil on wood, 59 x 45 cm
+02079	Oil on wood, 59 x 46 cm
+02080	Oil on wood, 59 x 49 cm
+02081	Oil on wood, 59,5 x 39,5 cm
+02082	Oil on wood, 60 x 39 cm
+02083	Oil on wood, 60 x 44 cm
+02084	Oil on wood, 60 x 45 cm
+02085	Oil on wood, 60 x 46 cm
+02086	Oil on wood, 60 x 52 cm
+02087	Oil on wood, 60 x 73 cm
+02088	Oil on wood, 61 x 47 cm
+02089	Oil on wood, 61,5 x 48 cm
+02090	Oil on wood, 62 x 47 cm
+02091	Oil on wood, 62 x 54 cm
+02092	Oil on wood, 63 x 43 cm
+02093	Oil on wood, 63 x 45 cm
+02094	Oil on wood, 63 x 48 cm
+02095	Oil on wood, 63,5 x 50,8 cm
+02096	Oil on wood, 64 x 46 cm
+02097	Oil on wood, 64 x 48 cm
+02098	Oil on wood, 64 x 53 cm
+02099	Oil on wood, 65 x 48 cm
+02100	Oil on wood, 65 x 50 cm
+02101	Oil on wood, 65 x 51 cm
+02102	Oil on wood, 65 x 58 cm
+02103	Oil on wood, 65 x 97,5 cm
+02104	Oil on wood, 65,5 x 40,5 cm
+02105	Oil on wood, 66 x 50 cm
+02106	Oil on wood, 67 x 55 cm
+02107	Oil on wood, 67,5 x 52,5 cm
+02108	Oil on wood, 68 x 50 cm
+02109	Oil on wood, 68 x 55 cm
+02110	Oil on wood, 68 x 58 cm
+02111	Oil on wood, 69 x 53 cm
+02112	Oil on wood, 70 x 53 cm
+02113	Oil on wood, 70 x 58 cm
+02114	Oil on wood, 70 x 88 cm
+02115	Oil on wood, 70,5 x 53,5 cm
+02116	Oil on wood, 71 x 50 cm
+02117	Oil on wood, 71 x 52 cm
+02118	Oil on wood, 71 x 58 cm
+02119	Oil on wood, 71 x 60 cm
+02120	Oil on wood, 71 x 61 cm
+02121	Oil on wood, 71,5 x 54,5 cm
+02122	Oil on wood, 74 x 51 cm
+02123	Oil on wood, 74 x 58 cm
+02124	Oil on wood, 74,5 x 60,8 cm
+02125	Oil on wood, 75 x 53 cm
+02126	Oil on wood, 75 x 55 cm
+02127	Oil on wood, 75 x 60 cm
+02128	Oil on wood, 75 x 62 cm
+02129	Oil on wood, 76 x 52 cm
+02130	Oil on wood, 76 x 54 cm
+02131	Oil on wood, 76 x 56 cm
+02132	Oil on wood, 77,5 x 64,1 cm
+02133	Oil on wood, 79 x 55 cm
+02134	Oil on wood, 79 x 61 cm
+02135	Oil on wood, 81 x 67 cm
+02136	Oil on wood, 82 x 63 cm
+02137	Oil on wood, 83 x 55 cm
+02138	Oil on wood, 83 x 72 cm
+02139	Oil on wood, 83,5 x 59 cm
+02140	Oil on wood, 83,5 x 71,5 cm
+02141	Oil on wood, 84 x 62 cm
+02142	Oil on wood, 85 x 60 cm
+02143	Oil on wood, 85 x 61 cm
+02144	Oil on wood, 86 x 64 cm
+02145	Oil on wood, 87 x 69 cm
+02146	Oil on wood, 87 x 71 cm
+02147	Oil on wood, 89 x 59 cm
+02148	Oil on wood, 90 x 71 cm
+02149	Oil on wood, 90 x 72 cm
+02150	Oil on wood, 90 x 73 cm
+02151	Oil on wood, 90 x 75 cm
+02152	Oil on wood, 91 x 61 cm
+02153	Oil on wood, 91 x 70 cm
+02154	Oil on wood, 92 x 81 cm
+02155	Oil on wood, 92,4 x 69,3 cm
+02156	Oil on wood, 96 x 75 cm
+02157	Oil on wood, 96 x 79 cm
+02158	Oil on wood, 96,3 x 85,7 cm
+02159	Oil on wood, 99 x 82 cm
+02160	Oil on wood, 99 x 83
+02161	Oil on wood, diameter 24,4 cm
+02162	Oil on wood, diameter 32,4 cm
+02163	Oil on wood, diameter 75 cm
+02164	Oil on wood, transferred to canvas, 85 x 66 cm
+02165	Oil on wood, width of detail: 35 cm
+02166	Oil on wood, width of detail: 45 cm
+02167	Oil tempera, from wood laid down on canvas
+02168	Painted enamel on copper with foil, green canvas, 8 x 6 cm
+02169	Panel
+02170	Panel painting
+02171	Panel, 105 x 50 cm
+02172	Panel, 21 x 14 cm
+02173	Panel, 23 x 16 cm (each)
+02174	Panel, 24 x 18 cm
+02175	Panel, 26 x 19 cm
+02176	Panel, 30 x 14 cm
+02177	Panel, 32 x 29 cm
+02178	Panel, 42 x 32 cm
+02179	Panel, 42 x 33 cm
+02180	Panel, 51 x 37 cm
+02181	Panel, 57 x 44 cm
+02182	Panel, 59 x 47 cm
+02183	Panel, 63 x 49 cm
+02184	Panel, 69 x 53 cm
+02185	Panel, 71 x 49 cm
+02186	Panel, 76 x 60 cm
+02187	Panel, 88 x 68 cm
+02188	Panel, 89 x 66 cm
+02189	Panel, 90 x 56 cm
+02190	Panel, diameter 11 cm
+02191	Paper mounted on canvas, 160 x 280 cm
+02192	Paper mounted on canvas, 32 x 24 cm
+02193	Paper mounted on pine, 36,8 x 30,5 cm
+02194	Paper on cardboard, 13 x 10 cm
+02195	Paper on wood, 31,5 x 21,5 cm
+02196	Paper on wood, 50 x 37 cm
+02197	Paper, mounted on wood, 52,4 x 38,1 cm
+02198	Parchment mounted on canvas, 65 x 48 cm
+02199	Parchment on canvas, 42,9 x 32 cm
+02200	Parchment on panel, 24,2 x 20 cm
+02201	Parchment on wood, 42 x 28 cm
+02202	Parchment, 46 x 43,5 cm
+02203	Pasatel on canvas, 75 x 55 cm
+02204	Pastel
+02205	Pastel on beige paper, 40 x 30 cm
+02206	Pastel on blue paper
+02207	Pastel on blue paper, 117 x 90 cm
+02208	Pastel on blue paper, 31 x 25 cm
+02209	Pastel on blue paper, 46 x 38 cm
+02210	Pastel on blue paper, 56 x 46 cm
+02211	Pastel on blue paper, 58 x 56 cm
+02212	Pastel on blue paper, 60 x 51 cm
+02213	Pastel on blue paper, 61 x 51 cm
+02214	Pastel on blue paper, 62 x 46 cm
+02215	Pastel on blue paper, 63 x 48 cm
+02216	Pastel on blue paper, 63 x 54 cm
+02217	Pastel on blue paper, 65 x 50 cm
+02218	Pastel on blue paper, 67 x 54 cm
+02219	Pastel on blue paper, 69 x 58 cm
+02220	Pastel on blue paper, 70 x 80 cm
+02221	Pastel on blue paper, 71 x 59 cm
+02222	Pastel on blue paper, 73 x 60 cm
+02223	Pastel on blue paper, 91 x 73 cm
+02224	Pastel on blue paper, oval 64 x 54 cm
+02225	Pastel on blue-gray paper
+02226	Pastel on burnished blue paper, 304 x 130 mm
+02227	Pastel on grey paper, 52 x 40 cm
+02228	Pastel on grey paper, 54 x 44 cm
+02229	Pastel on greyish paper, 454 x 358 mm
+02230	Pastel on paper
+02231	Pastel on paper, 120 x 93 cm
+02232	Pastel on paper, 34 x 27 cm
+02233	Pastel on paper, 36 x 30 cm
+02234	Pastel on paper, 41 x 34 cm
+02235	Pastel on paper, 47 x 42 cm
+02236	Pastel on paper, 50 x 40 cm
+02237	Pastel on paper, 55 x 42 cm
+02238	Pastel on paper, 55,5 x 42,5 cm
+02239	Pastel on paper, 57 x 46 cm
+02240	Pastel on paper, 59,5 x 49 cm
+02241	Pastel on paper, 61 x 49 cm
+02242	Pastel on paper, 65 x 53 cm
+02243	Pastel on paper, 71 x 57 cm
+02244	Pastel on paper, 72 x 57 cm
+02245	Pastel on paper, 73 x 60 cm
+02246	Pastel on parchment, 38 x 46 cm
+02247	Pastel on parchment, 62 x 64 cm
+02248	Pastel on seven sheets of blue paper mounted on canvas, 178 x 2136 cm
+02249	Pastel on three sheets of blue papeer mounted on canvas, 66 x 58 cm
+02250	Pastel on vellum, 47 x 38 cm
+02251	Pastel on vellum, 63 x 50 cm
+02252	Pastel over black and red chalk lines on beige paper, 271 x 211 mm
+02253	Pastel, 46 x 38 cm
+02254	Pastel, 47 x 38 cm
+02255	Pastel, 68 x 54 cm
+02256	Pastel, 72 x 55 cm
+02257	Pen and chalk on tinted paper, 342 x 181 mm
+02258	Poplar, 50 x 32 cm
+02259	Resin tempera on oak
+02260	Resin tempera on oak, 35 x 36 cm
+02261	Tempera and gold on paper, mounted on wood, 23 x 16 cm
+02262	Tempera and oil on oak, 29 x 22 cm
+02263	Tempera and oil on panel, 23 x 20 cm
+02264	Tempera and oil on panel, 63 x 41 cm
+02265	Tempera and oil on poplar panel, 44 x 35 cm
+02266	Tempera and oil on wood
+02267	Tempera and oil on wood, 41,5 x 30,3 cm
+02268	Tempera and oil on wood, 59 x 40 cm
+02269	Tempera and silver on wood, 53 x 40 cm
+02270	Tempera and watercolour on paper, 48 x 36 cm
+02271	Tempera on canvas mounted on panel, 48 x 36 cm
+02272	Tempera on canvas transferred from wood, 49 x 35 cm
+02273	Tempera on canvas, 112,3 x 90,8 cm
+02274	Tempera on canvas, 218 x 152 cm
+02275	Tempera on canvas, 25,5 x 21,5 cm
+02276	Tempera on canvas, 49 x 31 cm
+02277	Tempera on canvas, 49 x 31 cm (each)
+02278	Tempera on canvas, 54,7 x 47,5 cm
+02279	Tempera on canvas, 69,4 x 53 cm
+02280	Tempera on canvas, 76 x 57 cm
+02281	Tempera on canvas, 83 x 65 cm
+02282	Tempera on hardboard transferred from panel, 24 x 19 cm
+02283	Tempera on ivory, diameter 77 mm
+02284	Tempera on oak
+02285	Tempera on oak, 83 x 67 cm
+02286	Tempera on panel
+02287	Tempera on panel transferred to canvas, 47,6 x 33,7 cm
+02288	Tempera on panel, 19 x 13 cm
+02289	Tempera on panel, 27 x 14 cm
+02290	Tempera on panel, 35 x 27 cm
+02291	Tempera on panel, 37,5 x 28,2 cm
+02292	Tempera on panel, 41 x 31 cm
+02293	Tempera on panel, 47 x 31 cm
+02294	Tempera on panel, 47 x 33 cm
+02295	Tempera on panel, 47 x 33 cm (each)
+02296	Tempera on panel, 47 x 37 cm
+02297	Tempera on panel, 48 x 42 cm
+02298	Tempera on panel, 49 x 32 cm
+02299	Tempera on panel, 50 x 36,5 cm
+02300	Tempera on panel, 51 x 33,7 cm
+02301	Tempera on panel, 52 x 37 cm (each)
+02302	Tempera on panel, 56 x 41 cm
+02303	Tempera on panel, 57 x 39 cm
+02304	Tempera on panel, 57 x 44 cm
+02305	Tempera on panel, 57,5 x 44 cm
+02306	Tempera on panel, 60 x 39 cm
+02307	Tempera on panel, 61 x 40 cm
+02308	Tempera on panel, 63 x 46 cm
+02309	Tempera on panel, 65 x 42 cm
+02310	Tempera on panel, 65,7 x 41 cm
+02311	Tempera on panel, 76 x 53 cm
+02312	Tempera on parchment (minatures)
+02313	Tempera on parchment, 9 x 6 mm
+02314	Tempera on plaster, 85 x 80 cm
+02315	Tempera on poplar panel, 42 x 32 cm
+02316	Tempera on poplar panel, 42 x 33 cm
+02317	Tempera on poplar panel, 53 x 43 cm
+02318	Tempera on poplar, 39 x 26 cm
+02319	Tempera on vellum stuck on wood, 64 x 49 cm
+02320	Tempera on vellum, 42 x 33 cm
+02321	Tempera on wood
+02322	Tempera on wood, 108,5 x 80 cm
+02323	Tempera on wood, 115 x 98,5 cm
+02324	Tempera on wood, 25 x 18 cm
+02325	Tempera on wood, 26 x 18 cm
+02326	Tempera on wood, 31,8 x 26,7 cm
+02327	Tempera on wood, 32 x 21 cm
+02328	Tempera on wood, 33 x 27 cm
+02329	Tempera on wood, 35 x 23 cm
+02330	Tempera on wood, 35 x 27 cm
+02331	Tempera on wood, 36 x 30 cm
+02332	Tempera on wood, 37,5 x 36,5 cm
+02333	Tempera on wood, 39 x 34 cm
+02334	Tempera on wood, 41 x 30 cm
+02335	Tempera on wood, 41 x 31 cm
+02336	Tempera on wood, 42 x 30 cm
+02337	Tempera on wood, 43 x 210 cm
+02338	Tempera on wood, 43 x 30 cm
+02339	Tempera on wood, 44 x 32 cm
+02340	Tempera on wood, 45 x 34 cm
+02341	Tempera on wood, 45 x 34 cm (each panel)
+02342	Tempera on wood, 50 x 33 cm
+02343	Tempera on wood, 50 x 38 cm
+02344	Tempera on wood, 51 x 43 cm
+02345	Tempera on wood, 52 x 34 cm
+02346	Tempera on wood, 52 x 44 cm
+02347	Tempera on wood, 53 x 38 cm
+02348	Tempera on wood, 54 x 39 cm
+02349	Tempera on wood, 55 x 34 cm
+02350	Tempera on wood, 55 x 49 cm
+02351	Tempera on wood, 58 x 45,6 cm
+02352	Tempera on wood, 58,5 x 41,5 cm
+02353	Tempera on wood, 62 x 46 cm
+02354	Tempera on wood, 64 x 42 cm
+02355	Tempera on wood, 73 x 53 cm
+02356	Tempera on wood, 74,2 x 59 cm
+02357	Tempera on wood, 76 x 50 cm
+02358	Tempera on wood, 76 x 53 cm
+02359	Tempera on wood, 80,3 x 61,6 cm
+02360	Tempera on wood, 82 x 54 cm
+02361	Tempera on wood, 90,8 x 101,5 cm
+02362	Tempera on wood, gold ground
+02363	Vellum mounted on playing card, diameter 5,1 cm
+02364	Vellum mounted on playing card, diameter 5,3 cm
+02365	Vellum mounted on playing card, diameter 5,7 cm
+02366	Vellum, diameter 3,8 cm
+02367	Wall painting
+02368	Walnut oil on plaster
+02369	Walnut oil on plaster and fresco
+02370	Watercolour
+02371	Watercolour on ivory, 1,9 x 1,6 cm
+02372	Watercolour on ivory, 10 x 8 cm
+02373	Watercolour on ivory, 12,2 x 10,3 cm
+02374	Watercolour on ivory, 4,4 x 4,1 cm
+02375	Watercolour on ivory, 5,1 x 4,1 cm
+02376	Watercolour on ivory, 6,4 x 5,1 cm
+02377	Watercolour on paper, 222 x 173 mm
+02378	Watercolour on parchment, diameter 13 cm
+02379	Watercolour on vellum, 59 x 48 mm
+02380	Wood
+02381	Wood 17 x 14 cm
+02382	Wood panel, 47,5 x 33,5 cm
+02383	Wood, 16,6 x 13,2 cm (without frame)
+02384	Wood, 19 x 16 cm
+02385	Wood, 209 x 101 cm and 209 x 98 cm
+02386	Wood, 30 x 23 cm
+02387	Wood, 35,4 x 23,7 cm
+02388	Wood, 35,5 x 26,3 cm
+02389	Wood, 37 x 26 cm
+02390	Wood, 39 x 33 cm
+02391	Wood, 40,7 x 28 cm
+02392	Wood, 41 x 28 cm
+02393	Wood, 41 x 31 cm
+02394	Wood, 42 x 54 cm
+02395	Wood, 43 x 32 cm
+02396	Wood, 43,7 x 34,3 cm
+02397	Wood, 47 x 36 cm
+02398	Wood, 53 x 38 cm
+02399	Wood, 57 x 39 cm
+02400	Wood, 60 x 39 cm
+02401	Wood, 60 x 44 cm
+02402	Wood, 61 x 35,8 cm
+02403	Wood, 62 x 50 cm
+02404	Wood, 63 x 44 cm
+02405	Wood, 69 x 45 cm
+02406	Wood, 69,4 x 53,5 cm
+02407	Wood, 73 x 96 cm
+02408	Wood, 76 x 51 cm
+02409	Wood, 79 x 66 cm
+02410	Wood, 86 x 72 cm
+02411	Wood, 87 x 69 cm
+02412	Wood, 90 x 80 cm
+02413	Wood, 93 x 73 cm
+02414	Wood, 96 x 74 cm
+02415	Wood, 97 x 80 cm

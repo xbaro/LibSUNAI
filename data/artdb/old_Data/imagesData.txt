@@ -1,0 +1,46 @@
+# Image data. Each row contains the id of the image, their url, the tilte and location and date in format: %07d\t%s\t%s\t%s\t%s\\n
+0000001	http://www.wga.hu/art/a/aachen/allegory.jpg	Allegory	Alte Pinakothek, Munich	1598
+0000002	http://www.wga.hu/art/a/aachen/bacchus.jpg	Bacchus, Ceres and Cupid	Kunsthistorisches Museum, Vienna	-
+0000003	http://www.wga.hu/art/a/aachen/j_couple.jpg	Joking Couple	Kunsthistorisches Museum, Vienna	-
+0000004	http://www.wga.hu/art/a/abadia/michael.jpg	The Archangel Michael	Museu Nacional d'Art de Catalunya, Barcelona	c. 1490
+0000005	http://www.wga.hu/art/a/abaquesn/albarell.jpg	Albarello	Musée des Beaux-Arts, Rouen	c. 1545
+0000006	http://www.wga.hu/art/a/abaquesn/floor1.jpg	Ceramic Floor	Musée National de la Renaissance, Écouen	1542
+0000007	http://www.wga.hu/art/a/abaquesn/floor2.jpg	Ceramic Floor	Musée du Louvre, Paris	1557
+0000008	http://www.wga.hu/art/a/abaquesn/theflood.jpg	The Flood	Musée National de la Renaissance, Écouen	-
+0000009	http://www.wga.hu/art/a/abbate/chimney1.jpg	Chimney breast	Château, Écouen	c. 1552
+0000010	http://www.wga.hu/art/a/abbate/chimney2.jpg	Chimney breast	Château, Écouen	c. 1552
+0000011	http://www.wga.hu/art/a/abbate/deerhunt.jpg	Stag Hunt	Galleria Borghese, Rome	1550-52
+0000012	http://www.wga.hu/art/a/abbate/orpheus.jpg	Orpheus and Eurydice	National Gallery, London	-
+0000013	http://www.wga.hu/art/a/abbate/proserpi.jpg	The Rape of Proserpine	Musée du Louvre, Paris	c. 1570
+0000014	http://www.wga.hu/art/a/abbate/scipio.jpg	The Continence of Scipio	Musée du Louvre, Paris	c. 1555
+0000015	http://www.wga.hu/art/a/abildgaa/culmingh.jpg	Culmin's Ghost Appears to his Mother	Nationalmuseum, Stockholm	c. 1794
+0000016	http://www.wga.hu/art/a/abildgaa/z_adamev.jpg	Adam and Eve	Nationalmuseum, Stockholm	1780
+0000017	http://www.wga.hu/art/a/adam/lambert/child_lo.jpg	Child Pinched by a Lobster	Institute of Arts, Detroit	c. 1740
+0000018	http://www.wga.hu/art/a/adam/lambert/neptune.jpg	Neptune and Amphitrite	Bassin de Naptune, Versailles	1740 (completed)
+0000019	http://www.wga.hu/art/a/adam/lambert/neptune1.jpg	Neptune Calming the Waves	Musée du Louvre, Paris	1737
+0000020	http://www.wga.hu/art/a/adam/lambert/selfport.jpg	Self-portrait	Ashmolean Museum, Oxford	c. 1740
+0000021	http://www.wga.hu/art/a/adam/lambert/water.jpg	Head of 'Water'	The Hermitage, St. Petersburg	1737
+0000022	http://www.wga.hu/art/a/adam/nicolas/martyrdo.jpg	The Martyrdom of Sainte Victoire	Chapel of Château, Versailles	1747
+0000023	http://www.wga.hu/art/a/adam/nicolas/opalinsk.jpg	Monument to Queen Catharina Opalinska	Notre-Dame de Bon Secours, Nancy	1749
+0000024	http://www.wga.hu/art/a/adam/nicolas/opalinsx.jpg	Monument to Queen Catharina Opalinska (detail)	Notre-Dame de Bon Secours, Nancy	1749 (set up)
+0000025	http://www.wga.hu/art/a/adam/nicolas/promethe.jpg	Prometheus	Musée du Louvre, Paris	1737
+0000026	http://www.wga.hu/art/a/adam/nicolas/promethx.jpg	Prometheus	Musée du Louvre, Paris	1737
+0000027	http://www.wga.hu/art/a/ademollo/ark1.jpg	View of the Room of the Ark	Galleria Palatina (Palazzo Pitti), Florence	1816
+0000028	http://www.wga.hu/art/a/ademollo/ark2.jpg	The Menorah	Room of the Ark, Galleria Palatina (Palazzo Pitti), Florence	1816
+0000029	http://www.wga.hu/art/a/ademollo/ark3.jpg	Transportation of the Ark of the Covenant Containing the Tablets of the Law	Room of the Ark, Galleria Palatina (Palazzo Pitti), Florence	1816
+0000030	http://www.wga.hu/art/a/ademollo/chapel.jpg	View of the Palatine Chapel	Galleria Palatina (Palazzo Pitti), Florence	1800s
+0000031	http://www.wga.hu/art/a/adriaens/fishgame.jpg	Fish and Dead Game	The Hermitage, St. Petersburg	1643
+0000032	http://www.wga.hu/art/a/adriaens/stilfish.jpg	Still-Life with Fish	Groeninge Museum, Bruges	-
+0000033	http://www.wga.hu/art/a/adriaens/stiloyst.jpg	Still-Life with Oysters	Národní Galerie, Prague	1630s
+0000034	http://www.wga.hu/art/z/zurbaran/2/mad_chil.jpg	Madonna with Child	Pushkin Museum, Moscow	1658
+0000035	http://www.wga.hu/art/z/zurbaran/2/nazareth.jpg	The House of Nazareth	Museum of Art, Cleveland	c. 1630
+0000036	http://www.wga.hu/art/z/zurbaran/2/port_med.jpg	Portrait of the Duke of Medinaceli	Hospital of Tavera, Toledo	-
+0000037	http://www.wga.hu/art/z/zurbaran/2/sfrancis.jpg	St Francis	Alte Pinakothek, Munich	c. 1660
+0000038	http://www.wga.hu/art/z/zurbaran/2/st_james.jpg	Saint James of the Marches	Museo del Prado, Madrid	-
+0000039	http://www.wga.hu/art/z/zurbaran/2/st_luke.jpg	Saint Luke as a Painter before Christ on the Cross	Museo del Prado, Madrid	c. 1660
+0000040	http://www.wga.hu/art/z/zurbaran/2/stigmata.jpg	St Francis of Assisi Receiving the Stigmata	Private collection	-
+0000041	http://www.wga.hu/art/z/zurbaran/2/veronica.jpg	The Sudarium of St Veronica	Museo de Bellas Artes, Bilbao	1658-61
+0000042	http://www.wga.hu/art/z/zurbaran/2/virgin.jpg	Virgin Mary with Child and the Young St John the Baptist	Museo de Bellas Artes, Bilbao	1662
+0000043	http://www.wga.hu/art/z/zurbaran/2/virginch.jpg	Childhood of the Virgin	The Hermitage, St. Petersburg	1658-60
+0000044	http://www.wga.hu/art/z/zurbarax/stillife.jpg	Still-Life with Plate of Apples and Orange Blossom	Private collection	c. 1640
+0000045	http://www.wga.hu/art/z/zurn/angel.jpg	Angel	Abbey Church, Kremsmünster	1682

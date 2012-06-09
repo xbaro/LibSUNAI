@@ -1,0 +1,7 @@
+# Dictionary file. Each row contains the id of the topic and their description, in format: %05d\t%s\\n
+00001	Danish
+00002	Flemish
+00003	French
+00004	German
+00005	Italian
+00006	Spanish

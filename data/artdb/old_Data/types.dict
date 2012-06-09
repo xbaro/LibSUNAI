@@ -1,0 +1,9 @@
+# Dictionary file. Each row contains the id of the topic and their description, in format: %05d\t%s\\n
+00001	genre
+00002	interior
+00003	landscape
+00004	mythological
+00005	other
+00006	portrait
+00007	religious
+00008	still-life

@@ -116,7 +116,7 @@ bool LibSUNAI::CFaceObjectDetector::violaJonesFaceDetector(Mat image) {
 		m_detectionTarget==AllFaceParts || m_detectionTarget==FrontalFaceParts) {
 
 		// Use frontal faces cascade
-		findObjects_ViolaJones(image,"haarcascades/haarcascade_frontalface_alt.xml",faces);
+		findObjects_ViolaJones(image,"haarcascades/haarcascade_frontalface_alt2.xml",faces);
 
 		// Set the output value
 		if(faces.size()>0) {

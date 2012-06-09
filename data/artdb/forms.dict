@@ -1,5 +1,2 @@
 # Dictionary file. Each row contains the id of the topic and their description, in format: %05d\t%s\\n
-00001	ceramics
-00002	graphics
-00003	painting
-00004	sculpture
+00001	painting

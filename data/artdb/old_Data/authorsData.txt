@@ -1,0 +1,13 @@
+# Authors file. Each row contains the id, name and dates of birth-death, in format: %05d\t%s\t%s\\n
+00001	AACHEN, Hans von	(b. 1552, Köln, d. 1615, Praha)
+00002	ABADIA, Juan de la	(active 1470-1490 in Huesca)
+00003	ABAQUESNE, Masséot	(b. ca 1500, Cherbourg, d. 1564, Sotteville-lès-Rouen)
+00004	ABBATE, Niccolò dell'	(b. 1509, Modena, d. 1571, Fontainebleau)
+00005	ABILDGAARD, Nicolai	(b. 1743, København, d. 1809, Frederiksdal)
+00006	ADAM, Lambert-Sigisbert	(b. 1700, Nancy, d. 1759, Nancy)
+00007	ADAM, Nicolas-Sébastien	(b. 1705, Nancy, d. 1778, Paris)
+00008	ADEMOLLO, Luigi	(b. 1764, Milano, d. 1849, Firenze)
+00009	ADRIAENSSEN, Alexander	(b. 1587, Antwerpen, d. 1661, Antwerpen)
+00010	ZURBARÁN, Francisco de	(b. 1598, Fuente de Cantos, d. 1664, Madrid)
+00011	ZURBARÁN, Juan de	(b. 1620, Llerena, d. 1649, Sevilla)
+00012	ZÜRN, Michael	(b. ca. 1626, Wasserburg am Inn, d. ca. 1691, Gmunden)
